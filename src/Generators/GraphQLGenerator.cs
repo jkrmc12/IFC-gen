@@ -21,11 +21,25 @@ namespace IFC4.Generators
             return "foo";
         }
 
+        public static string CleanName(string value)
+        {
+            var result = value;
+            if(result.StartsWith("Ifc"))
+            {
+                result = result.Substring(3);
+            }
+            if(result.EndsWith("Enum"))
+            {
+                result = result.Substring(0,result.Length-4);
+            }
+            return result;
+        }
+
         public string AttributeDataType(bool isCollection, int rank, string type, bool isGeneric)
         {
             if (isCollection)
             {
-                return $"{string.Join("", Enumerable.Repeat("[", rank))}{type}{string.Join("", Enumerable.Repeat("]", rank))}";
+                return $"{string.Join("", Enumerable.Repeat("[", rank))}{CleanName(type)}{string.Join("", Enumerable.Repeat("]", rank))}";
             }
 
             // Item is used in functions.
@@ -40,7 +54,7 @@ namespace IFC4.Generators
                 return "IfcSIUnitName";
             }
 
-            return type;
+            return CleanName(type);
         }
 
         public string AttributeStepString(AttributeData data, bool isDerivedInChild)
@@ -56,7 +70,7 @@ namespace IFC4.Generators
                 sb.AppendLine($"\t{a.Name}: {a.Type}!");
             }
             return $@"
-type {data.Name.TrimStart("Ifc".ToCharArray())}{{
+type {CleanName(data.Name)}{{
 {sb.ToString().TrimEnd( '\r', '\n' )}
 }}";
         }
@@ -70,7 +84,7 @@ type {data.Name.TrimStart("Ifc".ToCharArray())}{{
             }
 
             var result = $@"
-enum {data.Name.TrimStart("Ifc".ToCharArray()).TrimEnd("Enum".ToCharArray())} {{
+enum {CleanName(data.Name)} {{
 {sb.ToString().TrimEnd( '\r', '\n' )}
 }}";
             return result;
@@ -131,7 +145,7 @@ enum {data.Name.TrimStart("Ifc".ToCharArray()).TrimEnd("Enum".ToCharArray())} {{
         public string SimpleTypeString(WrapperType data)
         {
             return $@"
-type {data.Name.TrimStart("Ifc".ToCharArray())} {{
+type {CleanName(data.Name)} {{
     value: {data.WrappedType}!
 }}";
         }
