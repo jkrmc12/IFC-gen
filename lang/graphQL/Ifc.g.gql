@@ -1,0 +1,5801 @@
+
+type StrippedOptional {
+    value: Boolean!
+}
+type AbsorbedDoseMeasure {
+    value: Float!
+}
+type AccelerationMeasure {
+    value: Float!
+}
+type AmountOfSubstanceMeasure {
+    value: Float!
+}
+type AngularVelocityMeasure {
+    value: Float!
+}
+type ArcIndex {
+    value: IfcPositiveInteger!
+}
+type AreaDensityMeasure {
+    value: Float!
+}
+type AreaMeasure {
+    value: Float!
+}
+type Binary {
+    value: byte[]!
+}
+type Boolean {
+    value: Boolean!
+}
+type BoxAlignment {
+    value: IfcLabel!
+}
+type CardinalPointReference {
+    value: Int!
+}
+type ComplexNumber {
+    value: Float!
+}
+type CompoundPlaneAngleMeasure {
+    value: Int!
+}
+type ContextDependentMeasure {
+    value: Float!
+}
+type CountMeasure {
+    value: Float!
+}
+type CurvatureMeasure {
+    value: Float!
+}
+type Date {
+    value: String!
+}
+type DateTime {
+    value: String!
+}
+type DayInMonthNumber {
+    value: Int!
+}
+type DayInWeekNumber {
+    value: Int!
+}
+type DescriptiveMeasure {
+    value: String!
+}
+type DimensionCount {
+    value: Int!
+}
+type DoseEquivalentMeasure {
+    value: Float!
+}
+type Duration {
+    value: String!
+}
+type DynamicViscosityMeasure {
+    value: Float!
+}
+type ElectricCapacitanceMeasure {
+    value: Float!
+}
+type ElectricChargeMeasure {
+    value: Float!
+}
+type ElectricConductanceMeasure {
+    value: Float!
+}
+type ElectricCurrentMeasure {
+    value: Float!
+}
+type ElectricResistanceMeasure {
+    value: Float!
+}
+type ElectricVoltageMeasure {
+    value: Float!
+}
+type EnergyMeasure {
+    value: Float!
+}
+type FontStyle {
+    value: String!
+}
+type FontVariant {
+    value: String!
+}
+type FontWeight {
+    value: String!
+}
+type ForceMeasure {
+    value: Float!
+}
+type FrequencyMeasure {
+    value: Float!
+}
+type GloballyUniqueId {
+    value: String!
+}
+type HeatFluxDensityMeasure {
+    value: Float!
+}
+type HeatingValueMeasure {
+    value: Float!
+}
+type dentifier {
+    value: String!
+}
+type lluminanceMeasure {
+    value: Float!
+}
+type nductanceMeasure {
+    value: Float!
+}
+type nteger {
+    value: Int!
+}
+type ntegerCountRateMeasure {
+    value: Int!
+}
+type onConcentrationMeasure {
+    value: Float!
+}
+type sothermalMoistureCapacityMeasure {
+    value: Float!
+}
+type KinematicViscosityMeasure {
+    value: Float!
+}
+type Label {
+    value: String!
+}
+type LanguageId {
+    value: IfcIdentifier!
+}
+type LengthMeasure {
+    value: Float!
+}
+type LineIndex {
+    value: IfcPositiveInteger!
+}
+type LinearForceMeasure {
+    value: Float!
+}
+type LinearMomentMeasure {
+    value: Float!
+}
+type LinearStiffnessMeasure {
+    value: Float!
+}
+type LinearVelocityMeasure {
+    value: Float!
+}
+type Logical {
+    value: Boolean!
+}
+type LuminousFluxMeasure {
+    value: Float!
+}
+type LuminousIntensityDistributionMeasure {
+    value: Float!
+}
+type LuminousIntensityMeasure {
+    value: Float!
+}
+type MagneticFluxDensityMeasure {
+    value: Float!
+}
+type MagneticFluxMeasure {
+    value: Float!
+}
+type MassDensityMeasure {
+    value: Float!
+}
+type MassFlowRateMeasure {
+    value: Float!
+}
+type MassMeasure {
+    value: Float!
+}
+type MassPerLengthMeasure {
+    value: Float!
+}
+type ModulusOfElasticityMeasure {
+    value: Float!
+}
+type ModulusOfLinearSubgradeReactionMeasure {
+    value: Float!
+}
+type ModulusOfRotationalSubgradeReactionMeasure {
+    value: Float!
+}
+type ModulusOfSubgradeReactionMeasure {
+    value: Float!
+}
+type MoistureDiffusivityMeasure {
+    value: Float!
+}
+type MolecularWeightMeasure {
+    value: Float!
+}
+type MomentOfInertiaMeasure {
+    value: Float!
+}
+type MonetaryMeasure {
+    value: Float!
+}
+type MonthInYearNumber {
+    value: Int!
+}
+type NonNegativeLengthMeasure {
+    value: IfcLengthMeasure!
+}
+type NormalisedRatioMeasure {
+    value: IfcRatioMeasure!
+}
+type NumericMeasure {
+    value: Float!
+}
+type PHMeasure {
+    value: Float!
+}
+type ParameterValue {
+    value: Float!
+}
+type PlanarForceMeasure {
+    value: Float!
+}
+type PlaneAngleMeasure {
+    value: Float!
+}
+type PositiveInteger {
+    value: IfcInteger!
+}
+type PositiveLengthMeasure {
+    value: IfcLengthMeasure!
+}
+type PositivePlaneAngleMeasure {
+    value: IfcPlaneAngleMeasure!
+}
+type PositiveRatioMeasure {
+    value: IfcRatioMeasure!
+}
+type PowerMeasure {
+    value: Float!
+}
+type PresentableText {
+    value: String!
+}
+type PressureMeasure {
+    value: Float!
+}
+type PropertySetDefinitionSet {
+    value: IfcPropertySetDefinition!
+}
+type RadioActivityMeasure {
+    value: Float!
+}
+type RatioMeasure {
+    value: Float!
+}
+type Real {
+    value: Float!
+}
+type RotationalFrequencyMeasure {
+    value: Float!
+}
+type RotationalMassMeasure {
+    value: Float!
+}
+type RotationalStiffnessMeasure {
+    value: Float!
+}
+type SectionModulusMeasure {
+    value: Float!
+}
+type SectionalAreaIntegralMeasure {
+    value: Float!
+}
+type ShearModulusMeasure {
+    value: Float!
+}
+type SolidAngleMeasure {
+    value: Float!
+}
+type SoundPowerLevelMeasure {
+    value: Float!
+}
+type SoundPowerMeasure {
+    value: Float!
+}
+type SoundPressureLevelMeasure {
+    value: Float!
+}
+type SoundPressureMeasure {
+    value: Float!
+}
+type SpecificHeatCapacityMeasure {
+    value: Float!
+}
+type SpecularExponent {
+    value: Float!
+}
+type SpecularRoughness {
+    value: Float!
+}
+type TemperatureGradientMeasure {
+    value: Float!
+}
+type TemperatureRateOfChangeMeasure {
+    value: Float!
+}
+type Text {
+    value: String!
+}
+type TextAlignment {
+    value: String!
+}
+type TextDecoration {
+    value: String!
+}
+type TextFontName {
+    value: String!
+}
+type TextTransformation {
+    value: String!
+}
+type ThermalAdmittanceMeasure {
+    value: Float!
+}
+type ThermalConductivityMeasure {
+    value: Float!
+}
+type ThermalExpansionCoefficientMeasure {
+    value: Float!
+}
+type ThermalResistanceMeasure {
+    value: Float!
+}
+type ThermalTransmittanceMeasure {
+    value: Float!
+}
+type ThermodynamicTemperatureMeasure {
+    value: Float!
+}
+type Time {
+    value: String!
+}
+type TimeMeasure {
+    value: Float!
+}
+type TimeStamp {
+    value: Int!
+}
+type TorqueMeasure {
+    value: Float!
+}
+type URIReference {
+    value: String!
+}
+type VaporPermeabilityMeasure {
+    value: Float!
+}
+type VolumeMeasure {
+    value: Float!
+}
+type VolumetricFlowRateMeasure {
+    value: Float!
+}
+type WarpingConstantMeasure {
+    value: Float!
+}
+type WarpingMomentMeasure {
+    value: Float!
+}
+enum ActionRequestType {
+	EMAIL
+	FAX
+	PHONE
+	POST
+	VERBAL
+	USERDEFINED
+	NOTDEFINED
+}
+enum ActionSourceType {
+	DEAD_LOAD_G
+	COMPLETION_G1
+	LIVE_LOAD_Q
+	SNOW_S
+	WIND_W
+	PRESTRESSING_P
+	SETTLEMENT_U
+	TEMPERATURE_T
+	EARTHQUAKE_E
+	FIRE
+	IMPULSE
+	IMPACT
+	TRANSPORT
+	ERECTION
+	PROPPING
+	SYSTEM_IMPERFECTION
+	SHRINKAGE
+	CREEP
+	LACK_OF_FIT
+	BUOYANCY
+	ICE
+	CURRENT
+	WAVE
+	RAIN
+	BRAKES
+	USERDEFINED
+	NOTDEFINED
+}
+enum ActionType {
+	PERMANENT_G
+	VARIABLE_Q
+	EXTRAORDINARY_A
+	USERDEFINED
+	NOTDEFINED
+}
+enum ActuatorType {
+	ELECTRICACTUATOR
+	HANDOPERATEDACTUATOR
+	HYDRAULICACTUATOR
+	PNEUMATICACTUATOR
+	THERMOSTATICACTUATOR
+	USERDEFINED
+	NOTDEFINED
+}
+enum AddressType {
+	OFFICE
+	SITE
+	HOME
+	DISTRIBUTIONPOINT
+	USERDEFINED
+}
+enum AirTerminalBoxType {
+	CONSTANTFLOW
+	VARIABLEFLOWPRESSUREDEPENDANT
+	VARIABLEFLOWPRESSUREINDEPENDANT
+	USERDEFINED
+	NOTDEFINED
+}
+enum AirTerminalType {
+	DIFFUSER
+	GRILLE
+	LOUVRE
+	REGISTER
+	USERDEFINED
+	NOTDEFINED
+}
+enum AirToAirHeatRecoveryType {
+	FIXEDPLATECOUNTERFLOWEXCHANGER
+	FIXEDPLATECROSSFLOWEXCHANGER
+	FIXEDPLATEPARALLELFLOWEXCHANGER
+	ROTARYWHEEL
+	RUNAROUNDCOILLOOP
+	HEATPIPE
+	TWINTOWERENTHALPYRECOVERYLOOPS
+	THERMOSIPHONSEALEDTUBEHEATEXCHANGERS
+	THERMOSIPHONCOILTYPEHEATEXCHANGERS
+	USERDEFINED
+	NOTDEFINED
+}
+enum AlarmType {
+	BELL
+	BREAKGLASSBUTTON
+	LIGHT
+	MANUALPULLBOX
+	SIREN
+	WHISTLE
+	USERDEFINED
+	NOTDEFINED
+}
+enum AnalysisModelType {
+	IN_PLANE_LOADING_2D
+	OUT_PLANE_LOADING_2D
+	LOADING_3D
+	USERDEFINED
+	NOTDEFINED
+}
+enum AnalysisTheoryType {
+	FIRST_ORDER_THEORY
+	SECOND_ORDER_THEORY
+	THIRD_ORDER_THEORY
+	FULL_NONLINEAR_THEORY
+	USERDEFINED
+	NOTDEFINED
+}
+enum ArithmeticOperator {
+	ADD
+	DIVIDE
+	MULTIPLY
+	SUBTRACT
+}
+enum AssemblyPlace {
+	SITE
+	FACTORY
+	NOTDEFINED
+}
+enum AudioVisualApplianceType {
+	AMPLIFIER
+	CAMERA
+	DISPLAY
+	MICROPHONE
+	PLAYER
+	PROJECTOR
+	RECEIVER
+	SPEAKER
+	SWITCHER
+	TELEPHONE
+	TUNER
+	USERDEFINED
+	NOTDEFINED
+}
+enum BSplineCurveFor {
+	POLYLINE_FORM
+	CIRCULAR_ARC
+	ELLIPTIC_ARC
+	PARABOLIC_ARC
+	HYPERBOLIC_ARC
+	UNSPECIFIED
+}
+enum BSplineSurfaceFor {
+	PLANE_SURF
+	CYLINDRICAL_SURF
+	CONICAL_SURF
+	SPHERICAL_SURF
+	TOROIDAL_SURF
+	SURF_OF_REVOLUTION
+	RULED_SURF
+	GENERALISED_CONE
+	QUADRIC_SURF
+	SURF_OF_LINEAR_EXTRUSION
+	UNSPECIFIED
+}
+enum BeamType {
+	BEAM
+	JOIST
+	HOLLOWCORE
+	LINTEL
+	SPANDREL
+	T_BEAM
+	USERDEFINED
+	NOTDEFINED
+}
+enum Benchmark {
+	GREATERTHAN
+	GREATERTHANOREQUALTO
+	LESSTHAN
+	LESSTHANOREQUALTO
+	EQUALTO
+	NOTEQUALTO
+	INCLUDES
+	NOTINCLUDES
+	INCLUDEDIN
+	NOTINCLUDEDIN
+}
+enum BoilerType {
+	WATER
+	STEAM
+	USERDEFINED
+	NOTDEFINED
+}
+enum BooleanOperator {
+	UNION
+	INTERSECTION
+	DIFFERENCE
+}
+enum BuildingElementPartType {
+	INSULATION
+	PRECASTPANEL
+	USERDEFINED
+	NOTDEFINED
+}
+enum BuildingElementProxyType {
+	COMPLEX
+	ELEMENT
+	PARTIAL
+	PROVISIONFORVOID
+	PROVISIONFORSPACE
+	USERDEFINED
+	NOTDEFINED
+}
+enum BuildingSystemType {
+	FENESTRATION
+	FOUNDATION
+	LOADBEARING
+	OUTERSHELL
+	SHADING
+	TRANSPORT
+	USERDEFINED
+	NOTDEFINED
+}
+enum BurnerType {
+	USERDEFINED
+	NOTDEFINED
+}
+enum CableCarrierFittingType {
+	BEND
+	CROSS
+	REDUCER
+	TEE
+	USERDEFINED
+	NOTDEFINED
+}
+enum CableCarrierSegmentType {
+	CABLELADDERSEGMENT
+	CABLETRAYSEGMENT
+	CABLETRUNKINGSEGMENT
+	CONDUITSEGMENT
+	USERDEFINED
+	NOTDEFINED
+}
+enum CableFittingType {
+	CONNECTOR
+	ENTRY
+	EXIT
+	JUNCTION
+	TRANSITION
+	USERDEFINED
+	NOTDEFINED
+}
+enum CableSegmentType {
+	BUSBARSEGMENT
+	CABLESEGMENT
+	CONDUCTORSEGMENT
+	CORESEGMENT
+	USERDEFINED
+	NOTDEFINED
+}
+enum ChangeActio {
+	NOCHANGE
+	MODIFIED
+	ADDED
+	DELETED
+	NOTDEFINED
+}
+enum ChillerType {
+	AIRCOOLED
+	WATERCOOLED
+	HEATRECOVERY
+	USERDEFINED
+	NOTDEFINED
+}
+enum ChimneyType {
+	USERDEFINED
+	NOTDEFINED
+}
+enum CoilType {
+	DXCOOLINGCOIL
+	ELECTRICHEATINGCOIL
+	GASHEATINGCOIL
+	HYDRONICCOIL
+	STEAMHEATINGCOIL
+	WATERCOOLINGCOIL
+	WATERHEATINGCOIL
+	USERDEFINED
+	NOTDEFINED
+}
+enum ColumnType {
+	COLUMN
+	PILASTER
+	USERDEFINED
+	NOTDEFINED
+}
+enum CommunicationsApplianceType {
+	ANTENNA
+	COMPUTER
+	FAX
+	GATEWAY
+	MODEM
+	NETWORKAPPLIANCE
+	NETWORKBRIDGE
+	NETWORKHUB
+	PRINTER
+	REPEATER
+	ROUTER
+	SCANNER
+	USERDEFINED
+	NOTDEFINED
+}
+enum ComplexPropertyTemplateType {
+	P_COMPLEX
+	Q_COMPLEX
+}
+enum CompressorType {
+	DYNAMIC
+	RECIPROCATING
+	ROTARY
+	SCROLL
+	TROCHOIDAL
+	SINGLESTAGE
+	BOOSTER
+	OPENTYPE
+	HERMETIC
+	SEMIHERMETIC
+	WELDEDSHELLHERMETIC
+	ROLLINGPISTON
+	ROTARYVANE
+	SINGLESCREW
+	TWINSCREW
+	USERDEFINED
+	NOTDEFINED
+}
+enum CondenserType {
+	AIRCOOLED
+	EVAPORATIVECOOLED
+	WATERCOOLED
+	WATERCOOLEDBRAZEDPLATE
+	WATERCOOLEDSHELLCOIL
+	WATERCOOLEDSHELLTUBE
+	WATERCOOLEDTUBEINTUBE
+	USERDEFINED
+	NOTDEFINED
+}
+enum ConnectionType {
+	ATPATH
+	ATSTART
+	ATEND
+	NOTDEFINED
+}
+enum Constraint {
+	HARD
+	SOFT
+	ADVISORY
+	USERDEFINED
+	NOTDEFINED
+}
+enum ConstructionEquipmentResourceType {
+	DEMOLISHING
+	EARTHMOVING
+	ERECTING
+	HEATING
+	LIGHTING
+	PAVING
+	PUMPING
+	TRANSPORTING
+	USERDEFINED
+	NOTDEFINED
+}
+enum ConstructionMaterialResourceType {
+	AGGREGATES
+	CONCRETE
+	DRYWALL
+	FUEL
+	GYPSUM
+	MASONRY
+	METAL
+	PLASTIC
+	WOOD
+	NOTDEFINED
+	USERDEFINED
+}
+enum ConstructionProductResourceType {
+	ASSEMBLY
+	FORMWORK
+	USERDEFINED
+	NOTDEFINED
+}
+enum ControllerType {
+	FLOATING
+	PROGRAMMABLE
+	PROPORTIONAL
+	MULTIPOSITION
+	TWOPOSITION
+	USERDEFINED
+	NOTDEFINED
+}
+enum CooledBeamType {
+	ACTIVE
+	PASSIVE
+	USERDEFINED
+	NOTDEFINED
+}
+enum CoolingTowerType {
+	NATURALDRAFT
+	MECHANICALINDUCEDDRAFT
+	MECHANICALFORCEDDRAFT
+	USERDEFINED
+	NOTDEFINED
+}
+enum CostItemType {
+	USERDEFINED
+	NOTDEFINED
+}
+enum CostScheduleType {
+	BUDGET
+	COSTPLAN
+	ESTIMATE
+	TENDER
+	PRICEDBILLOFQUANTITIES
+	UNPRICEDBILLOFQUANTITIES
+	SCHEDULEOFRATES
+	USERDEFINED
+	NOTDEFINED
+}
+enum CoveringType {
+	CEILING
+	FLOORING
+	CLADDING
+	ROOFING
+	MOLDING
+	SKIRTINGBOARD
+	INSULATION
+	MEMBRANE
+	SLEEVING
+	WRAPPING
+	USERDEFINED
+	NOTDEFINED
+}
+enum CrewResourceType {
+	OFFICE
+	SITE
+	USERDEFINED
+	NOTDEFINED
+}
+enum CurtainWallType {
+	USERDEFINED
+	NOTDEFINED
+}
+enum CurveInterpolatio {
+	LINEAR
+	LOG_LINEAR
+	LOG_LOG
+	NOTDEFINED
+}
+enum DamperType {
+	BACKDRAFTDAMPER
+	BALANCINGDAMPER
+	BLASTDAMPER
+	CONTROLDAMPER
+	FIREDAMPER
+	FIRESMOKEDAMPER
+	FUMEHOODEXHAUST
+	GRAVITYDAMPER
+	GRAVITYRELIEFDAMPER
+	RELIEFDAMPER
+	SMOKEDAMPER
+	USERDEFINED
+	NOTDEFINED
+}
+enum DataOrigi {
+	MEASURED
+	PREDICTED
+	SIMULATED
+	USERDEFINED
+	NOTDEFINED
+}
+enum DerivedUnit {
+	ANGULARVELOCITYUNIT
+	AREADENSITYUNIT
+	COMPOUNDPLANEANGLEUNIT
+	DYNAMICVISCOSITYUNIT
+	HEATFLUXDENSITYUNIT
+	INTEGERCOUNTRATEUNIT
+	ISOTHERMALMOISTURECAPACITYUNIT
+	KINEMATICVISCOSITYUNIT
+	LINEARVELOCITYUNIT
+	MASSDENSITYUNIT
+	MASSFLOWRATEUNIT
+	MOISTUREDIFFUSIVITYUNIT
+	MOLECULARWEIGHTUNIT
+	SPECIFICHEATCAPACITYUNIT
+	THERMALADMITTANCEUNIT
+	THERMALCONDUCTANCEUNIT
+	THERMALRESISTANCEUNIT
+	THERMALTRANSMITTANCEUNIT
+	VAPORPERMEABILITYUNIT
+	VOLUMETRICFLOWRATEUNIT
+	ROTATIONALFREQUENCYUNIT
+	TORQUEUNIT
+	MOMENTOFINERTIAUNIT
+	LINEARMOMENTUNIT
+	LINEARFORCEUNIT
+	PLANARFORCEUNIT
+	MODULUSOFELASTICITYUNIT
+	SHEARMODULUSUNIT
+	LINEARSTIFFNESSUNIT
+	ROTATIONALSTIFFNESSUNIT
+	MODULUSOFSUBGRADEREACTIONUNIT
+	ACCELERATIONUNIT
+	CURVATUREUNIT
+	HEATINGVALUEUNIT
+	IONCONCENTRATIONUNIT
+	LUMINOUSINTENSITYDISTRIBUTIONUNIT
+	MASSPERLENGTHUNIT
+	MODULUSOFLINEARSUBGRADEREACTIONUNIT
+	MODULUSOFROTATIONALSUBGRADEREACTIONUNIT
+	PHUNIT
+	ROTATIONALMASSUNIT
+	SECTIONAREAINTEGRALUNIT
+	SECTIONMODULUSUNIT
+	SOUNDPOWERLEVELUNIT
+	SOUNDPOWERUNIT
+	SOUNDPRESSURELEVELUNIT
+	SOUNDPRESSUREUNIT
+	TEMPERATUREGRADIENTUNIT
+	TEMPERATURERATEOFCHANGEUNIT
+	THERMALEXPANSIONCOEFFICIENTUNIT
+	WARPINGCONSTANTUNIT
+	WARPINGMOMENTUNIT
+	USERDEFINED
+}
+enum DirectionSense {
+	POSITIVE
+	NEGATIVE
+}
+enum DiscreteAccessoryType {
+	ANCHORPLATE
+	BRACKET
+	SHOE
+	USERDEFINED
+	NOTDEFINED
+}
+enum DistributionChamberElementType {
+	FORMEDDUCT
+	INSPECTIONCHAMBER
+	INSPECTIONPIT
+	MANHOLE
+	METERCHAMBER
+	SUMP
+	TRENCH
+	VALVECHAMBER
+	USERDEFINED
+	NOTDEFINED
+}
+enum DistributionPortType {
+	CABLE
+	CABLECARRIER
+	DUCT
+	PIPE
+	USERDEFINED
+	NOTDEFINED
+}
+enum DistributionSyste {
+	AIRCONDITIONING
+	AUDIOVISUAL
+	CHEMICAL
+	CHILLEDWATER
+	COMMUNICATION
+	COMPRESSEDAIR
+	CONDENSERWATER
+	CONTROL
+	CONVEYING
+	DATA
+	DISPOSAL
+	DOMESTICCOLDWATER
+	DOMESTICHOTWATER
+	DRAINAGE
+	EARTHING
+	ELECTRICAL
+	ELECTROACOUSTIC
+	EXHAUST
+	FIREPROTECTION
+	FUEL
+	GAS
+	HAZARDOUS
+	HEATING
+	LIGHTING
+	LIGHTNINGPROTECTION
+	MUNICIPALSOLIDWASTE
+	OIL
+	OPERATIONAL
+	POWERGENERATION
+	RAINWATER
+	REFRIGERATION
+	SECURITY
+	SEWAGE
+	SIGNAL
+	STORMWATER
+	TELEPHONE
+	TV
+	VACUUM
+	VENT
+	VENTILATION
+	WASTEWATER
+	WATERSUPPLY
+	USERDEFINED
+	NOTDEFINED
+}
+enum DocumentConfidentiality {
+	PUBLIC
+	RESTRICTED
+	CONFIDENTIAL
+	PERSONAL
+	USERDEFINED
+	NOTDEFINED
+}
+enum DocumentStatus {
+	DRAFT
+	FINALDRAFT
+	FINAL
+	REVISION
+	NOTDEFINED
+}
+enum DoorPanelOperatio {
+	SWINGING
+	DOUBLE_ACTING
+	SLIDING
+	FOLDING
+	REVOLVING
+	ROLLINGUP
+	FIXEDPANEL
+	USERDEFINED
+	NOTDEFINED
+}
+enum DoorPanelPositio {
+	LEFT
+	MIDDLE
+	RIGHT
+	NOTDEFINED
+}
+enum DoorStyleConstructio {
+	ALUMINIUM
+	HIGH_GRADE_STEEL
+	STEEL
+	WOOD
+	ALUMINIUM_WOOD
+	ALUMINIUM_PLASTIC
+	PLASTIC
+	USERDEFINED
+	NOTDEFINED
+}
+enum DoorStyleOperatio {
+	SINGLE_SWING_LEFT
+	SINGLE_SWING_RIGHT
+	DOUBLE_DOOR_SINGLE_SWING
+	DOUBLE_DOOR_SINGLE_SWING_OPPOSITE_LEFT
+	DOUBLE_DOOR_SINGLE_SWING_OPPOSITE_RIGHT
+	DOUBLE_SWING_LEFT
+	DOUBLE_SWING_RIGHT
+	DOUBLE_DOOR_DOUBLE_SWING
+	SLIDING_TO_LEFT
+	SLIDING_TO_RIGHT
+	DOUBLE_DOOR_SLIDING
+	FOLDING_TO_LEFT
+	FOLDING_TO_RIGHT
+	DOUBLE_DOOR_FOLDING
+	REVOLVING
+	ROLLINGUP
+	USERDEFINED
+	NOTDEFINED
+}
+enum DoorType {
+	DOOR
+	GATE
+	TRAPDOOR
+	USERDEFINED
+	NOTDEFINED
+}
+enum DoorTypeOperatio {
+	SINGLE_SWING_LEFT
+	SINGLE_SWING_RIGHT
+	DOUBLE_DOOR_SINGLE_SWING
+	DOUBLE_DOOR_SINGLE_SWING_OPPOSITE_LEFT
+	DOUBLE_DOOR_SINGLE_SWING_OPPOSITE_RIGHT
+	DOUBLE_SWING_LEFT
+	DOUBLE_SWING_RIGHT
+	DOUBLE_DOOR_DOUBLE_SWING
+	SLIDING_TO_LEFT
+	SLIDING_TO_RIGHT
+	DOUBLE_DOOR_SLIDING
+	FOLDING_TO_LEFT
+	FOLDING_TO_RIGHT
+	DOUBLE_DOOR_FOLDING
+	REVOLVING
+	ROLLINGUP
+	SWING_FIXED_LEFT
+	SWING_FIXED_RIGHT
+	USERDEFINED
+	NOTDEFINED
+}
+enum DuctFittingType {
+	BEND
+	CONNECTOR
+	ENTRY
+	EXIT
+	JUNCTION
+	OBSTRUCTION
+	TRANSITION
+	USERDEFINED
+	NOTDEFINED
+}
+enum DuctSegmentType {
+	RIGIDSEGMENT
+	FLEXIBLESEGMENT
+	USERDEFINED
+	NOTDEFINED
+}
+enum DuctSilencerType {
+	FLATOVAL
+	RECTANGULAR
+	ROUND
+	USERDEFINED
+	NOTDEFINED
+}
+enum ElectricApplianceType {
+	DISHWASHER
+	ELECTRICCOOKER
+	FREESTANDINGELECTRICHEATER
+	FREESTANDINGFAN
+	FREESTANDINGWATERHEATER
+	FREESTANDINGWATERCOOLER
+	FREEZER
+	FRIDGE_FREEZER
+	HANDDRYER
+	KITCHENMACHINE
+	MICROWAVE
+	PHOTOCOPIER
+	REFRIGERATOR
+	TUMBLEDRYER
+	VENDINGMACHINE
+	WASHINGMACHINE
+	USERDEFINED
+	NOTDEFINED
+}
+enum ElectricDistributionBoardType {
+	CONSUMERUNIT
+	DISTRIBUTIONBOARD
+	MOTORCONTROLCENTRE
+	SWITCHBOARD
+	USERDEFINED
+	NOTDEFINED
+}
+enum ElectricFlowStorageDeviceType {
+	BATTERY
+	CAPACITORBANK
+	HARMONICFILTER
+	INDUCTORBANK
+	UPS
+	USERDEFINED
+	NOTDEFINED
+}
+enum ElectricGeneratorType {
+	CHP
+	ENGINEGENERATOR
+	STANDALONE
+	USERDEFINED
+	NOTDEFINED
+}
+enum ElectricMotorType {
+	DC
+	INDUCTION
+	POLYPHASE
+	RELUCTANCESYNCHRONOUS
+	SYNCHRONOUS
+	USERDEFINED
+	NOTDEFINED
+}
+enum ElectricTimeControlType {
+	TIMECLOCK
+	TIMEDELAY
+	RELAY
+	USERDEFINED
+	NOTDEFINED
+}
+enum ElementAssemblyType {
+	ACCESSORY_ASSEMBLY
+	ARCH
+	BEAM_GRID
+	BRACED_FRAME
+	GIRDER
+	REINFORCEMENT_UNIT
+	RIGID_FRAME
+	SLAB_FIELD
+	TRUSS
+	USERDEFINED
+	NOTDEFINED
+}
+enum ElementCompositio {
+	COMPLEX
+	ELEMENT
+	PARTIAL
+}
+enum EngineType {
+	EXTERNALCOMBUSTION
+	INTERNALCOMBUSTION
+	USERDEFINED
+	NOTDEFINED
+}
+enum EvaporativeCoolerType {
+	DIRECTEVAPORATIVERANDOMMEDIAAIRCOOLER
+	DIRECTEVAPORATIVERIGIDMEDIAAIRCOOLER
+	DIRECTEVAPORATIVESLINGERSPACKAGEDAIRCOOLER
+	DIRECTEVAPORATIVEPACKAGEDROTARYAIRCOOLER
+	DIRECTEVAPORATIVEAIRWASHER
+	INDIRECTEVAPORATIVEPACKAGEAIRCOOLER
+	INDIRECTEVAPORATIVEWETCOIL
+	INDIRECTEVAPORATIVECOOLINGTOWERORCOILCOOLER
+	INDIRECTDIRECTCOMBINATION
+	USERDEFINED
+	NOTDEFINED
+}
+enum EvaporatorType {
+	DIRECTEXPANSION
+	DIRECTEXPANSIONSHELLANDTUBE
+	DIRECTEXPANSIONTUBEINTUBE
+	DIRECTEXPANSIONBRAZEDPLATE
+	FLOODEDSHELLANDTUBE
+	SHELLANDCOIL
+	USERDEFINED
+	NOTDEFINED
+}
+enum EventTriggerType {
+	EVENTRULE
+	EVENTMESSAGE
+	EVENTTIME
+	EVENTCOMPLEX
+	USERDEFINED
+	NOTDEFINED
+}
+enum EventType {
+	STARTEVENT
+	ENDEVENT
+	INTERMEDIATEEVENT
+	USERDEFINED
+	NOTDEFINED
+}
+enum ExternalSpatialElementType {
+	EXTERNAL
+	EXTERNAL_EARTH
+	EXTERNAL_WATER
+	EXTERNAL_FIRE
+	USERDEFINED
+	NOTDEFINED
+}
+enum FanType {
+	CENTRIFUGALFORWARDCURVED
+	CENTRIFUGALRADIAL
+	CENTRIFUGALBACKWARDINCLINEDCURVED
+	CENTRIFUGALAIRFOIL
+	TUBEAXIAL
+	VANEAXIAL
+	PROPELLORAXIAL
+	USERDEFINED
+	NOTDEFINED
+}
+enum FastenerType {
+	GLUE
+	MORTAR
+	WELD
+	USERDEFINED
+	NOTDEFINED
+}
+enum FilterType {
+	AIRPARTICLEFILTER
+	COMPRESSEDAIRFILTER
+	ODORFILTER
+	OILFILTER
+	STRAINER
+	WATERFILTER
+	USERDEFINED
+	NOTDEFINED
+}
+enum FireSuppressionTerminalType {
+	BREECHINGINLET
+	FIREHYDRANT
+	HOSEREEL
+	SPRINKLER
+	SPRINKLERDEFLECTOR
+	USERDEFINED
+	NOTDEFINED
+}
+enum FlowDirectio {
+	SOURCE
+	SINK
+	SOURCEANDSINK
+	NOTDEFINED
+}
+enum FlowInstrumentType {
+	PRESSUREGAUGE
+	THERMOMETER
+	AMMETER
+	FREQUENCYMETER
+	POWERFACTORMETER
+	PHASEANGLEMETER
+	VOLTMETER_PEAK
+	VOLTMETER_RMS
+	USERDEFINED
+	NOTDEFINED
+}
+enum FlowMeterType {
+	ENERGYMETER
+	GASMETER
+	OILMETER
+	WATERMETER
+	USERDEFINED
+	NOTDEFINED
+}
+enum FootingType {
+	CAISSON_FOUNDATION
+	FOOTING_BEAM
+	PAD_FOOTING
+	PILE_CAP
+	STRIP_FOOTING
+	USERDEFINED
+	NOTDEFINED
+}
+enum FurnitureType {
+	CHAIR
+	TABLE
+	DESK
+	BED
+	FILECABINET
+	SHELF
+	SOFA
+	USERDEFINED
+	NOTDEFINED
+}
+enum GeographicElementType {
+	TERRAIN
+	USERDEFINED
+	NOTDEFINED
+}
+enum GeometricProjectio {
+	GRAPH_VIEW
+	SKETCH_VIEW
+	MODEL_VIEW
+	PLAN_VIEW
+	REFLECTED_PLAN_VIEW
+	SECTION_VIEW
+	ELEVATION_VIEW
+	USERDEFINED
+	NOTDEFINED
+}
+enum GlobalOrLocal {
+	GLOBAL_COORDS
+	LOCAL_COORDS
+}
+enum GridType {
+	RECTANGULAR
+	RADIAL
+	TRIANGULAR
+	IRREGULAR
+	USERDEFINED
+	NOTDEFINED
+}
+enum HeatExchangerType {
+	PLATE
+	SHELLANDTUBE
+	USERDEFINED
+	NOTDEFINED
+}
+enum HumidifierType {
+	STEAMINJECTION
+	ADIABATICAIRWASHER
+	ADIABATICPAN
+	ADIABATICWETTEDELEMENT
+	ADIABATICATOMIZING
+	ADIABATICULTRASONIC
+	ADIABATICRIGIDMEDIA
+	ADIABATICCOMPRESSEDAIRNOZZLE
+	ASSISTEDELECTRIC
+	ASSISTEDNATURALGAS
+	ASSISTEDPROPANE
+	ASSISTEDBUTANE
+	ASSISTEDSTEAM
+	USERDEFINED
+	NOTDEFINED
+}
+enum nterceptorType {
+	CYCLONIC
+	GREASE
+	OIL
+	PETROL
+	USERDEFINED
+	NOTDEFINED
+}
+enum nternalOrExternal {
+	INTERNAL
+	EXTERNAL
+	EXTERNAL_EARTH
+	EXTERNAL_WATER
+	EXTERNAL_FIRE
+	NOTDEFINED
+}
+enum nventoryType {
+	ASSETINVENTORY
+	SPACEINVENTORY
+	FURNITUREINVENTORY
+	USERDEFINED
+	NOTDEFINED
+}
+enum JunctionBoxType {
+	DATA
+	POWER
+	USERDEFINED
+	NOTDEFINED
+}
+enum KnotType {
+	UNIFORM_KNOTS
+	QUASI_UNIFORM_KNOTS
+	PIECEWISE_BEZIER_KNOTS
+	UNSPECIFIED
+}
+enum LaborResourceType {
+	ADMINISTRATION
+	CARPENTRY
+	CLEANING
+	CONCRETE
+	DRYWALL
+	ELECTRIC
+	FINISHING
+	FLOORING
+	GENERAL
+	HVAC
+	LANDSCAPING
+	MASONRY
+	PAINTING
+	PAVING
+	PLUMBING
+	ROOFING
+	SITEGRADING
+	STEELWORK
+	SURVEYING
+	USERDEFINED
+	NOTDEFINED
+}
+enum LampType {
+	COMPACTFLUORESCENT
+	FLUORESCENT
+	HALOGEN
+	HIGHPRESSUREMERCURY
+	HIGHPRESSURESODIUM
+	LED
+	METALHALIDE
+	OLED
+	TUNGSTENFILAMENT
+	USERDEFINED
+	NOTDEFINED
+}
+enum LayerSetDirectio {
+	AXIS1
+	AXIS2
+	AXIS3
+}
+enum LightDistributionCurve {
+	TYPE_A
+	TYPE_B
+	TYPE_C
+	NOTDEFINED
+}
+enum LightEmissionSource {
+	COMPACTFLUORESCENT
+	FLUORESCENT
+	HIGHPRESSUREMERCURY
+	HIGHPRESSURESODIUM
+	LIGHTEMITTINGDIODE
+	LOWPRESSURESODIUM
+	LOWVOLTAGEHALOGEN
+	MAINVOLTAGEHALOGEN
+	METALHALIDE
+	TUNGSTENFILAMENT
+	NOTDEFINED
+}
+enum LightFixtureType {
+	POINTSOURCE
+	DIRECTIONSOURCE
+	SECURITYLIGHTING
+	USERDEFINED
+	NOTDEFINED
+}
+enum LoadGroupType {
+	LOAD_GROUP
+	LOAD_CASE
+	LOAD_COMBINATION
+	USERDEFINED
+	NOTDEFINED
+}
+enum LogicalOperator {
+	LOGICALAND
+	LOGICALOR
+	LOGICALXOR
+	LOGICALNOTAND
+	LOGICALNOTOR
+}
+enum MechanicalFastenerType {
+	ANCHORBOLT
+	BOLT
+	DOWEL
+	NAIL
+	NAILPLATE
+	RIVET
+	SCREW
+	SHEARCONNECTOR
+	STAPLE
+	STUDSHEARCONNECTOR
+	USERDEFINED
+	NOTDEFINED
+}
+enum MedicalDeviceType {
+	AIRSTATION
+	FEEDAIRUNIT
+	OXYGENGENERATOR
+	OXYGENPLANT
+	VACUUMSTATION
+	USERDEFINED
+	NOTDEFINED
+}
+enum MemberType {
+	BRACE
+	CHORD
+	COLLAR
+	MEMBER
+	MULLION
+	PLATE
+	POST
+	PURLIN
+	RAFTER
+	STRINGER
+	STRUT
+	STUD
+	USERDEFINED
+	NOTDEFINED
+}
+enum MotorConnectionType {
+	BELTDRIVE
+	COUPLING
+	DIRECTDRIVE
+	USERDEFINED
+	NOTDEFINED
+}
+enum NullStyle {
+	NULL
+}
+enum ObjectType {
+	PRODUCT
+	PROCESS
+	CONTROL
+	RESOURCE
+	ACTOR
+	GROUP
+	PROJECT
+	NOTDEFINED
+}
+enum Objective {
+	CODECOMPLIANCE
+	CODEWAIVER
+	DESIGNINTENT
+	EXTERNAL
+	HEALTHANDSAFETY
+	MERGECONFLICT
+	MODELVIEW
+	PARAMETER
+	REQUIREMENT
+	SPECIFICATION
+	TRIGGERCONDITION
+	USERDEFINED
+	NOTDEFINED
+}
+enum OccupantType {
+	ASSIGNEE
+	ASSIGNOR
+	LESSEE
+	LESSOR
+	LETTINGAGENT
+	OWNER
+	TENANT
+	USERDEFINED
+	NOTDEFINED
+}
+enum OpeningElementType {
+	OPENING
+	RECESS
+	USERDEFINED
+	NOTDEFINED
+}
+enum OutletType {
+	AUDIOVISUALOUTLET
+	COMMUNICATIONSOUTLET
+	POWEROUTLET
+	DATAOUTLET
+	TELEPHONEOUTLET
+	USERDEFINED
+	NOTDEFINED
+}
+enum PerformanceHistoryType {
+	USERDEFINED
+	NOTDEFINED
+}
+enum PermeableCoveringOperatio {
+	GRILL
+	LOUVER
+	SCREEN
+	USERDEFINED
+	NOTDEFINED
+}
+enum PermitType {
+	ACCESS
+	BUILDING
+	WORK
+	USERDEFINED
+	NOTDEFINED
+}
+enum PhysicalOrVirtual {
+	PHYSICAL
+	VIRTUAL
+	NOTDEFINED
+}
+enum PileConstructio {
+	CAST_IN_PLACE
+	COMPOSITE
+	PRECAST_CONCRETE
+	PREFAB_STEEL
+	USERDEFINED
+	NOTDEFINED
+}
+enum PileType {
+	BORED
+	DRIVEN
+	JETGROUTING
+	COHESION
+	FRICTION
+	SUPPORT
+	USERDEFINED
+	NOTDEFINED
+}
+enum PipeFittingType {
+	BEND
+	CONNECTOR
+	ENTRY
+	EXIT
+	JUNCTION
+	OBSTRUCTION
+	TRANSITION
+	USERDEFINED
+	NOTDEFINED
+}
+enum PipeSegmentType {
+	CULVERT
+	FLEXIBLESEGMENT
+	RIGIDSEGMENT
+	GUTTER
+	SPOOL
+	USERDEFINED
+	NOTDEFINED
+}
+enum PlateType {
+	CURTAIN_PANEL
+	SHEET
+	USERDEFINED
+	NOTDEFINED
+}
+enum PreferredSurfaceCurveRepresentatio {
+	CURVE3D
+	PCURVE_S1
+	PCURVE_S2
+}
+enum ProcedureType {
+	ADVICE_CAUTION
+	ADVICE_NOTE
+	ADVICE_WARNING
+	CALIBRATION
+	DIAGNOSTIC
+	SHUTDOWN
+	STARTUP
+	USERDEFINED
+	NOTDEFINED
+}
+enum ProfileType {
+	CURVE
+	AREA
+}
+enum ProjectOrderType {
+	CHANGEORDER
+	MAINTENANCEWORKORDER
+	MOVEORDER
+	PURCHASEORDER
+	WORKORDER
+	USERDEFINED
+	NOTDEFINED
+}
+enum ProjectedOrTrueLength {
+	PROJECTED_LENGTH
+	TRUE_LENGTH
+}
+enum ProjectionElementType {
+	USERDEFINED
+	NOTDEFINED
+}
+enum PropertySetTemplateType {
+	PSET_TYPEDRIVENONLY
+	PSET_TYPEDRIVENOVERRIDE
+	PSET_OCCURRENCEDRIVEN
+	PSET_PERFORMANCEDRIVEN
+	QTO_TYPEDRIVENONLY
+	QTO_TYPEDRIVENOVERRIDE
+	QTO_OCCURRENCEDRIVEN
+	NOTDEFINED
+}
+enum ProtectiveDeviceTrippingUnitType {
+	ELECTRONIC
+	ELECTROMAGNETIC
+	RESIDUALCURRENT
+	THERMAL
+	USERDEFINED
+	NOTDEFINED
+}
+enum ProtectiveDeviceType {
+	CIRCUITBREAKER
+	EARTHLEAKAGECIRCUITBREAKER
+	EARTHINGSWITCH
+	FUSEDISCONNECTOR
+	RESIDUALCURRENTCIRCUITBREAKER
+	RESIDUALCURRENTSWITCH
+	VARISTOR
+	USERDEFINED
+	NOTDEFINED
+}
+enum PumpType {
+	CIRCULATOR
+	ENDSUCTION
+	SPLITCASE
+	SUBMERSIBLEPUMP
+	SUMPPUMP
+	VERTICALINLINE
+	VERTICALTURBINE
+	USERDEFINED
+	NOTDEFINED
+}
+enum RailingType {
+	HANDRAIL
+	GUARDRAIL
+	BALUSTRADE
+	USERDEFINED
+	NOTDEFINED
+}
+enum RampFlightType {
+	STRAIGHT
+	SPIRAL
+	USERDEFINED
+	NOTDEFINED
+}
+enum RampType {
+	STRAIGHT_RUN_RAMP
+	TWO_STRAIGHT_RUN_RAMP
+	QUARTER_TURN_RAMP
+	TWO_QUARTER_TURN_RAMP
+	HALF_TURN_RAMP
+	SPIRAL_RAMP
+	USERDEFINED
+	NOTDEFINED
+}
+enum RecurrenceType {
+	DAILY
+	WEEKLY
+	MONTHLY_BY_DAY_OF_MONTH
+	MONTHLY_BY_POSITION
+	BY_DAY_COUNT
+	BY_WEEKDAY_COUNT
+	YEARLY_BY_DAY_OF_MONTH
+	YEARLY_BY_POSITION
+}
+enum ReflectanceMethod {
+	BLINN
+	FLAT
+	GLASS
+	MATT
+	METAL
+	MIRROR
+	PHONG
+	PLASTIC
+	STRAUSS
+	NOTDEFINED
+}
+enum ReinforcingBarRole {
+	MAIN
+	SHEAR
+	LIGATURE
+	STUD
+	PUNCHING
+	EDGE
+	RING
+	ANCHORING
+	USERDEFINED
+	NOTDEFINED
+}
+enum ReinforcingBarSurface {
+	PLAIN
+	TEXTURED
+}
+enum ReinforcingBarType {
+	ANCHORING
+	EDGE
+	LIGATURE
+	MAIN
+	PUNCHING
+	RING
+	SHEAR
+	STUD
+	USERDEFINED
+	NOTDEFINED
+}
+enum ReinforcingMeshType {
+	USERDEFINED
+	NOTDEFINED
+}
+enum Role {
+	SUPPLIER
+	MANUFACTURER
+	CONTRACTOR
+	SUBCONTRACTOR
+	ARCHITECT
+	STRUCTURALENGINEER
+	COSTENGINEER
+	CLIENT
+	BUILDINGOWNER
+	BUILDINGOPERATOR
+	MECHANICALENGINEER
+	ELECTRICALENGINEER
+	PROJECTMANAGER
+	FACILITIESMANAGER
+	CIVILENGINEER
+	COMMISSIONINGENGINEER
+	ENGINEER
+	OWNER
+	CONSULTANT
+	CONSTRUCTIONMANAGER
+	FIELDCONSTRUCTIONMANAGER
+	RESELLER
+	USERDEFINED
+}
+enum RoofType {
+	FLAT_ROOF
+	SHED_ROOF
+	GABLE_ROOF
+	HIP_ROOF
+	HIPPED_GABLE_ROOF
+	GAMBREL_ROOF
+	MANSARD_ROOF
+	BARREL_ROOF
+	RAINBOW_ROOF
+	BUTTERFLY_ROOF
+	PAVILION_ROOF
+	DOME_ROOF
+	FREEFORM
+	USERDEFINED
+	NOTDEFINED
+}
+enum SIPrefix {
+	EXA
+	PETA
+	TERA
+	GIGA
+	MEGA
+	KILO
+	HECTO
+	DECA
+	DECI
+	CENTI
+	MILLI
+	MICRO
+	NANO
+	PICO
+	FEMTO
+	ATTO
+}
+enum SIUnitName {
+	AMPERE
+	BECQUEREL
+	CANDELA
+	COULOMB
+	CUBIC_METRE
+	DEGREE_CELSIUS
+	FARAD
+	GRAM
+	GRAY
+	HENRY
+	HERTZ
+	JOULE
+	KELVIN
+	LUMEN
+	LUX
+	METRE
+	MOLE
+	NEWTON
+	OHM
+	PASCAL
+	RADIAN
+	SECOND
+	SIEMENS
+	SIEVERT
+	SQUARE_METRE
+	STERADIAN
+	TESLA
+	VOLT
+	WATT
+	WEBER
+}
+enum SanitaryTerminalType {
+	BATH
+	BIDET
+	CISTERN
+	SHOWER
+	SINK
+	SANITARYFOUNTAIN
+	TOILETPAN
+	URINAL
+	WASHHANDBASIN
+	WCSEAT
+	USERDEFINED
+	NOTDEFINED
+}
+enum SectionType {
+	UNIFORM
+	TAPERED
+}
+enum SensorType {
+	COSENSOR
+	CO2SENSOR
+	CONDUCTANCESENSOR
+	CONTACTSENSOR
+	FIRESENSOR
+	FLOWSENSOR
+	FROSTSENSOR
+	GASSENSOR
+	HEATSENSOR
+	HUMIDITYSENSOR
+	IDENTIFIERSENSOR
+	IONCONCENTRATIONSENSOR
+	LEVELSENSOR
+	LIGHTSENSOR
+	MOISTURESENSOR
+	MOVEMENTSENSOR
+	PHSENSOR
+	PRESSURESENSOR
+	RADIATIONSENSOR
+	RADIOACTIVITYSENSOR
+	SMOKESENSOR
+	SOUNDSENSOR
+	TEMPERATURESENSOR
+	WINDSENSOR
+	USERDEFINED
+	NOTDEFINED
+}
+enum Sequence {
+	START_START
+	START_FINISH
+	FINISH_START
+	FINISH_FINISH
+	USERDEFINED
+	NOTDEFINED
+}
+enum ShadingDeviceType {
+	JALOUSIE
+	SHUTTER
+	AWNING
+	USERDEFINED
+	NOTDEFINED
+}
+enum SimplePropertyTemplateType {
+	P_SINGLEVALUE
+	P_ENUMERATEDVALUE
+	P_BOUNDEDVALUE
+	P_LISTVALUE
+	P_TABLEVALUE
+	P_REFERENCEVALUE
+	Q_LENGTH
+	Q_AREA
+	Q_VOLUME
+	Q_COUNT
+	Q_WEIGHT
+	Q_TIME
+}
+enum SlabType {
+	FLOOR
+	ROOF
+	LANDING
+	BASESLAB
+	USERDEFINED
+	NOTDEFINED
+}
+enum SolarDeviceType {
+	SOLARCOLLECTOR
+	SOLARPANEL
+	USERDEFINED
+	NOTDEFINED
+}
+enum SpaceHeaterType {
+	CONVECTOR
+	RADIATOR
+	USERDEFINED
+	NOTDEFINED
+}
+enum SpaceType {
+	SPACE
+	PARKING
+	GFA
+	INTERNAL
+	EXTERNAL
+	USERDEFINED
+	NOTDEFINED
+}
+enum SpatialZoneType {
+	CONSTRUCTION
+	FIRESAFETY
+	LIGHTING
+	OCCUPANCY
+	SECURITY
+	THERMAL
+	TRANSPORT
+	VENTILATION
+	USERDEFINED
+	NOTDEFINED
+}
+enum StackTerminalType {
+	BIRDCAGE
+	COWL
+	RAINWATERHOPPER
+	USERDEFINED
+	NOTDEFINED
+}
+enum StairFlightType {
+	STRAIGHT
+	WINDER
+	SPIRAL
+	CURVED
+	FREEFORM
+	USERDEFINED
+	NOTDEFINED
+}
+enum StairType {
+	STRAIGHT_RUN_STAIR
+	TWO_STRAIGHT_RUN_STAIR
+	QUARTER_WINDING_STAIR
+	QUARTER_TURN_STAIR
+	HALF_WINDING_STAIR
+	HALF_TURN_STAIR
+	TWO_QUARTER_WINDING_STAIR
+	TWO_QUARTER_TURN_STAIR
+	THREE_QUARTER_WINDING_STAIR
+	THREE_QUARTER_TURN_STAIR
+	SPIRAL_STAIR
+	DOUBLE_RETURN_STAIR
+	CURVED_RUN_STAIR
+	TWO_CURVED_RUN_STAIR
+	USERDEFINED
+	NOTDEFINED
+}
+enum State {
+	READWRITE
+	READONLY
+	LOCKED
+	READWRITELOCKED
+	READONLYLOCKED
+}
+enum StructuralCurveActivityType {
+	CONST
+	LINEAR
+	POLYGONAL
+	EQUIDISTANT
+	SINUS
+	PARABOLA
+	DISCRETE
+	USERDEFINED
+	NOTDEFINED
+}
+enum StructuralCurveMemberType {
+	RIGID_JOINED_MEMBER
+	PIN_JOINED_MEMBER
+	CABLE
+	TENSION_MEMBER
+	COMPRESSION_MEMBER
+	USERDEFINED
+	NOTDEFINED
+}
+enum StructuralSurfaceActivityType {
+	CONST
+	BILINEAR
+	DISCRETE
+	ISOCONTOUR
+	USERDEFINED
+	NOTDEFINED
+}
+enum StructuralSurfaceMemberType {
+	BENDING_ELEMENT
+	MEMBRANE_ELEMENT
+	SHELL
+	USERDEFINED
+	NOTDEFINED
+}
+enum SubContractResourceType {
+	PURCHASE
+	WORK
+	USERDEFINED
+	NOTDEFINED
+}
+enum SurfaceFeatureType {
+	MARK
+	TAG
+	TREATMENT
+	USERDEFINED
+	NOTDEFINED
+}
+enum SurfaceSide {
+	POSITIVE
+	NEGATIVE
+	BOTH
+}
+enum SwitchingDeviceType {
+	CONTACTOR
+	DIMMERSWITCH
+	EMERGENCYSTOP
+	KEYPAD
+	MOMENTARYSWITCH
+	SELECTORSWITCH
+	STARTER
+	SWITCHDISCONNECTOR
+	TOGGLESWITCH
+	USERDEFINED
+	NOTDEFINED
+}
+enum SystemFurnitureElementType {
+	PANEL
+	WORKSURFACE
+	USERDEFINED
+	NOTDEFINED
+}
+enum TankType {
+	BASIN
+	BREAKPRESSURE
+	EXPANSION
+	FEEDANDEXPANSION
+	PRESSUREVESSEL
+	STORAGE
+	VESSEL
+	USERDEFINED
+	NOTDEFINED
+}
+enum TaskDuratio {
+	ELAPSEDTIME
+	WORKTIME
+	NOTDEFINED
+}
+enum TaskType {
+	ATTENDANCE
+	CONSTRUCTION
+	DEMOLITION
+	DISMANTLE
+	DISPOSAL
+	INSTALLATION
+	LOGISTIC
+	MAINTENANCE
+	MOVE
+	OPERATION
+	REMOVAL
+	RENOVATION
+	USERDEFINED
+	NOTDEFINED
+}
+enum TendonAnchorType {
+	COUPLER
+	FIXED_END
+	TENSIONING_END
+	USERDEFINED
+	NOTDEFINED
+}
+enum TendonType {
+	BAR
+	COATED
+	STRAND
+	WIRE
+	USERDEFINED
+	NOTDEFINED
+}
+enum TextPath {
+	LEFT
+	RIGHT
+	UP
+	DOWN
+}
+enum TimeSeriesDataType {
+	CONTINUOUS
+	DISCRETE
+	DISCRETEBINARY
+	PIECEWISEBINARY
+	PIECEWISECONSTANT
+	PIECEWISECONTINUOUS
+	NOTDEFINED
+}
+enum TransformerType {
+	CURRENT
+	FREQUENCY
+	INVERTER
+	RECTIFIER
+	VOLTAGE
+	USERDEFINED
+	NOTDEFINED
+}
+enum TransitionCode {
+	DISCONTINUOUS
+	CONTINUOUS
+	CONTSAMEGRADIENT
+	CONTSAMEGRADIENTSAMECURVATURE
+}
+enum TransportElementType {
+	ELEVATOR
+	ESCALATOR
+	MOVINGWALKWAY
+	CRANEWAY
+	LIFTINGGEAR
+	USERDEFINED
+	NOTDEFINED
+}
+enum TrimmingPreference {
+	CARTESIAN
+	PARAMETER
+	UNSPECIFIED
+}
+enum TubeBundleType {
+	FINNED
+	USERDEFINED
+	NOTDEFINED
+}
+enum Unit {
+	ABSORBEDDOSEUNIT
+	AMOUNTOFSUBSTANCEUNIT
+	AREAUNIT
+	DOSEEQUIVALENTUNIT
+	ELECTRICCAPACITANCEUNIT
+	ELECTRICCHARGEUNIT
+	ELECTRICCONDUCTANCEUNIT
+	ELECTRICCURRENTUNIT
+	ELECTRICRESISTANCEUNIT
+	ELECTRICVOLTAGEUNIT
+	ENERGYUNIT
+	FORCEUNIT
+	FREQUENCYUNIT
+	ILLUMINANCEUNIT
+	INDUCTANCEUNIT
+	LENGTHUNIT
+	LUMINOUSFLUXUNIT
+	LUMINOUSINTENSITYUNIT
+	MAGNETICFLUXDENSITYUNIT
+	MAGNETICFLUXUNIT
+	MASSUNIT
+	PLANEANGLEUNIT
+	POWERUNIT
+	PRESSUREUNIT
+	RADIOACTIVITYUNIT
+	SOLIDANGLEUNIT
+	THERMODYNAMICTEMPERATUREUNIT
+	TIMEUNIT
+	VOLUMEUNIT
+	USERDEFINED
+}
+enum UnitaryControlElementType {
+	ALARMPANEL
+	CONTROLPANEL
+	GASDETECTIONPANEL
+	INDICATORPANEL
+	MIMICPANEL
+	HUMIDISTAT
+	THERMOSTAT
+	WEATHERSTATION
+	USERDEFINED
+	NOTDEFINED
+}
+enum UnitaryEquipmentType {
+	AIRHANDLER
+	AIRCONDITIONINGUNIT
+	DEHUMIDIFIER
+	SPLITSYSTEM
+	ROOFTOPUNIT
+	USERDEFINED
+	NOTDEFINED
+}
+enum ValveType {
+	AIRRELEASE
+	ANTIVACUUM
+	CHANGEOVER
+	CHECK
+	COMMISSIONING
+	DIVERTING
+	DRAWOFFCOCK
+	DOUBLECHECK
+	DOUBLEREGULATING
+	FAUCET
+	FLUSHING
+	GASCOCK
+	GASTAP
+	ISOLATING
+	MIXING
+	PRESSUREREDUCING
+	PRESSURERELIEF
+	REGULATING
+	SAFETYCUTOFF
+	STEAMTRAP
+	STOPCOCK
+	USERDEFINED
+	NOTDEFINED
+}
+enum VibrationIsolatorType {
+	COMPRESSION
+	SPRING
+	USERDEFINED
+	NOTDEFINED
+}
+enum VoidingFeatureType {
+	CUTOUT
+	NOTCH
+	HOLE
+	MITER
+	CHAMFER
+	EDGE
+	USERDEFINED
+	NOTDEFINED
+}
+enum WallType {
+	MOVABLE
+	PARAPET
+	PARTITIONING
+	PLUMBINGWALL
+	SHEAR
+	SOLIDWALL
+	STANDARD
+	POLYGONAL
+	ELEMENTEDWALL
+	USERDEFINED
+	NOTDEFINED
+}
+enum WasteTerminalType {
+	FLOORTRAP
+	FLOORWASTE
+	GULLYSUMP
+	GULLYTRAP
+	ROOFDRAIN
+	WASTEDISPOSALUNIT
+	WASTETRAP
+	USERDEFINED
+	NOTDEFINED
+}
+enum WindowPanelOperatio {
+	SIDEHUNGRIGHTHAND
+	SIDEHUNGLEFTHAND
+	TILTANDTURNRIGHTHAND
+	TILTANDTURNLEFTHAND
+	TOPHUNG
+	BOTTOMHUNG
+	PIVOTHORIZONTAL
+	PIVOTVERTICAL
+	SLIDINGHORIZONTAL
+	SLIDINGVERTICAL
+	REMOVABLECASEMENT
+	FIXEDCASEMENT
+	OTHEROPERATION
+	NOTDEFINED
+}
+enum WindowPanelPositio {
+	LEFT
+	MIDDLE
+	RIGHT
+	BOTTOM
+	TOP
+	NOTDEFINED
+}
+enum WindowStyleConstructio {
+	ALUMINIUM
+	HIGH_GRADE_STEEL
+	STEEL
+	WOOD
+	ALUMINIUM_WOOD
+	PLASTIC
+	OTHER_CONSTRUCTION
+	NOTDEFINED
+}
+enum WindowStyleOperatio {
+	SINGLE_PANEL
+	DOUBLE_PANEL_VERTICAL
+	DOUBLE_PANEL_HORIZONTAL
+	TRIPLE_PANEL_VERTICAL
+	TRIPLE_PANEL_BOTTOM
+	TRIPLE_PANEL_TOP
+	TRIPLE_PANEL_LEFT
+	TRIPLE_PANEL_RIGHT
+	TRIPLE_PANEL_HORIZONTAL
+	USERDEFINED
+	NOTDEFINED
+}
+enum WindowType {
+	WINDOW
+	SKYLIGHT
+	LIGHTDOME
+	USERDEFINED
+	NOTDEFINED
+}
+enum WindowTypePartitioning {
+	SINGLE_PANEL
+	DOUBLE_PANEL_VERTICAL
+	DOUBLE_PANEL_HORIZONTAL
+	TRIPLE_PANEL_VERTICAL
+	TRIPLE_PANEL_BOTTOM
+	TRIPLE_PANEL_TOP
+	TRIPLE_PANEL_LEFT
+	TRIPLE_PANEL_RIGHT
+	TRIPLE_PANEL_HORIZONTAL
+	USERDEFINED
+	NOTDEFINED
+}
+enum WorkCalendarType {
+	FIRSTSHIFT
+	SECONDSHIFT
+	THIRDSHIFT
+	USERDEFINED
+	NOTDEFINED
+}
+enum WorkPlanType {
+	ACTUAL
+	BASELINE
+	PLANNED
+	USERDEFINED
+	NOTDEFINED
+}
+enum WorkScheduleType {
+	ACTUAL
+	BASELINE
+	PLANNED
+	USERDEFINED
+	NOTDEFINED
+}
+type ActionRequest{
+	PredefinedType: IfcActionRequestTypeEnum!
+	Status: IfcLabel!
+	LongDescription: IfcText!
+}
+type Control{
+	Identification: IfcIdentifier!
+	Controls: [IfcRelAssignsToControl]!
+}
+type Actor{
+	TheActor: IfcActorSelect!
+	IsActingUpon: [IfcRelAssignsToActor]!
+}
+type Occupant{
+	PredefinedType: IfcOccupantTypeEnum!
+}
+type Object{
+	ObjectType: IfcLabel!
+	IsDeclaredBy: [IfcRelDefinesByObject]!
+	Declares: [IfcRelDefinesByObject]!
+	IsTypedBy: [IfcRelDefinesByType]!
+	IsDefinedBy: [IfcRelDefinesByProperties]!
+}
+type ActorRole{
+	Role: IfcRoleEnum!
+	UserDefinedRole: IfcLabel!
+	Description: IfcText!
+	HasExternalReference: [IfcExternalReferenceRelationship]!
+}
+type Actuator{
+	PredefinedType: IfcActuatorTypeEnum!
+}
+type DistributionControlElement{
+	AssignedToFlowElement: [IfcRelFlowControlElements]!
+}
+type ActuatorType{
+	PredefinedType: IfcActuatorTypeEnum!
+}
+type DistributionControlElementType{
+
+}
+type Address{
+	Purpose: IfcAddressTypeEnum!
+	Description: IfcText!
+	UserDefinedPurpose: IfcLabel!
+	OfPerson: [IfcPerson]!
+	OfOrganization: [IfcOrganization]!
+}
+type PostalAddress{
+	InternalLocation: IfcLabel!
+	AddressLines: [IfcLabel]!
+	PostalBox: IfcLabel!
+	Town: IfcLabel!
+	Region: IfcLabel!
+	PostalCode: IfcLabel!
+	Country: IfcLabel!
+}
+type TelecomAddress{
+	TelephoneNumbers: [IfcLabel]!
+	FacsimileNumbers: [IfcLabel]!
+	PagerNumber: IfcLabel!
+	ElectronicMailAddresses: [IfcLabel]!
+	WWWHomePageURL: IfcURIReference!
+	MessagingIDs: [IfcURIReference]!
+}
+type AdvancedBrep{
+
+}
+type AdvancedBrepWithVoids{
+	Voids: [IfcClosedShell]!
+}
+type ManifoldSolidBrep{
+	Outer: IfcClosedShell!
+}
+type AdvancedFace{
+
+}
+type FaceSurface{
+	FaceSurface: IfcSurface!
+	SameSense: IfcBoolean!
+}
+type AirTerminal{
+	PredefinedType: IfcAirTerminalTypeEnum!
+}
+type FlowTerminal{
+
+}
+type AirTerminalBox{
+	PredefinedType: IfcAirTerminalBoxTypeEnum!
+}
+type FlowController{
+
+}
+type AirTerminalBoxType{
+	PredefinedType: IfcAirTerminalBoxTypeEnum!
+}
+type FlowControllerType{
+
+}
+type AirTerminalType{
+	PredefinedType: IfcAirTerminalTypeEnum!
+}
+type FlowTerminalType{
+
+}
+type AirToAirHeatRecovery{
+	PredefinedType: IfcAirToAirHeatRecoveryTypeEnum!
+}
+type EnergyConversionDevice{
+
+}
+type AirToAirHeatRecoveryType{
+	PredefinedType: IfcAirToAirHeatRecoveryTypeEnum!
+}
+type EnergyConversionDeviceType{
+
+}
+type Alarm{
+	PredefinedType: IfcAlarmTypeEnum!
+}
+type AlarmType{
+	PredefinedType: IfcAlarmTypeEnum!
+}
+type Annotation{
+	ContainedInStructure: [IfcRelContainedInSpatialStructure]!
+}
+type Product{
+	ObjectPlacement: IfcObjectPlacement!
+	Representation: IfcProductRepresentation!
+	ReferencedBy: [IfcRelAssignsToProduct]!
+}
+type AnnotationFillArea{
+	OuterBoundary: IfcCurve!
+	InnerBoundaries: [IfcCurve]!
+}
+type GeometricRepresentationItem{
+
+}
+type Application{
+	ApplicationDeveloper: IfcOrganization!
+	Version: IfcLabel!
+	ApplicationFullName: IfcLabel!
+	ApplicationIdentifier: IfcIdentifier!
+}
+type AppliedValue{
+	Name: IfcLabel!
+	Description: IfcText!
+	AppliedValue: IfcAppliedValueSelect!
+	UnitBasis: IfcMeasureWithUnit!
+	ApplicableDate: IfcDate!
+	FixedUntilDate: IfcDate!
+	Category: IfcLabel!
+	Condition: IfcLabel!
+	ArithmeticOperator: IfcArithmeticOperatorEnum!
+	Components: [IfcAppliedValue]!
+	HasExternalReference: [IfcExternalReferenceRelationship]!
+}
+type CostValue{
+
+}
+type Approval{
+	Identifier: IfcIdentifier!
+	Name: IfcLabel!
+	Description: IfcText!
+	TimeOfApproval: IfcDateTime!
+	Status: IfcLabel!
+	Level: IfcLabel!
+	Qualifier: IfcText!
+	RequestingApproval: IfcActorSelect!
+	GivingApproval: IfcActorSelect!
+	HasExternalReferences: [IfcExternalReferenceRelationship]!
+	ApprovedObjects: [IfcRelAssociatesApproval]!
+	ApprovedResources: [IfcResourceApprovalRelationship]!
+	IsRelatedWith: [IfcApprovalRelationship]!
+	Relates: [IfcApprovalRelationship]!
+}
+type ApprovalRelationship{
+	RelatingApproval: IfcApproval!
+	RelatedApprovals: [IfcApproval]!
+}
+type ResourceLevelRelationship{
+	Name: IfcLabel!
+	Description: IfcText!
+}
+type ArbitraryClosedProfileDef{
+	OuterCurve: IfcCurve!
+}
+type ArbitraryProfileDefWithVoids{
+	InnerCurves: [IfcCurve]!
+}
+type ProfileDef{
+	ProfileType: IfcProfileTypeEnum!
+	ProfileName: IfcLabel!
+	HasExternalReference: [IfcExternalReferenceRelationship]!
+	HasProperties: [IfcProfileProperties]!
+}
+type ArbitraryOpenProfileDef{
+	Curve: IfcBoundedCurve!
+}
+type CenterLineProfileDef{
+	Thickness: IfcPositiveLengthMeasure!
+}
+type Asset{
+	Identification: IfcIdentifier!
+	OriginalValue: IfcCostValue!
+	CurrentValue: IfcCostValue!
+	TotalReplacementCost: IfcCostValue!
+	Owner: IfcActorSelect!
+	User: IfcActorSelect!
+	ResponsiblePerson: IfcPerson!
+	IncorporationDate: IfcDate!
+	DepreciatedValue: IfcCostValue!
+}
+type Group{
+	IsGroupedBy: [IfcRelAssignsToGroup]!
+}
+type AsymmetricIShapeProfileDef{
+	BottomFlangeWidth: IfcPositiveLengthMeasure!
+	OverallDepth: IfcPositiveLengthMeasure!
+	WebThickness: IfcPositiveLengthMeasure!
+	BottomFlangeThickness: IfcPositiveLengthMeasure!
+	BottomFlangeFilletRadius: IfcNonNegativeLengthMeasure!
+	TopFlangeWidth: IfcPositiveLengthMeasure!
+	TopFlangeThickness: IfcPositiveLengthMeasure!
+	TopFlangeFilletRadius: IfcNonNegativeLengthMeasure!
+	BottomFlangeEdgeRadius: IfcNonNegativeLengthMeasure!
+	BottomFlangeSlope: IfcPlaneAngleMeasure!
+	TopFlangeEdgeRadius: IfcNonNegativeLengthMeasure!
+	TopFlangeSlope: IfcPlaneAngleMeasure!
+}
+type ParameterizedProfileDef{
+	Position: IfcAxis2Placement2D!
+}
+type AudioVisualAppliance{
+	PredefinedType: IfcAudioVisualApplianceTypeEnum!
+}
+type AudioVisualApplianceType{
+	PredefinedType: IfcAudioVisualApplianceTypeEnum!
+}
+type Axis1Placement{
+	Axis: IfcDirection!
+	Z: IfcDirection!
+}
+type Placement{
+	Location: IfcCartesianPoint!
+	Dim: IfcDimensionCount!
+}
+type Axis2Placement2D{
+	RefDirection: IfcDirection!
+	P: [IfcDirection]!
+}
+type Axis2Placement3D{
+	Axis: IfcDirection!
+	RefDirection: IfcDirection!
+	P: [IfcDirection]!
+}
+type BSplineCurve{
+	Degree: IfcInteger!
+	ControlPointsList: [IfcCartesianPoint]!
+	CurveForm: IfcBSplineCurveForm!
+	ClosedCurve: IfcLogical!
+	SelfIntersect: IfcLogical!
+	UpperIndexOnControlPoints: IfcInteger!
+	ControlPoints: [IfcCartesianPoint]!
+}
+type BSplineCurveWithKnots{
+	KnotMultiplicities: [IfcInteger]!
+	Knots: [IfcParameterValue]!
+	KnotSpec: IfcKnotType!
+	UpperIndexOnKnots: IfcInteger!
+}
+type BoundedCurve{
+
+}
+type RationalBSplineCurveWithKnots{
+	WeightsData: [IfcReal]!
+	Weights: [IfcReal]!
+}
+type BSplineSurface{
+	UDegree: IfcInteger!
+	VDegree: IfcInteger!
+	ControlPointsList: [[IfcCartesianPoint]]!
+	SurfaceForm: IfcBSplineSurfaceForm!
+	UClosed: IfcLogical!
+	VClosed: IfcLogical!
+	SelfIntersect: IfcLogical!
+	UUpper: IfcInteger!
+	VUpper: IfcInteger!
+	ControlPoints: [[IfcCartesianPoint]]!
+}
+type BSplineSurfaceWithKnots{
+	UMultiplicities: [IfcInteger]!
+	VMultiplicities: [IfcInteger]!
+	UKnots: [IfcParameterValue]!
+	VKnots: [IfcParameterValue]!
+	KnotSpec: IfcKnotType!
+	KnotVUpper: IfcInteger!
+	KnotUUpper: IfcInteger!
+}
+type BoundedSurface{
+
+}
+type RationalBSplineSurfaceWithKnots{
+	WeightsData: [[IfcReal]]!
+	Weights: [[IfcReal]]!
+}
+type Beam{
+	PredefinedType: IfcBeamTypeEnum!
+}
+type BeamStandardCase{
+
+}
+type BuildingElement{
+
+}
+type BeamType{
+	PredefinedType: IfcBeamTypeEnum!
+}
+type BuildingElementType{
+
+}
+type BlobTexture{
+	RasterFormat: IfcIdentifier!
+	RasterCode: IfcBinary!
+}
+type SurfaceTexture{
+	RepeatS: IfcBoolean!
+	RepeatT: IfcBoolean!
+	Mode: IfcIdentifier!
+	TextureTransform: IfcCartesianTransformationOperator2D!
+	Parameter: [IfcIdentifier]!
+	IsMappedBy: [IfcTextureCoordinate]!
+	UsedInStyles: [IfcSurfaceStyleWithTextures]!
+}
+type Block{
+	XLength: IfcPositiveLengthMeasure!
+	YLength: IfcPositiveLengthMeasure!
+	ZLength: IfcPositiveLengthMeasure!
+}
+type CsgPrimitive3D{
+	Position: IfcAxis2Placement3D!
+	Dim: IfcDimensionCount!
+}
+type Boiler{
+	PredefinedType: IfcBoilerTypeEnum!
+}
+type BoilerType{
+	PredefinedType: IfcBoilerTypeEnum!
+}
+type BooleanClippingResult{
+
+}
+type BooleanResult{
+	Operator: IfcBooleanOperator!
+	FirstOperand: IfcBooleanOperand!
+	SecondOperand: IfcBooleanOperand!
+	Dim: IfcDimensionCount!
+}
+type BoundaryCondition{
+	Name: IfcLabel!
+}
+type BoundaryEdgeCondition{
+	TranslationalStiffnessByLengthX: IfcModulusOfTranslationalSubgradeReactionSelect!
+	TranslationalStiffnessByLengthY: IfcModulusOfTranslationalSubgradeReactionSelect!
+	TranslationalStiffnessByLengthZ: IfcModulusOfTranslationalSubgradeReactionSelect!
+	RotationalStiffnessByLengthX: IfcModulusOfRotationalSubgradeReactionSelect!
+	RotationalStiffnessByLengthY: IfcModulusOfRotationalSubgradeReactionSelect!
+	RotationalStiffnessByLengthZ: IfcModulusOfRotationalSubgradeReactionSelect!
+}
+type BoundaryFaceCondition{
+	TranslationalStiffnessByAreaX: IfcModulusOfSubgradeReactionSelect!
+	TranslationalStiffnessByAreaY: IfcModulusOfSubgradeReactionSelect!
+	TranslationalStiffnessByAreaZ: IfcModulusOfSubgradeReactionSelect!
+}
+type BoundaryNodeCondition{
+	TranslationalStiffnessX: IfcTranslationalStiffnessSelect!
+	TranslationalStiffnessY: IfcTranslationalStiffnessSelect!
+	TranslationalStiffnessZ: IfcTranslationalStiffnessSelect!
+	RotationalStiffnessX: IfcRotationalStiffnessSelect!
+	RotationalStiffnessY: IfcRotationalStiffnessSelect!
+	RotationalStiffnessZ: IfcRotationalStiffnessSelect!
+}
+type BoundaryCurve{
+
+}
+type OuterBoundaryCurve{
+
+}
+type CompositeCurveOnSurface{
+	BasisSurface: [IfcSurface]!
+}
+type BoundaryNodeConditionWarping{
+	WarpingStiffness: IfcWarpingStiffnessSelect!
+}
+type CompositeCurve{
+	Segments: [IfcCompositeCurveSegment]!
+	SelfIntersect: IfcLogical!
+	NSegments: IfcInteger!
+	ClosedCurve: IfcLogical!
+}
+type ndexedPolyCurve{
+	Points: IfcCartesianPointList!
+	Segments: [IfcSegmentIndexSelect]!
+	SelfIntersect: IfcBoolean!
+}
+type Polyline{
+	Points: [IfcCartesianPoint]!
+}
+type TrimmedCurve{
+	BasisCurve: IfcCurve!
+	Trim1: [IfcTrimmingSelect]!
+	Trim2: [IfcTrimmingSelect]!
+	SenseAgreement: IfcBoolean!
+	MasterRepresentation: IfcTrimmingPreference!
+}
+type Curve{
+	Dim: IfcDimensionCount!
+}
+type CurveBoundedPlane{
+	BasisSurface: IfcPlane!
+	OuterBoundary: IfcCurve!
+	InnerBoundaries: [IfcCurve]!
+}
+type CurveBoundedSurface{
+	BasisSurface: IfcSurface!
+	Boundaries: [IfcBoundaryCurve]!
+	ImplicitOuter: IfcBoolean!
+}
+type RectangularTrimmedSurface{
+	BasisSurface: IfcSurface!
+	U1: IfcParameterValue!
+	V1: IfcParameterValue!
+	U2: IfcParameterValue!
+	V2: IfcParameterValue!
+	Usense: IfcBoolean!
+	Vsense: IfcBoolean!
+}
+type Surface{
+	Dim: IfcDimensionCount!
+}
+type BoundingBox{
+	Corner: IfcCartesianPoint!
+	XDim: IfcPositiveLengthMeasure!
+	YDim: IfcPositiveLengthMeasure!
+	ZDim: IfcPositiveLengthMeasure!
+	Dim: IfcDimensionCount!
+}
+type BoxedHalfSpace{
+	Enclosure: IfcBoundingBox!
+}
+type HalfSpaceSolid{
+	BaseSurface: IfcSurface!
+	AgreementFlag: IfcBoolean!
+	Dim: IfcDimensionCount!
+}
+type Building{
+	ElevationOfRefHeight: IfcLengthMeasure!
+	ElevationOfTerrain: IfcLengthMeasure!
+	BuildingAddress: IfcPostalAddress!
+}
+type SpatialStructureElement{
+	CompositionType: IfcElementCompositionEnum!
+}
+type BuildingElementProxy{
+	PredefinedType: IfcBuildingElementProxyTypeEnum!
+}
+type Chimney{
+	PredefinedType: IfcChimneyTypeEnum!
+}
+type Column{
+	PredefinedType: IfcColumnTypeEnum!
+}
+type Covering{
+	PredefinedType: IfcCoveringTypeEnum!
+	CoversSpaces: [IfcRelCoversSpaces]!
+	CoversElements: [IfcRelCoversBldgElements]!
+}
+type CurtainWall{
+	PredefinedType: IfcCurtainWallTypeEnum!
+}
+type Door{
+	OverallHeight: IfcPositiveLengthMeasure!
+	OverallWidth: IfcPositiveLengthMeasure!
+	PredefinedType: IfcDoorTypeEnum!
+	OperationType: IfcDoorTypeOperationEnum!
+	UserDefinedOperationType: IfcLabel!
+}
+type Footing{
+	PredefinedType: IfcFootingTypeEnum!
+}
+type Member{
+	PredefinedType: IfcMemberTypeEnum!
+}
+type Pile{
+	PredefinedType: IfcPileTypeEnum!
+	ConstructionType: IfcPileConstructionEnum!
+}
+type Plate{
+	PredefinedType: IfcPlateTypeEnum!
+}
+type Railing{
+	PredefinedType: IfcRailingTypeEnum!
+}
+type Ramp{
+	PredefinedType: IfcRampTypeEnum!
+}
+type RampFlight{
+	PredefinedType: IfcRampFlightTypeEnum!
+}
+type Roof{
+	PredefinedType: IfcRoofTypeEnum!
+}
+type ShadingDevice{
+	PredefinedType: IfcShadingDeviceTypeEnum!
+}
+type Slab{
+	PredefinedType: IfcSlabTypeEnum!
+}
+type Stair{
+	PredefinedType: IfcStairTypeEnum!
+}
+type StairFlight{
+	NumberOfRisers: IfcInteger!
+	NumberOfTreads: IfcInteger!
+	RiserHeight: IfcPositiveLengthMeasure!
+	TreadLength: IfcPositiveLengthMeasure!
+	PredefinedType: IfcStairFlightTypeEnum!
+}
+type Wall{
+	PredefinedType: IfcWallTypeEnum!
+}
+type Window{
+	OverallHeight: IfcPositiveLengthMeasure!
+	OverallWidth: IfcPositiveLengthMeasure!
+	PredefinedType: IfcWindowTypeEnum!
+	PartitioningType: IfcWindowTypePartitioningEnum!
+	UserDefinedPartitioningType: IfcLabel!
+}
+type Element{
+	Tag: IfcIdentifier!
+	FillsVoids: [IfcRelFillsElement]!
+	ConnectedTo: [IfcRelConnectsElements]!
+	IsInterferedByElements: [IfcRelInterferesElements]!
+	InterferesElements: [IfcRelInterferesElements]!
+	HasProjections: [IfcRelProjectsElement]!
+	ReferencedInStructures: [IfcRelReferencedInSpatialStructure]!
+	HasOpenings: [IfcRelVoidsElement]!
+	IsConnectionRealization: [IfcRelConnectsWithRealizingElements]!
+	ProvidesBoundaries: [IfcRelSpaceBoundary]!
+	ConnectedFrom: [IfcRelConnectsElements]!
+	ContainedInStructure: [IfcRelContainedInSpatialStructure]!
+	HasCoverings: [IfcRelCoversBldgElements]!
+}
+type BuildingElementPart{
+	PredefinedType: IfcBuildingElementPartTypeEnum!
+}
+type ElementComponent{
+
+}
+type BuildingElementPartType{
+	PredefinedType: IfcBuildingElementPartTypeEnum!
+}
+type ElementComponentType{
+
+}
+type BuildingElementProxyType{
+	PredefinedType: IfcBuildingElementProxyTypeEnum!
+}
+type ChimneyType{
+	PredefinedType: IfcChimneyTypeEnum!
+}
+type ColumnType{
+	PredefinedType: IfcColumnTypeEnum!
+}
+type CoveringType{
+	PredefinedType: IfcCoveringTypeEnum!
+}
+type CurtainWallType{
+	PredefinedType: IfcCurtainWallTypeEnum!
+}
+type DoorType{
+	PredefinedType: IfcDoorTypeEnum!
+	OperationType: IfcDoorTypeOperationEnum!
+	ParameterTakesPrecedence: IfcBoolean!
+	UserDefinedOperationType: IfcLabel!
+}
+type FootingType{
+	PredefinedType: IfcFootingTypeEnum!
+}
+type MemberType{
+	PredefinedType: IfcMemberTypeEnum!
+}
+type PileType{
+	PredefinedType: IfcPileTypeEnum!
+}
+type PlateType{
+	PredefinedType: IfcPlateTypeEnum!
+}
+type RailingType{
+	PredefinedType: IfcRailingTypeEnum!
+}
+type RampFlightType{
+	PredefinedType: IfcRampFlightTypeEnum!
+}
+type RampType{
+	PredefinedType: IfcRampTypeEnum!
+}
+type RoofType{
+	PredefinedType: IfcRoofTypeEnum!
+}
+type ShadingDeviceType{
+	PredefinedType: IfcShadingDeviceTypeEnum!
+}
+type SlabType{
+	PredefinedType: IfcSlabTypeEnum!
+}
+type StairFlightType{
+	PredefinedType: IfcStairFlightTypeEnum!
+}
+type StairType{
+	PredefinedType: IfcStairTypeEnum!
+}
+type WallType{
+	PredefinedType: IfcWallTypeEnum!
+}
+type WindowType{
+	PredefinedType: IfcWindowTypeEnum!
+	PartitioningType: IfcWindowTypePartitioningEnum!
+	ParameterTakesPrecedence: IfcBoolean!
+	UserDefinedPartitioningType: IfcLabel!
+}
+type ElementType{
+	ElementType: IfcLabel!
+}
+type BuildingStorey{
+	Elevation: IfcLengthMeasure!
+}
+type BuildingSystem{
+	PredefinedType: IfcBuildingSystemTypeEnum!
+	LongName: IfcLabel!
+}
+type System{
+	ServicesBuildings: [IfcRelServicesBuildings]!
+}
+type Burner{
+	PredefinedType: IfcBurnerTypeEnum!
+}
+type BurnerType{
+	PredefinedType: IfcBurnerTypeEnum!
+}
+type CShapeProfileDef{
+	Depth: IfcPositiveLengthMeasure!
+	Width: IfcPositiveLengthMeasure!
+	WallThickness: IfcPositiveLengthMeasure!
+	Girth: IfcPositiveLengthMeasure!
+	InternalFilletRadius: IfcNonNegativeLengthMeasure!
+}
+type CableCarrierFitting{
+	PredefinedType: IfcCableCarrierFittingTypeEnum!
+}
+type FlowFitting{
+
+}
+type CableCarrierFittingType{
+	PredefinedType: IfcCableCarrierFittingTypeEnum!
+}
+type FlowFittingType{
+
+}
+type CableCarrierSegment{
+	PredefinedType: IfcCableCarrierSegmentTypeEnum!
+}
+type FlowSegment{
+
+}
+type CableCarrierSegmentType{
+	PredefinedType: IfcCableCarrierSegmentTypeEnum!
+}
+type FlowSegmentType{
+
+}
+type CableFitting{
+	PredefinedType: IfcCableFittingTypeEnum!
+}
+type CableFittingType{
+	PredefinedType: IfcCableFittingTypeEnum!
+}
+type CableSegment{
+	PredefinedType: IfcCableSegmentTypeEnum!
+}
+type CableSegmentType{
+	PredefinedType: IfcCableSegmentTypeEnum!
+}
+type CartesianPoint{
+	Coordinates: [IfcLengthMeasure]!
+	Dim: IfcDimensionCount!
+}
+type Point{
+
+}
+type CartesianPointList{
+	Dim: IfcDimensionCount!
+}
+type CartesianPointList2D{
+	CoordList: [[IfcLengthMeasure]]!
+}
+type CartesianPointList3D{
+	CoordList: [[IfcLengthMeasure]]!
+}
+type CartesianTransformationOperator{
+	Axis1: IfcDirection!
+	Axis2: IfcDirection!
+	LocalOrigin: IfcCartesianPoint!
+	Scale: IfcReal!
+	Scl: IfcReal!
+	Dim: IfcDimensionCount!
+}
+type CartesianTransformationOperator2D{
+	U: [IfcDirection]!
+}
+type CartesianTransformationOperator3D{
+	Axis3: IfcDirection!
+	U: [IfcDirection]!
+}
+type CartesianTransformationOperator2DnonUniform{
+	Scale2: IfcReal!
+	Scl2: IfcReal!
+}
+type CartesianTransformationOperator3DnonUniform{
+	Scale2: IfcReal!
+	Scale3: IfcReal!
+	Scl2: IfcReal!
+	Scl3: IfcReal!
+}
+type Chiller{
+	PredefinedType: IfcChillerTypeEnum!
+}
+type ChillerType{
+	PredefinedType: IfcChillerTypeEnum!
+}
+type Circle{
+	Radius: IfcPositiveLengthMeasure!
+}
+type Conic{
+	Position: IfcAxis2Placement!
+}
+type CircleHollowProfileDef{
+	WallThickness: IfcPositiveLengthMeasure!
+}
+type CircleProfileDef{
+	Radius: IfcPositiveLengthMeasure!
+}
+type CivilElement{
+
+}
+type CivilElementType{
+
+}
+type Classification{
+	Source: IfcLabel!
+	Edition: IfcLabel!
+	EditionDate: IfcDate!
+	Name: IfcLabel!
+	Description: IfcText!
+	Location: IfcURIReference!
+	ReferenceTokens: [IfcIdentifier]!
+	ClassificationForObjects: [IfcRelAssociatesClassification]!
+	HasReferences: [IfcClassificationReference]!
+}
+type ExternalInformation{
+
+}
+type ClassificationReference{
+	ReferencedSource: IfcClassificationReferenceSelect!
+	Description: IfcText!
+	Sort: IfcIdentifier!
+	ClassificationRefForObjects: [IfcRelAssociatesClassification]!
+	HasReferences: [IfcClassificationReference]!
+}
+type ExternalReference{
+	Location: IfcURIReference!
+	Identification: IfcIdentifier!
+	Name: IfcLabel!
+	ExternalReferenceForResources: [IfcExternalReferenceRelationship]!
+}
+type ClosedShell{
+
+}
+type ConnectedFaceSet{
+	CfsFaces: [IfcFace]!
+}
+type Coil{
+	PredefinedType: IfcCoilTypeEnum!
+}
+type CoilType{
+	PredefinedType: IfcCoilTypeEnum!
+}
+type ColourRgb{
+	Red: IfcNormalisedRatioMeasure!
+	Green: IfcNormalisedRatioMeasure!
+	Blue: IfcNormalisedRatioMeasure!
+}
+type ColourSpecification{
+	Name: IfcLabel!
+}
+type ColourRgbList{
+	ColourList: [[IfcNormalisedRatioMeasure]]!
+}
+type PresentationItem{
+
+}
+type ColumnStandardCase{
+
+}
+type CommunicationsAppliance{
+	PredefinedType: IfcCommunicationsApplianceTypeEnum!
+}
+type CommunicationsApplianceType{
+	PredefinedType: IfcCommunicationsApplianceTypeEnum!
+}
+type ComplexProperty{
+	UsageName: IfcIdentifier!
+	HasProperties: [IfcProperty]!
+}
+type Property{
+	Name: IfcIdentifier!
+	Description: IfcText!
+	PartOfPset: [IfcPropertySet]!
+	PropertyForDependance: [IfcPropertyDependencyRelationship]!
+	PropertyDependsOn: [IfcPropertyDependencyRelationship]!
+	PartOfComplex: [IfcComplexProperty]!
+	HasConstraints: [IfcResourceConstraintRelationship]!
+	HasApprovals: [IfcResourceApprovalRelationship]!
+}
+type ComplexPropertyTemplate{
+	UsageName: IfcLabel!
+	TemplateType: IfcComplexPropertyTemplateTypeEnum!
+	HasPropertyTemplates: [IfcPropertyTemplate]!
+}
+type PropertyTemplate{
+	PartOfComplexTemplate: [IfcComplexPropertyTemplate]!
+	PartOfPsetTemplate: [IfcPropertySetTemplate]!
+}
+type CompositeCurveSegment{
+	Transition: IfcTransitionCode!
+	SameSense: IfcBoolean!
+	ParentCurve: IfcCurve!
+	Dim: IfcDimensionCount!
+	UsingCurves: [IfcCompositeCurve]!
+}
+type ReparametrisedCompositeCurveSegment{
+	ParamLength: IfcParameterValue!
+}
+type CompositeProfileDef{
+	Profiles: [IfcProfileDef]!
+	Label: IfcLabel!
+}
+type Compressor{
+	PredefinedType: IfcCompressorTypeEnum!
+}
+type FlowMovingDevice{
+
+}
+type CompressorType{
+	PredefinedType: IfcCompressorTypeEnum!
+}
+type FlowMovingDeviceType{
+
+}
+type Condenser{
+	PredefinedType: IfcCondenserTypeEnum!
+}
+type CondenserType{
+	PredefinedType: IfcCondenserTypeEnum!
+}
+type Ellipse{
+	SemiAxis1: IfcPositiveLengthMeasure!
+	SemiAxis2: IfcPositiveLengthMeasure!
+}
+type OpenShell{
+
+}
+type TopologicalRepresentationItem{
+
+}
+type ConnectionCurveGeometry{
+	CurveOnRelatingElement: IfcCurveOrEdgeCurve!
+	CurveOnRelatedElement: IfcCurveOrEdgeCurve!
+}
+type ConnectionGeometry{
+
+}
+type ConnectionPointGeometry{
+	PointOnRelatingElement: IfcPointOrVertexPoint!
+	PointOnRelatedElement: IfcPointOrVertexPoint!
+}
+type ConnectionSurfaceGeometry{
+	SurfaceOnRelatingElement: IfcSurfaceOrFaceSurface!
+	SurfaceOnRelatedElement: IfcSurfaceOrFaceSurface!
+}
+type ConnectionVolumeGeometry{
+	VolumeOnRelatingElement: IfcSolidOrShell!
+	VolumeOnRelatedElement: IfcSolidOrShell!
+}
+type ConnectionPointEccentricity{
+	EccentricityInX: IfcLengthMeasure!
+	EccentricityInY: IfcLengthMeasure!
+	EccentricityInZ: IfcLengthMeasure!
+}
+type Constraint{
+	Name: IfcLabel!
+	Description: IfcText!
+	ConstraintGrade: IfcConstraintEnum!
+	ConstraintSource: IfcLabel!
+	CreatingActor: IfcActorSelect!
+	CreationTime: IfcDateTime!
+	UserDefinedGrade: IfcLabel!
+	HasExternalReferences: [IfcExternalReferenceRelationship]!
+	PropertiesForConstraint: [IfcResourceConstraintRelationship]!
+}
+type Metric{
+	Benchmark: IfcBenchmarkEnum!
+	ValueSource: IfcLabel!
+	DataValue: IfcMetricValueSelect!
+	ReferencePath: IfcReference!
+}
+type Objective{
+	BenchmarkValues: [IfcConstraint]!
+	LogicalAggregator: IfcLogicalOperatorEnum!
+	ObjectiveQualifier: IfcObjectiveEnum!
+	UserDefinedQualifier: IfcLabel!
+}
+type ConstructionEquipmentResource{
+	PredefinedType: IfcConstructionEquipmentResourceTypeEnum!
+}
+type ConstructionResource{
+	Usage: IfcResourceTime!
+	BaseCosts: [IfcAppliedValue]!
+	BaseQuantity: IfcPhysicalQuantity!
+}
+type ConstructionEquipmentResourceType{
+	PredefinedType: IfcConstructionEquipmentResourceTypeEnum!
+}
+type ConstructionResourceType{
+	BaseCosts: [IfcAppliedValue]!
+	BaseQuantity: IfcPhysicalQuantity!
+}
+type ConstructionMaterialResource{
+	PredefinedType: IfcConstructionMaterialResourceTypeEnum!
+}
+type ConstructionMaterialResourceType{
+	PredefinedType: IfcConstructionMaterialResourceTypeEnum!
+}
+type ConstructionProductResource{
+	PredefinedType: IfcConstructionProductResourceTypeEnum!
+}
+type ConstructionProductResourceType{
+	PredefinedType: IfcConstructionProductResourceTypeEnum!
+}
+type CrewResource{
+	PredefinedType: IfcCrewResourceTypeEnum!
+}
+type LaborResource{
+	PredefinedType: IfcLaborResourceTypeEnum!
+}
+type SubContractResource{
+	PredefinedType: IfcSubContractResourceTypeEnum!
+}
+type Resource{
+	Identification: IfcIdentifier!
+	LongDescription: IfcText!
+	ResourceOf: [IfcRelAssignsToResource]!
+}
+type CrewResourceType{
+	PredefinedType: IfcCrewResourceTypeEnum!
+}
+type LaborResourceType{
+	PredefinedType: IfcLaborResourceTypeEnum!
+}
+type SubContractResourceType{
+	PredefinedType: IfcSubContractResourceTypeEnum!
+}
+type TypeResource{
+	Identification: IfcIdentifier!
+	LongDescription: IfcText!
+	ResourceType: IfcLabel!
+	ResourceOf: [IfcRelAssignsToResource]!
+}
+type Context{
+	ObjectType: IfcLabel!
+	LongName: IfcLabel!
+	Phase: IfcLabel!
+	RepresentationContexts: [IfcRepresentationContext]!
+	UnitsInContext: IfcUnitAssignment!
+	IsDefinedBy: [IfcRelDefinesByProperties]!
+	Declares: [IfcRelDeclares]!
+}
+type Project{
+
+}
+type ProjectLibrary{
+
+}
+type ObjectDefinition{
+	HasAssignments: [IfcRelAssigns]!
+	Nests: [IfcRelNests]!
+	IsNestedBy: [IfcRelNests]!
+	HasContext: [IfcRelDeclares]!
+	IsDecomposedBy: [IfcRelAggregates]!
+	Decomposes: [IfcRelAggregates]!
+	HasAssociations: [IfcRelAssociates]!
+}
+type ContextDependentUnit{
+	Name: IfcLabel!
+	HasExternalReference: [IfcExternalReferenceRelationship]!
+}
+type NamedUnit{
+	Dimensions: IfcDimensionalExponents!
+	UnitType: IfcUnitEnum!
+}
+type CostItem{
+	PredefinedType: IfcCostItemTypeEnum!
+	CostValues: [IfcCostValue]!
+	CostQuantities: [IfcPhysicalQuantity]!
+}
+type CostSchedule{
+	PredefinedType: IfcCostScheduleTypeEnum!
+	Status: IfcLabel!
+	SubmittedOn: IfcDateTime!
+	UpdateDate: IfcDateTime!
+}
+type PerformanceHistory{
+	LifeCyclePhase: IfcLabel!
+	PredefinedType: IfcPerformanceHistoryTypeEnum!
+}
+type Permit{
+	PredefinedType: IfcPermitTypeEnum!
+	Status: IfcLabel!
+	LongDescription: IfcText!
+}
+type ProjectOrder{
+	PredefinedType: IfcProjectOrderTypeEnum!
+	Status: IfcLabel!
+	LongDescription: IfcText!
+}
+type WorkCalendar{
+	WorkingTimes: [IfcWorkTime]!
+	ExceptionTimes: [IfcWorkTime]!
+	PredefinedType: IfcWorkCalendarTypeEnum!
+}
+type WorkControl{
+	CreationDate: IfcDateTime!
+	Creators: [IfcPerson]!
+	Purpose: IfcLabel!
+	Duration: IfcDuration!
+	TotalFloat: IfcDuration!
+	StartTime: IfcDateTime!
+	FinishTime: IfcDateTime!
+}
+type Controller{
+	PredefinedType: IfcControllerTypeEnum!
+}
+type ControllerType{
+	PredefinedType: IfcControllerTypeEnum!
+}
+type ConversionBasedUnit{
+	Name: IfcLabel!
+	ConversionFactor: IfcMeasureWithUnit!
+	HasExternalReference: [IfcExternalReferenceRelationship]!
+}
+type ConversionBasedUnitWithOffset{
+	ConversionOffset: IfcReal!
+}
+type CooledBeam{
+	PredefinedType: IfcCooledBeamTypeEnum!
+}
+type CooledBeamType{
+	PredefinedType: IfcCooledBeamTypeEnum!
+}
+type CoolingTower{
+	PredefinedType: IfcCoolingTowerTypeEnum!
+}
+type CoolingTowerType{
+	PredefinedType: IfcCoolingTowerTypeEnum!
+}
+type CoordinateOperation{
+	SourceCRS: IfcCoordinateReferenceSystemSelect!
+	TargetCRS: IfcCoordinateReferenceSystem!
+}
+type MapConversion{
+	Eastings: IfcLengthMeasure!
+	Northings: IfcLengthMeasure!
+	OrthogonalHeight: IfcLengthMeasure!
+	XAxisAbscissa: IfcReal!
+	XAxisOrdinate: IfcReal!
+	Scale: IfcReal!
+}
+type CoordinateReferenceSystem{
+	Name: IfcLabel!
+	Description: IfcText!
+	GeodeticDatum: IfcIdentifier!
+	VerticalDatum: IfcIdentifier!
+	HasCoordinateOperation: [IfcCoordinateOperation]!
+}
+type ProjectedCRS{
+	MapProjection: IfcIdentifier!
+	MapZone: IfcIdentifier!
+	MapUnit: IfcNamedUnit!
+}
+type RectangularPyramid{
+	XLength: IfcPositiveLengthMeasure!
+	YLength: IfcPositiveLengthMeasure!
+	Height: IfcPositiveLengthMeasure!
+}
+type RightCircularCone{
+	Height: IfcPositiveLengthMeasure!
+	BottomRadius: IfcPositiveLengthMeasure!
+}
+type RightCircularCylinder{
+	Height: IfcPositiveLengthMeasure!
+	Radius: IfcPositiveLengthMeasure!
+}
+type Sphere{
+	Radius: IfcPositiveLengthMeasure!
+}
+type CsgSolid{
+	TreeRootExpression: IfcCsgSelect!
+}
+type SolidModel{
+	Dim: IfcDimensionCount!
+}
+type CurrencyRelationship{
+	RelatingMonetaryUnit: IfcMonetaryUnit!
+	RelatedMonetaryUnit: IfcMonetaryUnit!
+	ExchangeRate: IfcPositiveRatioMeasure!
+	RateDateTime: IfcDateTime!
+	RateSource: IfcLibraryInformation!
+}
+type Line{
+	Pnt: IfcCartesianPoint!
+	Dir: IfcVector!
+}
+type OffsetCurve2D{
+	BasisCurve: IfcCurve!
+	Distance: IfcLengthMeasure!
+	SelfIntersect: IfcLogical!
+}
+type OffsetCurve3D{
+	BasisCurve: IfcCurve!
+	Distance: IfcLengthMeasure!
+	SelfIntersect: IfcLogical!
+	RefDirection: IfcDirection!
+}
+type Pcurve{
+	BasisSurface: IfcSurface!
+	ReferenceCurve: IfcCurve!
+}
+type SurfaceCurve{
+	Curve3D: IfcCurve!
+	AssociatedGeometry: [IfcPcurve]!
+	MasterRepresentation: IfcPreferredSurfaceCurveRepresentation!
+	BasisSurface: [IfcSurface]!
+}
+type CurveStyle{
+	CurveFont: IfcCurveFontOrScaledCurveFontSelect!
+	CurveWidth: IfcSizeSelect!
+	CurveColour: IfcColour!
+	ModelOrDraughting: IfcBoolean!
+}
+type PresentationStyle{
+	Name: IfcLabel!
+}
+type CurveStyleFont{
+	Name: IfcLabel!
+	PatternList: [IfcCurveStyleFontPattern]!
+}
+type CurveStyleFontAndScaling{
+	Name: IfcLabel!
+	CurveFont: IfcCurveStyleFontSelect!
+	CurveFontScaling: IfcPositiveRatioMeasure!
+}
+type CurveStyleFontPattern{
+	VisibleSegmentLength: IfcLengthMeasure!
+	InvisibleSegmentLength: IfcPositiveLengthMeasure!
+}
+type CylindricalSurface{
+	Radius: IfcPositiveLengthMeasure!
+}
+type ElementarySurface{
+	Position: IfcAxis2Placement3D!
+}
+type Damper{
+	PredefinedType: IfcDamperTypeEnum!
+}
+type DamperType{
+	PredefinedType: IfcDamperTypeEnum!
+}
+type DerivedProfileDef{
+	ParentProfile: IfcProfileDef!
+	Operator: IfcCartesianTransformationOperator2D!
+	Label: IfcLabel!
+}
+type MirroredProfileDef{
+	Operator: IfcCartesianTransformationOperator2D!
+}
+type DerivedUnit{
+	Elements: [IfcDerivedUnitElement]!
+	UnitType: IfcDerivedUnitEnum!
+	UserDefinedType: IfcLabel!
+	Dimensions: IfcDimensionalExponents!
+}
+type DerivedUnitElement{
+	Unit: IfcNamedUnit!
+	Exponent: Int!
+}
+type DimensionalExponents{
+	LengthExponent: Int!
+	MassExponent: Int!
+	TimeExponent: Int!
+	ElectricCurrentExponent: Int!
+	ThermodynamicTemperatureExponent: Int!
+	AmountOfSubstanceExponent: Int!
+	LuminousIntensityExponent: Int!
+}
+type Direction{
+	DirectionRatios: [IfcReal]!
+	Dim: IfcDimensionCount!
+}
+type DiscreteAccessory{
+	PredefinedType: IfcDiscreteAccessoryTypeEnum!
+}
+type DiscreteAccessoryType{
+	PredefinedType: IfcDiscreteAccessoryTypeEnum!
+}
+type DistributionChamberElement{
+	PredefinedType: IfcDistributionChamberElementTypeEnum!
+}
+type DistributionFlowElement{
+	HasControlElements: [IfcRelFlowControlElements]!
+}
+type DistributionChamberElementType{
+	PredefinedType: IfcDistributionChamberElementTypeEnum!
+}
+type DistributionFlowElementType{
+
+}
+type DistributionCircuit{
+
+}
+type DistributionSystem{
+	LongName: IfcLabel!
+	PredefinedType: IfcDistributionSystemEnum!
+}
+type FlowInstrument{
+	PredefinedType: IfcFlowInstrumentTypeEnum!
+}
+type ProtectiveDeviceTrippingUnit{
+	PredefinedType: IfcProtectiveDeviceTrippingUnitTypeEnum!
+}
+type Sensor{
+	PredefinedType: IfcSensorTypeEnum!
+}
+type UnitaryControlElement{
+	PredefinedType: IfcUnitaryControlElementTypeEnum!
+}
+type DistributionElement{
+	HasPorts: [IfcRelConnectsPortToElement]!
+}
+type FlowInstrumentType{
+	PredefinedType: IfcFlowInstrumentTypeEnum!
+}
+type ProtectiveDeviceTrippingUnitType{
+	PredefinedType: IfcProtectiveDeviceTrippingUnitTypeEnum!
+}
+type SensorType{
+	PredefinedType: IfcSensorTypeEnum!
+}
+type UnitaryControlElementType{
+	PredefinedType: IfcUnitaryControlElementTypeEnum!
+}
+type DistributionElementType{
+
+}
+type FlowStorageDevice{
+
+}
+type FlowTreatmentDevice{
+
+}
+type FlowStorageDeviceType{
+
+}
+type FlowTreatmentDeviceType{
+
+}
+type DistributionPort{
+	FlowDirection: IfcFlowDirectionEnum!
+	PredefinedType: IfcDistributionPortTypeEnum!
+	SystemType: IfcDistributionSystemEnum!
+}
+type Port{
+	ContainedIn: [IfcRelConnectsPortToElement]!
+	ConnectedFrom: [IfcRelConnectsPorts]!
+	ConnectedTo: [IfcRelConnectsPorts]!
+}
+type DocumentInformation{
+	Identification: IfcIdentifier!
+	Name: IfcLabel!
+	Description: IfcText!
+	Location: IfcURIReference!
+	Purpose: IfcText!
+	IntendedUse: IfcText!
+	Scope: IfcText!
+	Revision: IfcLabel!
+	DocumentOwner: IfcActorSelect!
+	Editors: [IfcActorSelect]!
+	CreationTime: IfcDateTime!
+	LastRevisionTime: IfcDateTime!
+	ElectronicFormat: IfcIdentifier!
+	ValidFrom: IfcDate!
+	ValidUntil: IfcDate!
+	Confidentiality: IfcDocumentConfidentialityEnum!
+	Status: IfcDocumentStatusEnum!
+	DocumentInfoForObjects: [IfcRelAssociatesDocument]!
+	HasDocumentReferences: [IfcDocumentReference]!
+	IsPointedTo: [IfcDocumentInformationRelationship]!
+	IsPointer: [IfcDocumentInformationRelationship]!
+}
+type DocumentInformationRelationship{
+	RelatingDocument: IfcDocumentInformation!
+	RelatedDocuments: [IfcDocumentInformation]!
+	RelationshipType: IfcLabel!
+}
+type DocumentReference{
+	Description: IfcText!
+	ReferencedDocument: IfcDocumentInformation!
+	DocumentRefForObjects: [IfcRelAssociatesDocument]!
+}
+type DoorStandardCase{
+
+}
+type DoorLiningProperties{
+	LiningDepth: IfcPositiveLengthMeasure!
+	LiningThickness: IfcNonNegativeLengthMeasure!
+	ThresholdDepth: IfcPositiveLengthMeasure!
+	ThresholdThickness: IfcNonNegativeLengthMeasure!
+	TransomThickness: IfcNonNegativeLengthMeasure!
+	TransomOffset: IfcLengthMeasure!
+	LiningOffset: IfcLengthMeasure!
+	ThresholdOffset: IfcLengthMeasure!
+	CasingThickness: IfcPositiveLengthMeasure!
+	CasingDepth: IfcPositiveLengthMeasure!
+	ShapeAspectStyle: IfcShapeAspect!
+	LiningToPanelOffsetX: IfcLengthMeasure!
+	LiningToPanelOffsetY: IfcLengthMeasure!
+}
+type PreDefinedPropertySet{
+
+}
+type DoorPanelProperties{
+	PanelDepth: IfcPositiveLengthMeasure!
+	PanelOperation: IfcDoorPanelOperationEnum!
+	PanelWidth: IfcNormalisedRatioMeasure!
+	PanelPosition: IfcDoorPanelPositionEnum!
+	ShapeAspectStyle: IfcShapeAspect!
+}
+type DoorStyle{
+	OperationType: IfcDoorStyleOperationEnum!
+	ConstructionType: IfcDoorStyleConstructionEnum!
+	ParameterTakesPrecedence: IfcBoolean!
+	Sizeable: IfcBoolean!
+}
+type TypeProduct{
+	RepresentationMaps: [IfcRepresentationMap]!
+	Tag: IfcLabel!
+	ReferencedBy: [IfcRelAssignsToProduct]!
+}
+type DraughtingPreDefinedColour{
+
+}
+type PreDefinedColour{
+
+}
+type DraughtingPreDefinedCurveFont{
+
+}
+type PreDefinedCurveFont{
+
+}
+type DuctFitting{
+	PredefinedType: IfcDuctFittingTypeEnum!
+}
+type DuctFittingType{
+	PredefinedType: IfcDuctFittingTypeEnum!
+}
+type DuctSegment{
+	PredefinedType: IfcDuctSegmentTypeEnum!
+}
+type DuctSegmentType{
+	PredefinedType: IfcDuctSegmentTypeEnum!
+}
+type DuctSilencer{
+	PredefinedType: IfcDuctSilencerTypeEnum!
+}
+type DuctSilencerType{
+	PredefinedType: IfcDuctSilencerTypeEnum!
+}
+type Edge{
+	EdgeStart: IfcVertex!
+	EdgeEnd: IfcVertex!
+}
+type EdgeCurve{
+	EdgeGeometry: IfcCurve!
+	SameSense: IfcBoolean!
+}
+type OrientedEdge{
+	EdgeElement: IfcEdge!
+	Orientation: IfcBoolean!
+	EdgeStart: IfcVertex!
+	EdgeEnd: IfcVertex!
+}
+type Subedge{
+	ParentEdge: IfcEdge!
+}
+type EdgeLoop{
+	EdgeList: [IfcOrientedEdge]!
+	Ne: IfcInteger!
+}
+type Loop{
+
+}
+type ElectricAppliance{
+	PredefinedType: IfcElectricApplianceTypeEnum!
+}
+type ElectricApplianceType{
+	PredefinedType: IfcElectricApplianceTypeEnum!
+}
+type ElectricDistributionBoard{
+	PredefinedType: IfcElectricDistributionBoardTypeEnum!
+}
+type ElectricDistributionBoardType{
+	PredefinedType: IfcElectricDistributionBoardTypeEnum!
+}
+type ElectricFlowStorageDevice{
+	PredefinedType: IfcElectricFlowStorageDeviceTypeEnum!
+}
+type ElectricFlowStorageDeviceType{
+	PredefinedType: IfcElectricFlowStorageDeviceTypeEnum!
+}
+type ElectricGenerator{
+	PredefinedType: IfcElectricGeneratorTypeEnum!
+}
+type ElectricGeneratorType{
+	PredefinedType: IfcElectricGeneratorTypeEnum!
+}
+type ElectricMotor{
+	PredefinedType: IfcElectricMotorTypeEnum!
+}
+type ElectricMotorType{
+	PredefinedType: IfcElectricMotorTypeEnum!
+}
+type ElectricTimeControl{
+	PredefinedType: IfcElectricTimeControlTypeEnum!
+}
+type ElectricTimeControlType{
+	PredefinedType: IfcElectricTimeControlTypeEnum!
+}
+type ElementAssembly{
+	AssemblyPlace: IfcAssemblyPlaceEnum!
+	PredefinedType: IfcElementAssemblyTypeEnum!
+}
+type FeatureElement{
+
+}
+type FurnishingElement{
+
+}
+type GeographicElement{
+	PredefinedType: IfcGeographicElementTypeEnum!
+}
+type TransportElement{
+	PredefinedType: IfcTransportElementTypeEnum!
+}
+type VirtualElement{
+
+}
+type ElementAssemblyType{
+	PredefinedType: IfcElementAssemblyTypeEnum!
+}
+type Fastener{
+	PredefinedType: IfcFastenerTypeEnum!
+}
+type MechanicalFastener{
+	NominalDiameter: IfcPositiveLengthMeasure!
+	NominalLength: IfcPositiveLengthMeasure!
+	PredefinedType: IfcMechanicalFastenerTypeEnum!
+}
+type ReinforcingElement{
+	SteelGrade: IfcLabel!
+}
+type VibrationIsolator{
+	PredefinedType: IfcVibrationIsolatorTypeEnum!
+}
+type FastenerType{
+	PredefinedType: IfcFastenerTypeEnum!
+}
+type MechanicalFastenerType{
+	PredefinedType: IfcMechanicalFastenerTypeEnum!
+	NominalDiameter: IfcPositiveLengthMeasure!
+	NominalLength: IfcPositiveLengthMeasure!
+}
+type ReinforcingElementType{
+
+}
+type VibrationIsolatorType{
+	PredefinedType: IfcVibrationIsolatorTypeEnum!
+}
+type ElementQuantity{
+	MethodOfMeasurement: IfcLabel!
+	Quantities: [IfcPhysicalQuantity]!
+}
+type QuantitySet{
+
+}
+type FurnishingElementType{
+
+}
+type GeographicElementType{
+	PredefinedType: IfcGeographicElementTypeEnum!
+}
+type TransportElementType{
+	PredefinedType: IfcTransportElementTypeEnum!
+}
+type Plane{
+
+}
+type SphericalSurface{
+	Radius: IfcPositiveLengthMeasure!
+}
+type ToroidalSurface{
+	MajorRadius: IfcPositiveLengthMeasure!
+	MinorRadius: IfcPositiveLengthMeasure!
+}
+type EllipseProfileDef{
+	SemiAxis1: IfcPositiveLengthMeasure!
+	SemiAxis2: IfcPositiveLengthMeasure!
+}
+type Engine{
+	PredefinedType: IfcEngineTypeEnum!
+}
+type EvaporativeCooler{
+	PredefinedType: IfcEvaporativeCoolerTypeEnum!
+}
+type Evaporator{
+	PredefinedType: IfcEvaporatorTypeEnum!
+}
+type HeatExchanger{
+	PredefinedType: IfcHeatExchangerTypeEnum!
+}
+type Humidifier{
+	PredefinedType: IfcHumidifierTypeEnum!
+}
+type MotorConnection{
+	PredefinedType: IfcMotorConnectionTypeEnum!
+}
+type SolarDevice{
+	PredefinedType: IfcSolarDeviceTypeEnum!
+}
+type Transformer{
+	PredefinedType: IfcTransformerTypeEnum!
+}
+type TubeBundle{
+	PredefinedType: IfcTubeBundleTypeEnum!
+}
+type UnitaryEquipment{
+	PredefinedType: IfcUnitaryEquipmentTypeEnum!
+}
+type EngineType{
+	PredefinedType: IfcEngineTypeEnum!
+}
+type EvaporativeCoolerType{
+	PredefinedType: IfcEvaporativeCoolerTypeEnum!
+}
+type EvaporatorType{
+	PredefinedType: IfcEvaporatorTypeEnum!
+}
+type HeatExchangerType{
+	PredefinedType: IfcHeatExchangerTypeEnum!
+}
+type HumidifierType{
+	PredefinedType: IfcHumidifierTypeEnum!
+}
+type MotorConnectionType{
+	PredefinedType: IfcMotorConnectionTypeEnum!
+}
+type SolarDeviceType{
+	PredefinedType: IfcSolarDeviceTypeEnum!
+}
+type TransformerType{
+	PredefinedType: IfcTransformerTypeEnum!
+}
+type TubeBundleType{
+	PredefinedType: IfcTubeBundleTypeEnum!
+}
+type UnitaryEquipmentType{
+	PredefinedType: IfcUnitaryEquipmentTypeEnum!
+}
+type Event{
+	PredefinedType: IfcEventTypeEnum!
+	EventTriggerType: IfcEventTriggerTypeEnum!
+	UserDefinedEventTriggerType: IfcLabel!
+	EventOccurenceTime: IfcEventTime!
+}
+type Process{
+	Identification: IfcIdentifier!
+	LongDescription: IfcText!
+	IsPredecessorTo: [IfcRelSequence]!
+	IsSuccessorFrom: [IfcRelSequence]!
+	OperatesOn: [IfcRelAssignsToProcess]!
+}
+type EventTime{
+	ActualDate: IfcDateTime!
+	EarlyDate: IfcDateTime!
+	LateDate: IfcDateTime!
+	ScheduleDate: IfcDateTime!
+}
+type SchedulingTime{
+	Name: IfcLabel!
+	DataOrigin: IfcDataOriginEnum!
+	UserDefinedDataOrigin: IfcLabel!
+}
+type EventType{
+	PredefinedType: IfcEventTypeEnum!
+	EventTriggerType: IfcEventTriggerTypeEnum!
+	UserDefinedEventTriggerType: IfcLabel!
+}
+type TypeProcess{
+	Identification: IfcIdentifier!
+	LongDescription: IfcText!
+	ProcessType: IfcLabel!
+	OperatesOn: [IfcRelAssignsToProcess]!
+}
+type ExtendedProperties{
+	Name: IfcIdentifier!
+	Description: IfcText!
+	Properties: [IfcProperty]!
+}
+type MaterialProperties{
+	Material: IfcMaterialDefinition!
+}
+type ProfileProperties{
+	ProfileDefinition: IfcProfileDef!
+}
+type PropertyAbstraction{
+	HasExternalReferences: [IfcExternalReferenceRelationship]!
+}
+type LibraryInformation{
+	Name: IfcLabel!
+	Version: IfcLabel!
+	Publisher: IfcActorSelect!
+	VersionDate: IfcDateTime!
+	Location: IfcURIReference!
+	Description: IfcText!
+	LibraryInfoForObjects: [IfcRelAssociatesLibrary]!
+	HasLibraryReferences: [IfcLibraryReference]!
+}
+type ExternallyDefinedHatchStyle{
+
+}
+type ExternallyDefinedSurfaceStyle{
+
+}
+type ExternallyDefinedTextFont{
+
+}
+type LibraryReference{
+	Description: IfcText!
+	Language: IfcLanguageId!
+	ReferencedLibrary: IfcLibraryInformation!
+	LibraryRefForObjects: [IfcRelAssociatesLibrary]!
+}
+type ExternalReferenceRelationship{
+	RelatingReference: IfcExternalReference!
+	RelatedResourceObjects: [IfcResourceObjectSelect]!
+}
+type ExternalSpatialElement{
+	PredefinedType: IfcExternalSpatialElementTypeEnum!
+	BoundedBy: [IfcRelSpaceBoundary]!
+}
+type ExternalSpatialStructureElement{
+
+}
+type SpatialElement{
+	LongName: IfcLabel!
+	ContainsElements: [IfcRelContainedInSpatialStructure]!
+	ServicedBySystems: [IfcRelServicesBuildings]!
+	ReferencesElements: [IfcRelReferencedInSpatialStructure]!
+}
+type ExtrudedAreaSolid{
+	ExtrudedDirection: IfcDirection!
+	Depth: IfcPositiveLengthMeasure!
+}
+type ExtrudedAreaSolidTapered{
+	EndSweptArea: IfcProfileDef!
+}
+type SweptAreaSolid{
+	SweptArea: IfcProfileDef!
+	Position: IfcAxis2Placement3D!
+}
+type Face{
+	Bounds: [IfcFaceBound]!
+	HasTextureMaps: [IfcTextureMap]!
+}
+type FaceBasedSurfaceModel{
+	FbsmFaces: [IfcConnectedFaceSet]!
+	Dim: IfcDimensionCount!
+}
+type FaceBound{
+	Bound: IfcLoop!
+	Orientation: IfcBoolean!
+}
+type FaceOuterBound{
+
+}
+type FacetedBrep{
+
+}
+type FacetedBrepWithVoids{
+	Voids: [IfcClosedShell]!
+}
+type FailureConnectionCondition{
+	TensionFailureX: IfcForceMeasure!
+	TensionFailureY: IfcForceMeasure!
+	TensionFailureZ: IfcForceMeasure!
+	CompressionFailureX: IfcForceMeasure!
+	CompressionFailureY: IfcForceMeasure!
+	CompressionFailureZ: IfcForceMeasure!
+}
+type StructuralConnectionCondition{
+	Name: IfcLabel!
+}
+type Fan{
+	PredefinedType: IfcFanTypeEnum!
+}
+type FanType{
+	PredefinedType: IfcFanTypeEnum!
+}
+type FeatureElementAddition{
+	ProjectsElements: IfcRelProjectsElement!
+}
+type FeatureElementSubtraction{
+	VoidsElements: IfcRelVoidsElement!
+}
+type SurfaceFeature{
+	PredefinedType: IfcSurfaceFeatureTypeEnum!
+}
+type ProjectionElement{
+	PredefinedType: IfcProjectionElementTypeEnum!
+}
+type OpeningElement{
+	PredefinedType: IfcOpeningElementTypeEnum!
+	HasFillings: [IfcRelFillsElement]!
+}
+type VoidingFeature{
+	PredefinedType: IfcVoidingFeatureTypeEnum!
+}
+type FillAreaStyle{
+	FillStyles: [IfcFillStyleSelect]!
+	ModelorDraughting: IfcBoolean!
+}
+type FillAreaStyleHatching{
+	HatchLineAppearance: IfcCurveStyle!
+	StartOfNextHatchLine: IfcHatchLineDistanceSelect!
+	PointOfReferenceHatchLine: IfcCartesianPoint!
+	PatternStart: IfcCartesianPoint!
+	HatchLineAngle: IfcPlaneAngleMeasure!
+}
+type FillAreaStyleTiles{
+	TilingPattern: [IfcVector]!
+	Tiles: [IfcStyledItem]!
+	TilingScale: IfcPositiveRatioMeasure!
+}
+type Filter{
+	PredefinedType: IfcFilterTypeEnum!
+}
+type FilterType{
+	PredefinedType: IfcFilterTypeEnum!
+}
+type FireSuppressionTerminal{
+	PredefinedType: IfcFireSuppressionTerminalTypeEnum!
+}
+type FireSuppressionTerminalType{
+	PredefinedType: IfcFireSuppressionTerminalTypeEnum!
+}
+type FixedReferenceSweptAreaSolid{
+	Directrix: IfcCurve!
+	StartParam: IfcParameterValue!
+	EndParam: IfcParameterValue!
+	FixedReference: IfcDirection!
+}
+type FlowMeter{
+	PredefinedType: IfcFlowMeterTypeEnum!
+}
+type ProtectiveDevice{
+	PredefinedType: IfcProtectiveDeviceTypeEnum!
+}
+type SwitchingDevice{
+	PredefinedType: IfcSwitchingDeviceTypeEnum!
+}
+type Valve{
+	PredefinedType: IfcValveTypeEnum!
+}
+type FlowMeterType{
+	PredefinedType: IfcFlowMeterTypeEnum!
+}
+type ProtectiveDeviceType{
+	PredefinedType: IfcProtectiveDeviceTypeEnum!
+}
+type SwitchingDeviceType{
+	PredefinedType: IfcSwitchingDeviceTypeEnum!
+}
+type ValveType{
+	PredefinedType: IfcValveTypeEnum!
+}
+type JunctionBox{
+	PredefinedType: IfcJunctionBoxTypeEnum!
+}
+type PipeFitting{
+	PredefinedType: IfcPipeFittingTypeEnum!
+}
+type JunctionBoxType{
+	PredefinedType: IfcJunctionBoxTypeEnum!
+}
+type PipeFittingType{
+	PredefinedType: IfcPipeFittingTypeEnum!
+}
+type Pump{
+	PredefinedType: IfcPumpTypeEnum!
+}
+type PumpType{
+	PredefinedType: IfcPumpTypeEnum!
+}
+type PipeSegment{
+	PredefinedType: IfcPipeSegmentTypeEnum!
+}
+type PipeSegmentType{
+	PredefinedType: IfcPipeSegmentTypeEnum!
+}
+type Tank{
+	PredefinedType: IfcTankTypeEnum!
+}
+type TankType{
+	PredefinedType: IfcTankTypeEnum!
+}
+type Lamp{
+	PredefinedType: IfcLampTypeEnum!
+}
+type LightFixture{
+	PredefinedType: IfcLightFixtureTypeEnum!
+}
+type MedicalDevice{
+	PredefinedType: IfcMedicalDeviceTypeEnum!
+}
+type Outlet{
+	PredefinedType: IfcOutletTypeEnum!
+}
+type SanitaryTerminal{
+	PredefinedType: IfcSanitaryTerminalTypeEnum!
+}
+type SpaceHeater{
+	PredefinedType: IfcSpaceHeaterTypeEnum!
+}
+type StackTerminal{
+	PredefinedType: IfcStackTerminalTypeEnum!
+}
+type WasteTerminal{
+	PredefinedType: IfcWasteTerminalTypeEnum!
+}
+type LampType{
+	PredefinedType: IfcLampTypeEnum!
+}
+type LightFixtureType{
+	PredefinedType: IfcLightFixtureTypeEnum!
+}
+type MedicalDeviceType{
+	PredefinedType: IfcMedicalDeviceTypeEnum!
+}
+type OutletType{
+	PredefinedType: IfcOutletTypeEnum!
+}
+type SanitaryTerminalType{
+	PredefinedType: IfcSanitaryTerminalTypeEnum!
+}
+type SpaceHeaterType{
+	PredefinedType: IfcSpaceHeaterTypeEnum!
+}
+type StackTerminalType{
+	PredefinedType: IfcStackTerminalTypeEnum!
+}
+type WasteTerminalType{
+	PredefinedType: IfcWasteTerminalTypeEnum!
+}
+type nterceptor{
+	PredefinedType: IfcInterceptorTypeEnum!
+}
+type nterceptorType{
+	PredefinedType: IfcInterceptorTypeEnum!
+}
+type Furniture{
+	PredefinedType: IfcFurnitureTypeEnum!
+}
+type SystemFurnitureElement{
+	PredefinedType: IfcSystemFurnitureElementTypeEnum!
+}
+type FurnitureType{
+	AssemblyPlace: IfcAssemblyPlaceEnum!
+	PredefinedType: IfcFurnitureTypeEnum!
+}
+type SystemFurnitureElementType{
+	PredefinedType: IfcSystemFurnitureElementTypeEnum!
+}
+type GeometricCurveSet{
+
+}
+type GeometricSet{
+	Elements: [IfcGeometricSetSelect]!
+	Dim: IfcDimensionCount!
+}
+type GeometricRepresentationContext{
+	CoordinateSpaceDimension: IfcDimensionCount!
+	Precision: IfcReal!
+	WorldCoordinateSystem: IfcAxis2Placement!
+	TrueNorth: IfcDirection!
+	HasSubContexts: [IfcGeometricRepresentationSubContext]!
+	HasCoordinateOperation: [IfcCoordinateOperation]!
+}
+type GeometricRepresentationSubContext{
+	ParentContext: IfcGeometricRepresentationContext!
+	TargetScale: IfcPositiveRatioMeasure!
+	TargetView: IfcGeometricProjectionEnum!
+	UserDefinedTargetView: IfcLabel!
+	WorldCoordinateSystem: IfcAxis2Placement!
+	CoordinateSpaceDimension: IfcDimensionCount!
+	TrueNorth: IfcDirection!
+	Precision: IfcReal!
+}
+type RepresentationContext{
+	ContextIdentifier: IfcLabel!
+	ContextType: IfcLabel!
+	RepresentationsInContext: [IfcRepresentation]!
+}
+type LightSource{
+	Name: IfcLabel!
+	LightColour: IfcColourRgb!
+	AmbientIntensity: IfcNormalisedRatioMeasure!
+	Intensity: IfcNormalisedRatioMeasure!
+}
+type PlanarExtent{
+	SizeInX: IfcLengthMeasure!
+	SizeInY: IfcLengthMeasure!
+}
+type SectionedSpine{
+	SpineCurve: IfcCompositeCurve!
+	CrossSections: [IfcProfileDef]!
+	CrossSectionPositions: [IfcAxis2Placement3D]!
+	Dim: IfcDimensionCount!
+}
+type ShellBasedSurfaceModel{
+	SbsmBoundary: [IfcShell]!
+	Dim: IfcDimensionCount!
+}
+type TessellatedItem{
+
+}
+type TextLiteral{
+	Literal: IfcPresentableText!
+	Placement: IfcAxis2Placement!
+	Path: IfcTextPath!
+}
+type Vector{
+	Orientation: IfcDirection!
+	Magnitude: IfcLengthMeasure!
+	Dim: IfcDimensionCount!
+}
+type RepresentationItem{
+	LayerAssignment: [IfcPresentationLayerAssignment]!
+	StyledByItem: [IfcStyledItem]!
+}
+type Grid{
+	UAxes: [IfcGridAxis]!
+	VAxes: [IfcGridAxis]!
+	WAxes: [IfcGridAxis]!
+	PredefinedType: IfcGridTypeEnum!
+	ContainedInStructure: [IfcRelContainedInSpatialStructure]!
+}
+type GridAxis{
+	AxisTag: IfcLabel!
+	AxisCurve: IfcCurve!
+	SameSense: IfcBoolean!
+	PartOfW: [IfcGrid]!
+	PartOfV: [IfcGrid]!
+	PartOfU: [IfcGrid]!
+	HasIntersections: [IfcVirtualGridIntersection]!
+}
+type GridPlacement{
+	PlacementLocation: IfcVirtualGridIntersection!
+	PlacementRefDirection: IfcGridPlacementDirectionSelect!
+}
+type ObjectPlacement{
+	PlacesObject: [IfcProduct]!
+	ReferencedByPlacements: [IfcLocalPlacement]!
+}
+type nventory{
+	PredefinedType: IfcInventoryTypeEnum!
+	Jurisdiction: IfcActorSelect!
+	ResponsiblePersons: [IfcPerson]!
+	LastUpdateDate: IfcDate!
+	CurrentValue: IfcCostValue!
+	OriginalValue: IfcCostValue!
+}
+type StructuralLoadGroup{
+	PredefinedType: IfcLoadGroupTypeEnum!
+	ActionType: IfcActionTypeEnum!
+	ActionSource: IfcActionSourceTypeEnum!
+	Coefficient: IfcRatioMeasure!
+	Purpose: IfcLabel!
+	SourceOfResultGroup: [IfcStructuralResultGroup]!
+	LoadGroupFor: [IfcStructuralAnalysisModel]!
+}
+type StructuralResultGroup{
+	TheoryType: IfcAnalysisTheoryTypeEnum!
+	ResultForLoadGroup: IfcStructuralLoadGroup!
+	IsLinear: IfcBoolean!
+	ResultGroupFor: [IfcStructuralAnalysisModel]!
+}
+type PolygonalBoundedHalfSpace{
+	Position: IfcAxis2Placement3D!
+	PolygonalBoundary: IfcBoundedCurve!
+}
+type ShapeProfileDef{
+	OverallWidth: IfcPositiveLengthMeasure!
+	OverallDepth: IfcPositiveLengthMeasure!
+	WebThickness: IfcPositiveLengthMeasure!
+	FlangeThickness: IfcPositiveLengthMeasure!
+	FilletRadius: IfcNonNegativeLengthMeasure!
+	FlangeEdgeRadius: IfcNonNegativeLengthMeasure!
+	FlangeSlope: IfcPlaneAngleMeasure!
+}
+type mageTexture{
+	URLReference: IfcURIReference!
+}
+type ndexedColourMap{
+	MappedTo: IfcTessellatedFaceSet!
+	Opacity: IfcNormalisedRatioMeasure!
+	Colours: IfcColourRgbList!
+	ColourIndex: [IfcPositiveInteger]!
+}
+type ndexedPolygonalFace{
+	CoordIndex: [IfcPositiveInteger]!
+	ToFaceSet: [IfcPolygonalFaceSet]!
+}
+type ndexedPolygonalFaceWithVoids{
+	InnerCoordIndices: [[IfcPositiveInteger]]!
+}
+type ndexedTextureMap{
+	MappedTo: IfcTessellatedFaceSet!
+	TexCoords: IfcTextureVertexList!
+}
+type ndexedTriangleTextureMap{
+	TexCoordIndex: [[IfcPositiveInteger]]!
+}
+type TextureCoordinate{
+	Maps: [IfcSurfaceTexture]!
+}
+type ntersectionCurve{
+
+}
+type rregularTimeSeries{
+	Values: [IfcIrregularTimeSeriesValue]!
+}
+type TimeSeries{
+	Name: IfcLabel!
+	Description: IfcText!
+	StartTime: IfcDateTime!
+	EndTime: IfcDateTime!
+	TimeSeriesDataType: IfcTimeSeriesDataTypeEnum!
+	DataOrigin: IfcDataOriginEnum!
+	UserDefinedDataOrigin: IfcLabel!
+	Unit: IfcUnit!
+	HasExternalReference: [IfcExternalReferenceRelationship]!
+}
+type rregularTimeSeriesValue{
+	TimeStamp: IfcDateTime!
+	ListValues: [IfcValue]!
+}
+type LShapeProfileDef{
+	Depth: IfcPositiveLengthMeasure!
+	Width: IfcPositiveLengthMeasure!
+	Thickness: IfcPositiveLengthMeasure!
+	FilletRadius: IfcNonNegativeLengthMeasure!
+	EdgeRadius: IfcNonNegativeLengthMeasure!
+	LegSlope: IfcPlaneAngleMeasure!
+}
+type LagTime{
+	LagValue: IfcTimeOrRatioSelect!
+	DurationType: IfcTaskDurationEnum!
+}
+type LightDistributionData{
+	MainPlaneAngle: IfcPlaneAngleMeasure!
+	SecondaryPlaneAngle: [IfcPlaneAngleMeasure]!
+	LuminousIntensity: [IfcLuminousIntensityDistributionMeasure]!
+}
+type LightIntensityDistribution{
+	LightDistributionCurve: IfcLightDistributionCurveEnum!
+	DistributionData: [IfcLightDistributionData]!
+}
+type LightSourceAmbient{
+
+}
+type LightSourceDirectional{
+	Orientation: IfcDirection!
+}
+type LightSourceGoniometric{
+	Position: IfcAxis2Placement3D!
+	ColourAppearance: IfcColourRgb!
+	ColourTemperature: IfcThermodynamicTemperatureMeasure!
+	LuminousFlux: IfcLuminousFluxMeasure!
+	LightEmissionSource: IfcLightEmissionSourceEnum!
+	LightDistributionDataSource: IfcLightDistributionDataSourceSelect!
+}
+type LightSourcePositional{
+	Position: IfcCartesianPoint!
+	Radius: IfcPositiveLengthMeasure!
+	ConstantAttenuation: IfcReal!
+	DistanceAttenuation: IfcReal!
+	QuadricAttenuation: IfcReal!
+}
+type LightSourceSpot{
+	Orientation: IfcDirection!
+	ConcentrationExponent: IfcReal!
+	SpreadAngle: IfcPositivePlaneAngleMeasure!
+	BeamWidthAngle: IfcPositivePlaneAngleMeasure!
+}
+type LocalPlacement{
+	PlacementRelTo: IfcObjectPlacement!
+	RelativePlacement: IfcAxis2Placement!
+}
+type PolyLoop{
+	Polygon: [IfcCartesianPoint]!
+}
+type VertexLoop{
+	LoopVertex: IfcVertex!
+}
+type MappedItem{
+	MappingSource: IfcRepresentationMap!
+	MappingTarget: IfcCartesianTransformationOperator!
+}
+type Material{
+	Name: IfcLabel!
+	Description: IfcText!
+	Category: IfcLabel!
+	HasRepresentation: [IfcMaterialDefinitionRepresentation]!
+	IsRelatedWith: [IfcMaterialRelationship]!
+	RelatesTo: [IfcMaterialRelationship]!
+}
+type MaterialDefinition{
+	AssociatedTo: [IfcRelAssociatesMaterial]!
+	HasExternalReferences: [IfcExternalReferenceRelationship]!
+	HasProperties: [IfcMaterialProperties]!
+}
+type MaterialClassificationRelationship{
+	MaterialClassifications: [IfcClassificationSelect]!
+	ClassifiedMaterial: IfcMaterial!
+}
+type MaterialConstituent{
+	Name: IfcLabel!
+	Description: IfcText!
+	Material: IfcMaterial!
+	Fraction: IfcNormalisedRatioMeasure!
+	Category: IfcLabel!
+	ToMaterialConstituentSet: IfcMaterialConstituentSet!
+}
+type MaterialConstituentSet{
+	Name: IfcLabel!
+	Description: IfcText!
+	MaterialConstituents: [IfcMaterialConstituent]!
+}
+type MaterialLayer{
+	Material: IfcMaterial!
+	LayerThickness: IfcNonNegativeLengthMeasure!
+	IsVentilated: IfcLogical!
+	Name: IfcLabel!
+	Description: IfcText!
+	Category: IfcLabel!
+	Priority: IfcInteger!
+	ToMaterialLayerSet: IfcMaterialLayerSet!
+}
+type MaterialLayerSet{
+	MaterialLayers: [IfcMaterialLayer]!
+	LayerSetName: IfcLabel!
+	Description: IfcText!
+	TotalThickness: IfcLengthMeasure!
+}
+type MaterialProfile{
+	Name: IfcLabel!
+	Description: IfcText!
+	Material: IfcMaterial!
+	Profile: IfcProfileDef!
+	Priority: IfcInteger!
+	Category: IfcLabel!
+	ToMaterialProfileSet: IfcMaterialProfileSet!
+}
+type MaterialProfileSet{
+	Name: IfcLabel!
+	Description: IfcText!
+	MaterialProfiles: [IfcMaterialProfile]!
+	CompositeProfile: IfcCompositeProfileDef!
+}
+type MaterialDefinitionRepresentation{
+	RepresentedMaterial: IfcMaterial!
+}
+type ProductRepresentation{
+	Name: IfcLabel!
+	Description: IfcText!
+	Representations: [IfcRepresentation]!
+}
+type MaterialLayerWithOffsets{
+	OffsetDirection: IfcLayerSetDirectionEnum!
+	OffsetValues: [IfcLengthMeasure]!
+}
+type MaterialLayerSetUsage{
+	ForLayerSet: IfcMaterialLayerSet!
+	LayerSetDirection: IfcLayerSetDirectionEnum!
+	DirectionSense: IfcDirectionSenseEnum!
+	OffsetFromReferenceLine: IfcLengthMeasure!
+	ReferenceExtent: IfcPositiveLengthMeasure!
+}
+type MaterialUsageDefinition{
+	AssociatedTo: [IfcRelAssociatesMaterial]!
+}
+type MaterialList{
+	Materials: [IfcMaterial]!
+}
+type MaterialProfileWithOffsets{
+	OffsetValues: [IfcLengthMeasure]!
+}
+type MaterialProfileSetUsage{
+	ForProfileSet: IfcMaterialProfileSet!
+	CardinalPoint: IfcCardinalPointReference!
+	ReferenceExtent: IfcPositiveLengthMeasure!
+}
+type MaterialProfileSetUsageTapering{
+	ForProfileEndSet: IfcMaterialProfileSet!
+	CardinalEndPoint: IfcCardinalPointReference!
+}
+type MaterialRelationship{
+	RelatingMaterial: IfcMaterial!
+	RelatedMaterials: [IfcMaterial]!
+	Expression: IfcLabel!
+}
+type MeasureWithUnit{
+	ValueComponent: IfcValue!
+	UnitComponent: IfcUnit!
+}
+type MemberStandardCase{
+
+}
+type MonetaryUnit{
+	Currency: IfcLabel!
+}
+type SIUnit{
+	Prefix: IfcSIPrefix!
+	Name: IfcSIUnitName!
+	Dimensions: IfcDimensionalExponents!
+}
+type TypeObject{
+	ApplicableOccurrence: IfcIdentifier!
+	HasPropertySets: [IfcPropertySetDefinition]!
+	Types: [IfcRelDefinesByType]!
+}
+type Root{
+	GlobalId: IfcGloballyUniqueId!
+	OwnerHistory: IfcOwnerHistory!
+	Name: IfcLabel!
+	Description: IfcText!
+}
+type OpeningStandardCase{
+
+}
+type Organization{
+	Identification: IfcIdentifier!
+	Name: IfcLabel!
+	Description: IfcText!
+	Roles: [IfcActorRole]!
+	Addresses: [IfcAddress]!
+	IsRelatedBy: [IfcOrganizationRelationship]!
+	Relates: [IfcOrganizationRelationship]!
+	Engages: [IfcPersonAndOrganization]!
+}
+type OrganizationRelationship{
+	RelatingOrganization: IfcOrganization!
+	RelatedOrganizations: [IfcOrganization]!
+}
+type OwnerHistory{
+	OwningUser: IfcPersonAndOrganization!
+	OwningApplication: IfcApplication!
+	State: IfcStateEnum!
+	ChangeAction: IfcChangeActionEnum!
+	LastModifiedDate: IfcTimeStamp!
+	LastModifyingUser: IfcPersonAndOrganization!
+	LastModifyingApplication: IfcApplication!
+	CreationDate: IfcTimeStamp!
+}
+type RectangleProfileDef{
+	XDim: IfcPositiveLengthMeasure!
+	YDim: IfcPositiveLengthMeasure!
+}
+type TShapeProfileDef{
+	Depth: IfcPositiveLengthMeasure!
+	FlangeWidth: IfcPositiveLengthMeasure!
+	WebThickness: IfcPositiveLengthMeasure!
+	FlangeThickness: IfcPositiveLengthMeasure!
+	FilletRadius: IfcNonNegativeLengthMeasure!
+	FlangeEdgeRadius: IfcNonNegativeLengthMeasure!
+	WebEdgeRadius: IfcNonNegativeLengthMeasure!
+	WebSlope: IfcPlaneAngleMeasure!
+	FlangeSlope: IfcPlaneAngleMeasure!
+}
+type TrapeziumProfileDef{
+	BottomXDim: IfcPositiveLengthMeasure!
+	TopXDim: IfcPositiveLengthMeasure!
+	YDim: IfcPositiveLengthMeasure!
+	TopXOffset: IfcLengthMeasure!
+}
+type UShapeProfileDef{
+	Depth: IfcPositiveLengthMeasure!
+	FlangeWidth: IfcPositiveLengthMeasure!
+	WebThickness: IfcPositiveLengthMeasure!
+	FlangeThickness: IfcPositiveLengthMeasure!
+	FilletRadius: IfcNonNegativeLengthMeasure!
+	EdgeRadius: IfcNonNegativeLengthMeasure!
+	FlangeSlope: IfcPlaneAngleMeasure!
+}
+type ZShapeProfileDef{
+	Depth: IfcPositiveLengthMeasure!
+	FlangeWidth: IfcPositiveLengthMeasure!
+	WebThickness: IfcPositiveLengthMeasure!
+	FlangeThickness: IfcPositiveLengthMeasure!
+	FilletRadius: IfcNonNegativeLengthMeasure!
+	EdgeRadius: IfcNonNegativeLengthMeasure!
+}
+type Path{
+	EdgeList: [IfcOrientedEdge]!
+}
+type PermeableCoveringProperties{
+	OperationType: IfcPermeableCoveringOperationEnum!
+	PanelPosition: IfcWindowPanelPositionEnum!
+	FrameDepth: IfcPositiveLengthMeasure!
+	FrameThickness: IfcPositiveLengthMeasure!
+	ShapeAspectStyle: IfcShapeAspect!
+}
+type Person{
+	Identification: IfcIdentifier!
+	FamilyName: IfcLabel!
+	GivenName: IfcLabel!
+	MiddleNames: [IfcLabel]!
+	PrefixTitles: [IfcLabel]!
+	SuffixTitles: [IfcLabel]!
+	Roles: [IfcActorRole]!
+	Addresses: [IfcAddress]!
+	EngagedIn: [IfcPersonAndOrganization]!
+}
+type PersonAndOrganization{
+	ThePerson: IfcPerson!
+	TheOrganization: IfcOrganization!
+	Roles: [IfcActorRole]!
+}
+type PhysicalComplexQuantity{
+	HasQuantities: [IfcPhysicalQuantity]!
+	Discrimination: IfcLabel!
+	Quality: IfcLabel!
+	Usage: IfcLabel!
+}
+type PhysicalQuantity{
+	Name: IfcLabel!
+	Description: IfcText!
+	HasExternalReferences: [IfcExternalReferenceRelationship]!
+	PartOfComplex: [IfcPhysicalComplexQuantity]!
+}
+type PhysicalSimpleQuantity{
+	Unit: IfcNamedUnit!
+}
+type QuantityArea{
+	AreaValue: IfcAreaMeasure!
+	Formula: IfcLabel!
+}
+type QuantityCount{
+	CountValue: IfcCountMeasure!
+	Formula: IfcLabel!
+}
+type QuantityLength{
+	LengthValue: IfcLengthMeasure!
+	Formula: IfcLabel!
+}
+type QuantityTime{
+	TimeValue: IfcTimeMeasure!
+	Formula: IfcLabel!
+}
+type QuantityVolume{
+	VolumeValue: IfcVolumeMeasure!
+	Formula: IfcLabel!
+}
+type QuantityWeight{
+	WeightValue: IfcMassMeasure!
+	Formula: IfcLabel!
+}
+type PixelTexture{
+	Width: IfcInteger!
+	Height: IfcInteger!
+	ColourComponents: IfcInteger!
+	Pixel: [IfcBinary]!
+}
+type PlanarBox{
+	Placement: IfcAxis2Placement!
+}
+type PlateStandardCase{
+
+}
+type PointOnCurve{
+	BasisCurve: IfcCurve!
+	PointParameter: IfcParameterValue!
+	Dim: IfcDimensionCount!
+}
+type PointOnSurface{
+	BasisSurface: IfcSurface!
+	PointParameterU: IfcParameterValue!
+	PointParameterV: IfcParameterValue!
+	Dim: IfcDimensionCount!
+}
+type PolygonalFaceSet{
+	Closed: IfcBoolean!
+	Faces: [IfcIndexedPolygonalFace]!
+	PnIndex: [IfcPositiveInteger]!
+}
+type TessellatedFaceSet{
+	Coordinates: IfcCartesianPointList3D!
+	Dim: IfcDimensionCount!
+	HasColours: [IfcIndexedColourMap]!
+	HasTextures: [IfcIndexedTextureMap]!
+}
+type PreDefinedItem{
+	Name: IfcLabel!
+}
+type PreDefinedTextFont{
+
+}
+type PreDefinedProperties{
+
+}
+type ReinforcementBarProperties{
+	TotalCrossSectionArea: IfcAreaMeasure!
+	SteelGrade: IfcLabel!
+	BarSurface: IfcReinforcingBarSurfaceEnum!
+	EffectiveDepth: IfcLengthMeasure!
+	NominalBarDiameter: IfcPositiveLengthMeasure!
+	BarCount: IfcCountMeasure!
+}
+type SectionProperties{
+	SectionType: IfcSectionTypeEnum!
+	StartProfile: IfcProfileDef!
+	EndProfile: IfcProfileDef!
+}
+type SectionReinforcementProperties{
+	LongitudinalStartPosition: IfcLengthMeasure!
+	LongitudinalEndPosition: IfcLengthMeasure!
+	TransversePosition: IfcLengthMeasure!
+	ReinforcementRole: IfcReinforcingBarRoleEnum!
+	SectionDefinition: IfcSectionProperties!
+	CrossSectionReinforcementDefinitions: [IfcReinforcementBarProperties]!
+}
+type ReinforcementDefinitionProperties{
+	DefinitionType: IfcLabel!
+	ReinforcementSectionDefinitions: [IfcSectionReinforcementProperties]!
+}
+type WindowLiningProperties{
+	LiningDepth: IfcPositiveLengthMeasure!
+	LiningThickness: IfcNonNegativeLengthMeasure!
+	TransomThickness: IfcNonNegativeLengthMeasure!
+	MullionThickness: IfcNonNegativeLengthMeasure!
+	FirstTransomOffset: IfcNormalisedRatioMeasure!
+	SecondTransomOffset: IfcNormalisedRatioMeasure!
+	FirstMullionOffset: IfcNormalisedRatioMeasure!
+	SecondMullionOffset: IfcNormalisedRatioMeasure!
+	ShapeAspectStyle: IfcShapeAspect!
+	LiningOffset: IfcLengthMeasure!
+	LiningToPanelOffsetX: IfcLengthMeasure!
+	LiningToPanelOffsetY: IfcLengthMeasure!
+}
+type WindowPanelProperties{
+	OperationType: IfcWindowPanelOperationEnum!
+	PanelPosition: IfcWindowPanelPositionEnum!
+	FrameDepth: IfcPositiveLengthMeasure!
+	FrameThickness: IfcPositiveLengthMeasure!
+	ShapeAspectStyle: IfcShapeAspect!
+}
+type PropertySetDefinition{
+	DefinesType: [IfcTypeObject]!
+	IsDefinedBy: [IfcRelDefinesByTemplate]!
+	DefinesOccurrence: [IfcRelDefinesByProperties]!
+}
+type TextStyleFontModel{
+	FontFamily: [IfcTextFontName]!
+	FontStyle: IfcFontStyle!
+	FontVariant: IfcFontVariant!
+	FontWeight: IfcFontWeight!
+	FontSize: IfcSizeSelect!
+}
+type SurfaceStyleLighting{
+	DiffuseTransmissionColour: IfcColourRgb!
+	DiffuseReflectionColour: IfcColourRgb!
+	TransmissionColour: IfcColourRgb!
+	ReflectanceColour: IfcColourRgb!
+}
+type SurfaceStyleRefraction{
+	RefractionIndex: IfcReal!
+	DispersionFactor: IfcReal!
+}
+type SurfaceStyleShading{
+	SurfaceColour: IfcColourRgb!
+	Transparency: IfcNormalisedRatioMeasure!
+}
+type SurfaceStyleWithTextures{
+	Textures: [IfcSurfaceTexture]!
+}
+type TextStyleForDefinedFont{
+	Colour: IfcColour!
+	BackgroundColour: IfcColour!
+}
+type TextStyleTextModel{
+	TextIndent: IfcSizeSelect!
+	TextAlign: IfcTextAlignment!
+	TextDecoration: IfcTextDecoration!
+	LetterSpacing: IfcSizeSelect!
+	WordSpacing: IfcSizeSelect!
+	TextTransform: IfcTextTransformation!
+	LineHeight: IfcSizeSelect!
+}
+type TextureVertex{
+	Coordinates: [IfcParameterValue]!
+}
+type TextureVertexList{
+	TexCoordsList: [[IfcParameterValue]]!
+}
+type PresentationLayerAssignment{
+	Name: IfcLabel!
+	Description: IfcText!
+	AssignedItems: [IfcLayeredItem]!
+	Identifier: IfcIdentifier!
+}
+type PresentationLayerWithStyle{
+	LayerOn: IfcLogical!
+	LayerFrozen: IfcLogical!
+	LayerBlocked: IfcLogical!
+	LayerStyles: [IfcPresentationStyle]!
+}
+type SurfaceStyle{
+	Side: IfcSurfaceSide!
+	Styles: [IfcSurfaceStyleElementSelect]!
+}
+type TextStyle{
+	TextCharacterAppearance: IfcTextStyleForDefinedFont!
+	TextStyle: IfcTextStyleTextModel!
+	TextFontStyle: IfcTextFontSelect!
+	ModelOrDraughting: IfcBoolean!
+}
+type PresentationStyleAssignment{
+	Styles: [IfcPresentationStyleSelect]!
+}
+type Procedure{
+	PredefinedType: IfcProcedureTypeEnum!
+}
+type ProcedureType{
+	PredefinedType: IfcProcedureTypeEnum!
+}
+type Task{
+	Status: IfcLabel!
+	WorkMethod: IfcLabel!
+	IsMilestone: IfcBoolean!
+	Priority: IfcInteger!
+	TaskTime: IfcTaskTime!
+	PredefinedType: IfcTaskTypeEnum!
+}
+type Proxy{
+	ProxyType: IfcObjectTypeEnum!
+	Tag: IfcLabel!
+}
+type StructuralActivity{
+	AppliedLoad: IfcStructuralLoad!
+	GlobalOrLocal: IfcGlobalOrLocalEnum!
+	AssignedToStructuralItem: [IfcRelConnectsStructuralActivity]!
+}
+type StructuralItem{
+	AssignedStructuralActivity: [IfcRelConnectsStructuralActivity]!
+}
+type ProductDefinitionShape{
+	ShapeOfProduct: [IfcProduct]!
+	HasShapeAspects: [IfcShapeAspect]!
+}
+type SimpleProperty{
+
+}
+type PropertyEnumeration{
+	Name: IfcLabel!
+	EnumerationValues: [IfcValue]!
+	Unit: IfcUnit!
+}
+type PropertyBoundedValue{
+	UpperBoundValue: IfcValue!
+	LowerBoundValue: IfcValue!
+	Unit: IfcUnit!
+	SetPointValue: IfcValue!
+}
+type PropertyDefinition{
+	HasContext: [IfcRelDeclares]!
+	HasAssociations: [IfcRelAssociates]!
+}
+type PropertyTemplateDefinition{
+
+}
+type PropertyDependencyRelationship{
+	DependingProperty: IfcProperty!
+	DependantProperty: IfcProperty!
+	Expression: IfcText!
+}
+type PropertyEnumeratedValue{
+	EnumerationValues: [IfcValue]!
+	EnumerationReference: IfcPropertyEnumeration!
+}
+type PropertyListValue{
+	ListValues: [IfcValue]!
+	Unit: IfcUnit!
+}
+type PropertyReferenceValue{
+	UsageName: IfcText!
+	PropertyReference: IfcObjectReferenceSelect!
+}
+type PropertySet{
+	HasProperties: [IfcProperty]!
+}
+type PropertySetTemplate{
+	TemplateType: IfcPropertySetTemplateTypeEnum!
+	ApplicableEntity: IfcIdentifier!
+	HasPropertyTemplates: [IfcPropertyTemplate]!
+	Defines: [IfcRelDefinesByTemplate]!
+}
+type PropertySingleValue{
+	NominalValue: IfcValue!
+	Unit: IfcUnit!
+}
+type PropertyTableValue{
+	DefiningValues: [IfcValue]!
+	DefinedValues: [IfcValue]!
+	Expression: IfcText!
+	DefiningUnit: IfcUnit!
+	DefinedUnit: IfcUnit!
+	CurveInterpolation: IfcCurveInterpolationEnum!
+}
+type SimplePropertyTemplate{
+	TemplateType: IfcSimplePropertyTemplateTypeEnum!
+	PrimaryMeasureType: IfcLabel!
+	SecondaryMeasureType: IfcLabel!
+	Enumerators: IfcPropertyEnumeration!
+	PrimaryUnit: IfcUnit!
+	SecondaryUnit: IfcUnit!
+	Expression: IfcLabel!
+	AccessState: IfcStateEnum!
+}
+type RectangleHollowProfileDef{
+	WallThickness: IfcPositiveLengthMeasure!
+	InnerFilletRadius: IfcNonNegativeLengthMeasure!
+	OuterFilletRadius: IfcNonNegativeLengthMeasure!
+}
+type RoundedRectangleProfileDef{
+	RoundingRadius: IfcPositiveLengthMeasure!
+}
+type RecurrencePattern{
+	RecurrenceType: IfcRecurrenceTypeEnum!
+	DayComponent: [IfcDayInMonthNumber]!
+	WeekdayComponent: [IfcDayInWeekNumber]!
+	MonthComponent: [IfcMonthInYearNumber]!
+	Position: IfcInteger!
+	Interval: IfcInteger!
+	Occurrences: IfcInteger!
+	TimePeriods: [IfcTimePeriod]!
+}
+type Reference{
+	TypeIdentifier: IfcIdentifier!
+	AttributeIdentifier: IfcIdentifier!
+	InstanceName: IfcLabel!
+	ListPositions: [IfcInteger]!
+	InnerReference: IfcReference!
+}
+type RegularTimeSeries{
+	TimeStep: IfcTimeMeasure!
+	Values: [IfcTimeSeriesValue]!
+}
+type ReinforcingBar{
+	NominalDiameter: IfcPositiveLengthMeasure!
+	CrossSectionArea: IfcAreaMeasure!
+	BarLength: IfcPositiveLengthMeasure!
+	PredefinedType: IfcReinforcingBarTypeEnum!
+	BarSurface: IfcReinforcingBarSurfaceEnum!
+}
+type ReinforcingBarType{
+	PredefinedType: IfcReinforcingBarTypeEnum!
+	NominalDiameter: IfcPositiveLengthMeasure!
+	CrossSectionArea: IfcAreaMeasure!
+	BarLength: IfcPositiveLengthMeasure!
+	BarSurface: IfcReinforcingBarSurfaceEnum!
+	BendingShapeCode: IfcLabel!
+	BendingParameters: [IfcBendingParameterSelect]!
+}
+type ReinforcingMesh{
+	MeshLength: IfcPositiveLengthMeasure!
+	MeshWidth: IfcPositiveLengthMeasure!
+	LongitudinalBarNominalDiameter: IfcPositiveLengthMeasure!
+	TransverseBarNominalDiameter: IfcPositiveLengthMeasure!
+	LongitudinalBarCrossSectionArea: IfcAreaMeasure!
+	TransverseBarCrossSectionArea: IfcAreaMeasure!
+	LongitudinalBarSpacing: IfcPositiveLengthMeasure!
+	TransverseBarSpacing: IfcPositiveLengthMeasure!
+	PredefinedType: IfcReinforcingMeshTypeEnum!
+}
+type Tendon{
+	PredefinedType: IfcTendonTypeEnum!
+	NominalDiameter: IfcPositiveLengthMeasure!
+	CrossSectionArea: IfcAreaMeasure!
+	TensionForce: IfcForceMeasure!
+	PreStress: IfcPressureMeasure!
+	FrictionCoefficient: IfcNormalisedRatioMeasure!
+	AnchorageSlip: IfcPositiveLengthMeasure!
+	MinCurvatureRadius: IfcPositiveLengthMeasure!
+}
+type TendonAnchor{
+	PredefinedType: IfcTendonAnchorTypeEnum!
+}
+type ReinforcingMeshType{
+	PredefinedType: IfcReinforcingMeshTypeEnum!
+	MeshLength: IfcPositiveLengthMeasure!
+	MeshWidth: IfcPositiveLengthMeasure!
+	LongitudinalBarNominalDiameter: IfcPositiveLengthMeasure!
+	TransverseBarNominalDiameter: IfcPositiveLengthMeasure!
+	LongitudinalBarCrossSectionArea: IfcAreaMeasure!
+	TransverseBarCrossSectionArea: IfcAreaMeasure!
+	LongitudinalBarSpacing: IfcPositiveLengthMeasure!
+	TransverseBarSpacing: IfcPositiveLengthMeasure!
+	BendingShapeCode: IfcLabel!
+	BendingParameters: [IfcBendingParameterSelect]!
+}
+type TendonAnchorType{
+	PredefinedType: IfcTendonAnchorTypeEnum!
+}
+type TendonType{
+	PredefinedType: IfcTendonTypeEnum!
+	NominalDiameter: IfcPositiveLengthMeasure!
+	CrossSectionArea: IfcAreaMeasure!
+	SheathDiameter: IfcPositiveLengthMeasure!
+}
+type RelAggregates{
+	RelatingObject: IfcObjectDefinition!
+	RelatedObjects: [IfcObjectDefinition]!
+}
+type RelDecomposes{
+
+}
+type RelAssigns{
+	RelatedObjects: [IfcObjectDefinition]!
+	RelatedObjectsType: IfcObjectTypeEnum!
+}
+type RelAssignsToActor{
+	RelatingActor: IfcActor!
+	ActingRole: IfcActorRole!
+}
+type RelAssignsToControl{
+	RelatingControl: IfcControl!
+}
+type RelAssignsToGroup{
+	RelatingGroup: IfcGroup!
+}
+type RelAssignsToProcess{
+	RelatingProcess: IfcProcessSelect!
+	QuantityInProcess: IfcMeasureWithUnit!
+}
+type RelAssignsToProduct{
+	RelatingProduct: IfcProductSelect!
+}
+type RelAssignsToResource{
+	RelatingResource: IfcResourceSelect!
+}
+type Relationship{
+
+}
+type RelAssignsToGroupByFactor{
+	Factor: IfcRatioMeasure!
+}
+type RelAssociates{
+	RelatedObjects: [IfcDefinitionSelect]!
+}
+type RelAssociatesApproval{
+	RelatingApproval: IfcApproval!
+}
+type RelAssociatesClassification{
+	RelatingClassification: IfcClassificationSelect!
+}
+type RelAssociatesConstraint{
+	Intent: IfcLabel!
+	RelatingConstraint: IfcConstraint!
+}
+type RelAssociatesDocument{
+	RelatingDocument: IfcDocumentSelect!
+}
+type RelAssociatesLibrary{
+	RelatingLibrary: IfcLibrarySelect!
+}
+type RelAssociatesMaterial{
+	RelatingMaterial: IfcMaterialSelect!
+}
+type RelConnects{
+
+}
+type RelConnectsElements{
+	ConnectionGeometry: IfcConnectionGeometry!
+	RelatingElement: IfcElement!
+	RelatedElement: IfcElement!
+}
+type RelConnectsPortToElement{
+	RelatingPort: IfcPort!
+	RelatedElement: IfcDistributionElement!
+}
+type RelConnectsPorts{
+	RelatingPort: IfcPort!
+	RelatedPort: IfcPort!
+	RealizingElement: IfcElement!
+}
+type RelConnectsStructuralActivity{
+	RelatingElement: IfcStructuralActivityAssignmentSelect!
+	RelatedStructuralActivity: IfcStructuralActivity!
+}
+type RelConnectsStructuralMember{
+	RelatingStructuralMember: IfcStructuralMember!
+	RelatedStructuralConnection: IfcStructuralConnection!
+	AppliedCondition: IfcBoundaryCondition!
+	AdditionalConditions: IfcStructuralConnectionCondition!
+	SupportedLength: IfcLengthMeasure!
+	ConditionCoordinateSystem: IfcAxis2Placement3D!
+}
+type RelContainedInSpatialStructure{
+	RelatedElements: [IfcProduct]!
+	RelatingStructure: IfcSpatialElement!
+}
+type RelCoversBldgElements{
+	RelatingBuildingElement: IfcElement!
+	RelatedCoverings: [IfcCovering]!
+}
+type RelCoversSpaces{
+	RelatingSpace: IfcSpace!
+	RelatedCoverings: [IfcCovering]!
+}
+type RelFillsElement{
+	RelatingOpeningElement: IfcOpeningElement!
+	RelatedBuildingElement: IfcElement!
+}
+type RelFlowControlElements{
+	RelatedControlElements: [IfcDistributionControlElement]!
+	RelatingFlowElement: IfcDistributionFlowElement!
+}
+type RelInterferesElements{
+	RelatingElement: IfcElement!
+	RelatedElement: IfcElement!
+	InterferenceGeometry: IfcConnectionGeometry!
+	InterferenceType: IfcIdentifier!
+	ImpliedOrder: Boolean!
+}
+type RelReferencedInSpatialStructure{
+	RelatedElements: [IfcProduct]!
+	RelatingStructure: IfcSpatialElement!
+}
+type RelSequence{
+	RelatingProcess: IfcProcess!
+	RelatedProcess: IfcProcess!
+	TimeLag: IfcLagTime!
+	SequenceType: IfcSequenceEnum!
+	UserDefinedSequenceType: IfcLabel!
+}
+type RelServicesBuildings{
+	RelatingSystem: IfcSystem!
+	RelatedBuildings: [IfcSpatialElement]!
+}
+type RelSpaceBoundary{
+	RelatingSpace: IfcSpaceBoundarySelect!
+	RelatedBuildingElement: IfcElement!
+	ConnectionGeometry: IfcConnectionGeometry!
+	PhysicalOrVirtualBoundary: IfcPhysicalOrVirtualEnum!
+	InternalOrExternalBoundary: IfcInternalOrExternalEnum!
+}
+type RelConnectsPathElements{
+	RelatingPriorities: [IfcInteger]!
+	RelatedPriorities: [IfcInteger]!
+	RelatedConnectionType: IfcConnectionTypeEnum!
+	RelatingConnectionType: IfcConnectionTypeEnum!
+}
+type RelConnectsWithRealizingElements{
+	RealizingElements: [IfcElement]!
+	ConnectionType: IfcLabel!
+}
+type RelConnectsWithEccentricity{
+	ConnectionConstraint: IfcConnectionGeometry!
+}
+type RelDeclares{
+	RelatingContext: IfcContext!
+	RelatedDefinitions: [IfcDefinitionSelect]!
+}
+type RelNests{
+	RelatingObject: IfcObjectDefinition!
+	RelatedObjects: [IfcObjectDefinition]!
+}
+type RelProjectsElement{
+	RelatingElement: IfcElement!
+	RelatedFeatureElement: IfcFeatureElementAddition!
+}
+type RelVoidsElement{
+	RelatingBuildingElement: IfcElement!
+	RelatedOpeningElement: IfcFeatureElementSubtraction!
+}
+type RelDefines{
+
+}
+type RelDefinesByObject{
+	RelatedObjects: [IfcObject]!
+	RelatingObject: IfcObject!
+}
+type RelDefinesByProperties{
+	RelatedObjects: [IfcObjectDefinition]!
+	RelatingPropertyDefinition: IfcPropertySetDefinitionSelect!
+}
+type RelDefinesByTemplate{
+	RelatedPropertySets: [IfcPropertySetDefinition]!
+	RelatingTemplate: IfcPropertySetTemplate!
+}
+type RelDefinesByType{
+	RelatedObjects: [IfcObject]!
+	RelatingType: IfcTypeObject!
+}
+type RelSpaceBoundary1stLevel{
+	ParentBoundary: IfcRelSpaceBoundary1stLevel!
+	InnerBoundaries: [IfcRelSpaceBoundary1stLevel]!
+}
+type RelSpaceBoundary2ndLevel{
+	CorrespondingBoundary: IfcRelSpaceBoundary2ndLevel!
+	Corresponds: [IfcRelSpaceBoundary2ndLevel]!
+}
+type Representation{
+	ContextOfItems: IfcRepresentationContext!
+	RepresentationIdentifier: IfcLabel!
+	RepresentationType: IfcLabel!
+	Items: [IfcRepresentationItem]!
+	RepresentationMap: [IfcRepresentationMap]!
+	LayerAssignments: [IfcPresentationLayerAssignment]!
+	OfProductRepresentation: [IfcProductRepresentation]!
+}
+type ShapeModel{
+	OfShapeAspect: [IfcShapeAspect]!
+}
+type StyleModel{
+
+}
+type StyledItem{
+	Item: IfcRepresentationItem!
+	Styles: [IfcStyleAssignmentSelect]!
+	Name: IfcLabel!
+}
+type RepresentationMap{
+	MappingOrigin: IfcAxis2Placement!
+	MappedRepresentation: IfcRepresentation!
+	HasShapeAspects: [IfcShapeAspect]!
+	MapUsage: [IfcMappedItem]!
+}
+type ResourceApprovalRelationship{
+	RelatedResourceObjects: [IfcResourceObjectSelect]!
+	RelatingApproval: IfcApproval!
+}
+type ResourceConstraintRelationship{
+	RelatingConstraint: IfcConstraint!
+	RelatedResourceObjects: [IfcResourceObjectSelect]!
+}
+type ResourceTime{
+	ScheduleWork: IfcDuration!
+	ScheduleUsage: IfcPositiveRatioMeasure!
+	ScheduleStart: IfcDateTime!
+	ScheduleFinish: IfcDateTime!
+	ScheduleContour: IfcLabel!
+	LevelingDelay: IfcDuration!
+	IsOverAllocated: IfcBoolean!
+	StatusTime: IfcDateTime!
+	ActualWork: IfcDuration!
+	ActualUsage: IfcPositiveRatioMeasure!
+	ActualStart: IfcDateTime!
+	ActualFinish: IfcDateTime!
+	RemainingWork: IfcDuration!
+	RemainingUsage: IfcPositiveRatioMeasure!
+	Completion: IfcPositiveRatioMeasure!
+}
+type RevolvedAreaSolid{
+	Axis: IfcAxis1Placement!
+	Angle: IfcPlaneAngleMeasure!
+	AxisLine: IfcLine!
+}
+type RevolvedAreaSolidTapered{
+	EndSweptArea: IfcProfileDef!
+}
+type TaskTime{
+	DurationType: IfcTaskDurationEnum!
+	ScheduleDuration: IfcDuration!
+	ScheduleStart: IfcDateTime!
+	ScheduleFinish: IfcDateTime!
+	EarlyStart: IfcDateTime!
+	EarlyFinish: IfcDateTime!
+	LateStart: IfcDateTime!
+	LateFinish: IfcDateTime!
+	FreeFloat: IfcDuration!
+	TotalFloat: IfcDuration!
+	IsCritical: IfcBoolean!
+	StatusTime: IfcDateTime!
+	ActualDuration: IfcDuration!
+	ActualStart: IfcDateTime!
+	ActualFinish: IfcDateTime!
+	RemainingTime: IfcDuration!
+	Completion: IfcPositiveRatioMeasure!
+}
+type WorkTime{
+	RecurrencePattern: IfcRecurrencePattern!
+	Start: IfcDate!
+	Finish: IfcDate!
+}
+type SeamCurve{
+
+}
+type ShapeAspect{
+	ShapeRepresentations: [IfcShapeModel]!
+	Name: IfcLabel!
+	Description: IfcText!
+	ProductDefinitional: IfcLogical!
+	PartOfProductDefinitionShape: IfcProductRepresentationSelect!
+}
+type ShapeRepresentation{
+
+}
+type TopologyRepresentation{
+
+}
+type Site{
+	RefLatitude: IfcCompoundPlaneAngleMeasure!
+	RefLongitude: IfcCompoundPlaneAngleMeasure!
+	RefElevation: IfcLengthMeasure!
+	LandTitleNumber: IfcLabel!
+	SiteAddress: IfcPostalAddress!
+}
+type SlabElementedCase{
+
+}
+type SlabStandardCase{
+
+}
+type SlippageConnectionCondition{
+	SlippageX: IfcLengthMeasure!
+	SlippageY: IfcLengthMeasure!
+	SlippageZ: IfcLengthMeasure!
+}
+type SweptDiskSolid{
+	Directrix: IfcCurve!
+	Radius: IfcPositiveLengthMeasure!
+	InnerRadius: IfcPositiveLengthMeasure!
+	StartParam: IfcParameterValue!
+	EndParam: IfcParameterValue!
+}
+type Space{
+	PredefinedType: IfcSpaceTypeEnum!
+	ElevationWithFlooring: IfcLengthMeasure!
+	HasCoverings: [IfcRelCoversSpaces]!
+	BoundedBy: [IfcRelSpaceBoundary]!
+}
+type SpaceType{
+	PredefinedType: IfcSpaceTypeEnum!
+	LongName: IfcLabel!
+}
+type SpatialStructureElementType{
+
+}
+type SpatialZone{
+	PredefinedType: IfcSpatialZoneTypeEnum!
+}
+type SpatialElementType{
+	ElementType: IfcLabel!
+}
+type SpatialZoneType{
+	PredefinedType: IfcSpatialZoneTypeEnum!
+	LongName: IfcLabel!
+}
+type StructuralAction{
+	DestabilizingLoad: IfcBoolean!
+}
+type StructuralCurveAction{
+	ProjectedOrTrue: IfcProjectedOrTrueLengthEnum!
+	PredefinedType: IfcStructuralCurveActivityTypeEnum!
+}
+type StructuralPointAction{
+
+}
+type StructuralSurfaceAction{
+	ProjectedOrTrue: IfcProjectedOrTrueLengthEnum!
+	PredefinedType: IfcStructuralSurfaceActivityTypeEnum!
+}
+type StructuralReaction{
+
+}
+type StructuralAnalysisModel{
+	PredefinedType: IfcAnalysisModelTypeEnum!
+	OrientationOf2DPlane: IfcAxis2Placement3D!
+	LoadedBy: [IfcStructuralLoadGroup]!
+	HasResults: [IfcStructuralResultGroup]!
+	SharedPlacement: IfcObjectPlacement!
+}
+type StructuralConnection{
+	AppliedCondition: IfcBoundaryCondition!
+	ConnectsStructuralMembers: [IfcRelConnectsStructuralMember]!
+}
+type StructuralCurveConnection{
+	Axis: IfcDirection!
+}
+type StructuralPointConnection{
+	ConditionCoordinateSystem: IfcAxis2Placement3D!
+}
+type StructuralSurfaceConnection{
+
+}
+type StructuralLinearAction{
+
+}
+type StructuralCurveMember{
+	PredefinedType: IfcStructuralCurveMemberTypeEnum!
+	Axis: IfcDirection!
+}
+type StructuralCurveMemberVarying{
+
+}
+type StructuralMember{
+	ConnectedBy: [IfcRelConnectsStructuralMember]!
+}
+type StructuralCurveReaction{
+	PredefinedType: IfcStructuralCurveActivityTypeEnum!
+}
+type StructuralLoad{
+	Name: IfcLabel!
+}
+type StructuralLoadConfiguration{
+	Values: [IfcStructuralLoadOrResult]!
+	Locations: [[IfcLengthMeasure]]!
+}
+type StructuralLoadOrResult{
+
+}
+type StructuralLoadCase{
+	SelfWeightCoefficients: [IfcRatioMeasure]!
+}
+type StructuralLoadLinearForce{
+	LinearForceX: IfcLinearForceMeasure!
+	LinearForceY: IfcLinearForceMeasure!
+	LinearForceZ: IfcLinearForceMeasure!
+	LinearMomentX: IfcLinearMomentMeasure!
+	LinearMomentY: IfcLinearMomentMeasure!
+	LinearMomentZ: IfcLinearMomentMeasure!
+}
+type StructuralLoadStatic{
+
+}
+type SurfaceReinforcementArea{
+	SurfaceReinforcement1: [IfcLengthMeasure]!
+	SurfaceReinforcement2: [IfcLengthMeasure]!
+	ShearReinforcement: IfcRatioMeasure!
+}
+type StructuralLoadPlanarForce{
+	PlanarForceX: IfcPlanarForceMeasure!
+	PlanarForceY: IfcPlanarForceMeasure!
+	PlanarForceZ: IfcPlanarForceMeasure!
+}
+type StructuralLoadSingleDisplacement{
+	DisplacementX: IfcLengthMeasure!
+	DisplacementY: IfcLengthMeasure!
+	DisplacementZ: IfcLengthMeasure!
+	RotationalDisplacementRX: IfcPlaneAngleMeasure!
+	RotationalDisplacementRY: IfcPlaneAngleMeasure!
+	RotationalDisplacementRZ: IfcPlaneAngleMeasure!
+}
+type StructuralLoadSingleDisplacementDistortion{
+	Distortion: IfcCurvatureMeasure!
+}
+type StructuralLoadSingleForce{
+	ForceX: IfcForceMeasure!
+	ForceY: IfcForceMeasure!
+	ForceZ: IfcForceMeasure!
+	MomentX: IfcTorqueMeasure!
+	MomentY: IfcTorqueMeasure!
+	MomentZ: IfcTorqueMeasure!
+}
+type StructuralLoadSingleForceWarping{
+	WarpingMoment: IfcWarpingMomentMeasure!
+}
+type StructuralLoadTemperature{
+	DeltaTConstant: IfcThermodynamicTemperatureMeasure!
+	DeltaTY: IfcThermodynamicTemperatureMeasure!
+	DeltaTZ: IfcThermodynamicTemperatureMeasure!
+}
+type StructuralSurfaceMember{
+	PredefinedType: IfcStructuralSurfaceMemberTypeEnum!
+	Thickness: IfcPositiveLengthMeasure!
+}
+type StructuralPlanarAction{
+
+}
+type StructuralPointReaction{
+
+}
+type StructuralSurfaceReaction{
+	PredefinedType: IfcStructuralSurfaceActivityTypeEnum!
+}
+type StructuralSurfaceMemberVarying{
+
+}
+type StyledRepresentation{
+
+}
+type SweptSurface{
+	SweptCurve: IfcProfileDef!
+	Position: IfcAxis2Placement3D!
+}
+type SurfaceCurveSweptAreaSolid{
+	Directrix: IfcCurve!
+	StartParam: IfcParameterValue!
+	EndParam: IfcParameterValue!
+	ReferenceSurface: IfcSurface!
+}
+type SurfaceOfLinearExtrusion{
+	ExtrudedDirection: IfcDirection!
+	Depth: IfcLengthMeasure!
+	ExtrusionAxis: IfcVector!
+}
+type SurfaceOfRevolution{
+	AxisPosition: IfcAxis1Placement!
+	AxisLine: IfcLine!
+}
+type SurfaceStyleRendering{
+	DiffuseColour: IfcColourOrFactor!
+	TransmissionColour: IfcColourOrFactor!
+	DiffuseTransmissionColour: IfcColourOrFactor!
+	ReflectionColour: IfcColourOrFactor!
+	SpecularColour: IfcColourOrFactor!
+	SpecularHighlight: IfcSpecularHighlightSelect!
+	ReflectanceMethod: IfcReflectanceMethodEnum!
+}
+type SweptDiskSolidPolygonal{
+	FilletRadius: IfcPositiveLengthMeasure!
+}
+type Zone{
+	LongName: IfcLabel!
+}
+type Table{
+	Name: IfcLabel!
+	Rows: [IfcTableRow]!
+	Columns: [IfcTableColumn]!
+	NumberOfCellsInRow: IfcInteger!
+	NumberOfHeadings: IfcInteger!
+	NumberOfDataRows: IfcInteger!
+}
+type TableColumn{
+	Identifier: IfcIdentifier!
+	Name: IfcLabel!
+	Description: IfcText!
+	Unit: IfcUnit!
+	ReferencePath: IfcReference!
+}
+type TableRow{
+	RowCells: [IfcValue]!
+	IsHeading: IfcBoolean!
+}
+type TaskTimeRecurring{
+	Recurrence: IfcRecurrencePattern!
+}
+type TaskType{
+	PredefinedType: IfcTaskTypeEnum!
+	WorkMethod: IfcLabel!
+}
+type TriangulatedFaceSet{
+	Normals: [[IfcParameterValue]]!
+	Closed: IfcBoolean!
+	CoordIndex: [[IfcPositiveInteger]]!
+	PnIndex: [IfcPositiveInteger]!
+	NumberOfTriangles: IfcInteger!
+}
+type TextLiteralWithExtent{
+	Extent: IfcPlanarExtent!
+	BoxAlignment: IfcBoxAlignment!
+}
+type TextureCoordinateGenerator{
+	Mode: IfcLabel!
+	Parameter: [IfcReal]!
+}
+type TextureMap{
+	Vertices: [IfcTextureVertex]!
+	MappedTo: IfcFace!
+}
+type TimePeriod{
+	StartTime: IfcTime!
+	EndTime: IfcTime!
+}
+type TimeSeriesValue{
+	ListValues: [IfcValue]!
+}
+type Vertex{
+
+}
+type WindowStyle{
+	ConstructionType: IfcWindowStyleConstructionEnum!
+	OperationType: IfcWindowStyleOperationEnum!
+	ParameterTakesPrecedence: IfcBoolean!
+	Sizeable: IfcBoolean!
+}
+type UnitAssignment{
+	Units: [IfcUnit]!
+}
+type VertexPoint{
+	VertexGeometry: IfcPoint!
+}
+type VirtualGridIntersection{
+	IntersectingAxes: [IfcGridAxis]!
+	OffsetDistances: [IfcLengthMeasure]!
+}
+type WallElementedCase{
+
+}
+type WallStandardCase{
+
+}
+type WindowStandardCase{
+
+}
+type WorkPlan{
+	PredefinedType: IfcWorkPlanTypeEnum!
+}
+type WorkSchedule{
+	PredefinedType: IfcWorkScheduleTypeEnum!
+}

@@ -19,7 +19,7 @@ namespace IFC.Generate
         private static string expressPath;
         private static bool showHelp;
         private static bool outputTokens;
-
+        private static bool split;
         static void Main(string[] args)
         {
             ParseOptions(args);
@@ -42,6 +42,9 @@ namespace IFC.Generate
             {
                 generators.Add(new Tuple<ILanguageGenerator, IFunctionsGenerator>(new TypescriptGenerator(), 
                     new TypescriptFunctionsGenerator()));
+            } else if (language == "gql")
+            {
+                generators.Add(new Tuple<ILanguageGenerator, IFunctionsGenerator>(new GraphQLGenerator(), null));
             }
 
             using (FileStream fs = new FileStream(expressPath, FileMode.Open))
@@ -89,12 +92,27 @@ namespace IFC.Generate
                                 ToDictionary(t => t.Key, t => (SelectType)t.Value);
             generator.SelectData = sd;
 
-            foreach (var kvp in listener.TypeData.Where(kvp=>kvp.Value.GetType() != typeof(SelectType)))
+            if(split)
             {
-                var td = kvp.Value;
-                File.WriteAllText(Path.Combine(outDir, $"{td.Name}.{generator.FileExtension}"), td.ToString());
-                names.Add(td.Name);
+                foreach (var kvp in listener.TypeData.Where(kvp=>kvp.Value.GetType() != typeof(SelectType)))
+                {
+                    var td = kvp.Value;
+                    File.WriteAllText(Path.Combine(outDir, $"{td.Name}.{generator.FileExtension}"), td.ToString());
+                    names.Add(td.Name);
+                }
             }
+            else
+            {
+                var sb = new StringBuilder();
+                foreach (var kvp in listener.TypeData.Where(kvp=>kvp.Value.GetType() != typeof(SelectType)))
+                {
+                    var td = kvp.Value;
+                    sb.Append(td.ToString());
+                    names.Add(td.Name);
+                }
+                File.WriteAllText(Path.Combine(outDir, $"Ifc.{generator.FileExtension}"), sb.ToString());
+            }
+            
 
             generator.GenerateManifest(outDir, names);
 
@@ -113,6 +131,7 @@ namespace IFC.Generate
                 { "o|output=", "The directory in which the code is generated.", v => outDir = v},
                 { "l|language=", "The target language (csharp)", v => language = v},
                 { "p|tokens", "Output tokens to stdout during parsing.", v => outputTokens = v != null},
+                { "s|split", "Split output into multiple files per entity/type.", v => split = v != null},
                 { "h|help",   v => showHelp = v != null },
             };
 
