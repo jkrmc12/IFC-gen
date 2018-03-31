@@ -28,10 +28,10 @@ namespace IFC4.Generators
             {
                 result = result.Substring(3);
             }
-            if(result.EndsWith("Enum"))
-            {
-                result = result.Substring(0,result.Length-4);
-            }
+            // if(result.EndsWith("Enum"))
+            // {
+            //     result = result.Substring(0,result.Length-4);
+            // }
             return result;
         }
 
@@ -65,12 +65,15 @@ namespace IFC4.Generators
         public string EntityString(Entity data)
         {
             var sb = new StringBuilder();
-            foreach(var a in data.Attributes)
+            var attribs = data.ParentsAndSelf().SelectMany(x=>x.Attributes).Where(a=>!a.IsDerived); // && !a.IsInverse);
+            foreach(var a in attribs)
             {
-                sb.AppendLine($"\t{a.Name}: {a.Type}!");
+                sb.AppendLine($"\t{a.Name}: {a.Type}{(a.IsOptional?"!":string.Empty)}");
             }
+            
+            var subs = data.Subs.Count() > 0 ? $" implements {CleanName(data.Subs[0].Name)}":string.Empty;
             return $@"
-type {CleanName(data.Name)}{{
+{(data.IsAbstract?"interface":"type")} {CleanName(data.Name)}{subs}{{
 {sb.ToString().TrimEnd( '\r', '\n' )}
 }}";
         }
