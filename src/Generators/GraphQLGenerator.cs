@@ -144,10 +144,7 @@ enum {CleanName(data.Name)} {{
 
         public string SimpleTypeString(WrapperType data)
         {
-            return $@"
-type {CleanName(data.Name)} {{
-    value: {data.WrappedType}!
-}}";
+            return $"scalar {CleanName(data.Name)}\n";
         }
     }
 }

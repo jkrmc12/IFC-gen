@@ -1,397 +1,135 @@
+scalar StrippedOptional
+scalar AbsorbedDoseMeasure
+scalar AccelerationMeasure
+scalar AmountOfSubstanceMeasure
+scalar AngularVelocityMeasure
+scalar ArcIndex
+scalar AreaDensityMeasure
+scalar AreaMeasure
+scalar Binary
+scalar Boolean
+scalar BoxAlignment
+scalar CardinalPointReference
+scalar ComplexNumber
+scalar CompoundPlaneAngleMeasure
+scalar ContextDependentMeasure
+scalar CountMeasure
+scalar CurvatureMeasure
+scalar Date
+scalar DateTime
+scalar DayInMonthNumber
+scalar DayInWeekNumber
+scalar DescriptiveMeasure
+scalar DimensionCount
+scalar DoseEquivalentMeasure
+scalar Duration
+scalar DynamicViscosityMeasure
+scalar ElectricCapacitanceMeasure
+scalar ElectricChargeMeasure
+scalar ElectricConductanceMeasure
+scalar ElectricCurrentMeasure
+scalar ElectricResistanceMeasure
+scalar ElectricVoltageMeasure
+scalar EnergyMeasure
+scalar FontStyle
+scalar FontVariant
+scalar FontWeight
+scalar ForceMeasure
+scalar FrequencyMeasure
+scalar GloballyUniqueId
+scalar HeatFluxDensityMeasure
+scalar HeatingValueMeasure
+scalar Identifier
+scalar IlluminanceMeasure
+scalar InductanceMeasure
+scalar Integer
+scalar IntegerCountRateMeasure
+scalar IonConcentrationMeasure
+scalar IsothermalMoistureCapacityMeasure
+scalar KinematicViscosityMeasure
+scalar Label
+scalar LanguageId
+scalar LengthMeasure
+scalar LineIndex
+scalar LinearForceMeasure
+scalar LinearMomentMeasure
+scalar LinearStiffnessMeasure
+scalar LinearVelocityMeasure
+scalar Logical
+scalar LuminousFluxMeasure
+scalar LuminousIntensityDistributionMeasure
+scalar LuminousIntensityMeasure
+scalar MagneticFluxDensityMeasure
+scalar MagneticFluxMeasure
+scalar MassDensityMeasure
+scalar MassFlowRateMeasure
+scalar MassMeasure
+scalar MassPerLengthMeasure
+scalar ModulusOfElasticityMeasure
+scalar ModulusOfLinearSubgradeReactionMeasure
+scalar ModulusOfRotationalSubgradeReactionMeasure
+scalar ModulusOfSubgradeReactionMeasure
+scalar MoistureDiffusivityMeasure
+scalar MolecularWeightMeasure
+scalar MomentOfInertiaMeasure
+scalar MonetaryMeasure
+scalar MonthInYearNumber
+scalar NonNegativeLengthMeasure
+scalar NormalisedRatioMeasure
+scalar NumericMeasure
+scalar PHMeasure
+scalar ParameterValue
+scalar PlanarForceMeasure
+scalar PlaneAngleMeasure
+scalar PositiveInteger
+scalar PositiveLengthMeasure
+scalar PositivePlaneAngleMeasure
+scalar PositiveRatioMeasure
+scalar PowerMeasure
+scalar PresentableText
+scalar PressureMeasure
+scalar PropertySetDefinitionSet
+scalar RadioActivityMeasure
+scalar RatioMeasure
+scalar Real
+scalar RotationalFrequencyMeasure
+scalar RotationalMassMeasure
+scalar RotationalStiffnessMeasure
+scalar SectionModulusMeasure
+scalar SectionalAreaIntegralMeasure
+scalar ShearModulusMeasure
+scalar SolidAngleMeasure
+scalar SoundPowerLevelMeasure
+scalar SoundPowerMeasure
+scalar SoundPressureLevelMeasure
+scalar SoundPressureMeasure
+scalar SpecificHeatCapacityMeasure
+scalar SpecularExponent
+scalar SpecularRoughness
+scalar TemperatureGradientMeasure
+scalar TemperatureRateOfChangeMeasure
+scalar Text
+scalar TextAlignment
+scalar TextDecoration
+scalar TextFontName
+scalar TextTransformation
+scalar ThermalAdmittanceMeasure
+scalar ThermalConductivityMeasure
+scalar ThermalExpansionCoefficientMeasure
+scalar ThermalResistanceMeasure
+scalar ThermalTransmittanceMeasure
+scalar ThermodynamicTemperatureMeasure
+scalar Time
+scalar TimeMeasure
+scalar TimeStamp
+scalar TorqueMeasure
+scalar URIReference
+scalar VaporPermeabilityMeasure
+scalar VolumeMeasure
+scalar VolumetricFlowRateMeasure
+scalar WarpingConstantMeasure
+scalar WarpingMomentMeasure
 
-type StrippedOptional {
-    value: Boolean!
-}
-type AbsorbedDoseMeasure {
-    value: Float!
-}
-type AccelerationMeasure {
-    value: Float!
-}
-type AmountOfSubstanceMeasure {
-    value: Float!
-}
-type AngularVelocityMeasure {
-    value: Float!
-}
-type ArcIndex {
-    value: IfcPositiveInteger!
-}
-type AreaDensityMeasure {
-    value: Float!
-}
-type AreaMeasure {
-    value: Float!
-}
-type Binary {
-    value: byte[]!
-}
-type Boolean {
-    value: Boolean!
-}
-type BoxAlignment {
-    value: IfcLabel!
-}
-type CardinalPointReference {
-    value: Int!
-}
-type ComplexNumber {
-    value: Float!
-}
-type CompoundPlaneAngleMeasure {
-    value: Int!
-}
-type ContextDependentMeasure {
-    value: Float!
-}
-type CountMeasure {
-    value: Float!
-}
-type CurvatureMeasure {
-    value: Float!
-}
-type Date {
-    value: String!
-}
-type DateTime {
-    value: String!
-}
-type DayInMonthNumber {
-    value: Int!
-}
-type DayInWeekNumber {
-    value: Int!
-}
-type DescriptiveMeasure {
-    value: String!
-}
-type DimensionCount {
-    value: Int!
-}
-type DoseEquivalentMeasure {
-    value: Float!
-}
-type Duration {
-    value: String!
-}
-type DynamicViscosityMeasure {
-    value: Float!
-}
-type ElectricCapacitanceMeasure {
-    value: Float!
-}
-type ElectricChargeMeasure {
-    value: Float!
-}
-type ElectricConductanceMeasure {
-    value: Float!
-}
-type ElectricCurrentMeasure {
-    value: Float!
-}
-type ElectricResistanceMeasure {
-    value: Float!
-}
-type ElectricVoltageMeasure {
-    value: Float!
-}
-type EnergyMeasure {
-    value: Float!
-}
-type FontStyle {
-    value: String!
-}
-type FontVariant {
-    value: String!
-}
-type FontWeight {
-    value: String!
-}
-type ForceMeasure {
-    value: Float!
-}
-type FrequencyMeasure {
-    value: Float!
-}
-type GloballyUniqueId {
-    value: String!
-}
-type HeatFluxDensityMeasure {
-    value: Float!
-}
-type HeatingValueMeasure {
-    value: Float!
-}
-type Identifier {
-    value: String!
-}
-type IlluminanceMeasure {
-    value: Float!
-}
-type InductanceMeasure {
-    value: Float!
-}
-type Integer {
-    value: Int!
-}
-type IntegerCountRateMeasure {
-    value: Int!
-}
-type IonConcentrationMeasure {
-    value: Float!
-}
-type IsothermalMoistureCapacityMeasure {
-    value: Float!
-}
-type KinematicViscosityMeasure {
-    value: Float!
-}
-type Label {
-    value: String!
-}
-type LanguageId {
-    value: IfcIdentifier!
-}
-type LengthMeasure {
-    value: Float!
-}
-type LineIndex {
-    value: IfcPositiveInteger!
-}
-type LinearForceMeasure {
-    value: Float!
-}
-type LinearMomentMeasure {
-    value: Float!
-}
-type LinearStiffnessMeasure {
-    value: Float!
-}
-type LinearVelocityMeasure {
-    value: Float!
-}
-type Logical {
-    value: Boolean!
-}
-type LuminousFluxMeasure {
-    value: Float!
-}
-type LuminousIntensityDistributionMeasure {
-    value: Float!
-}
-type LuminousIntensityMeasure {
-    value: Float!
-}
-type MagneticFluxDensityMeasure {
-    value: Float!
-}
-type MagneticFluxMeasure {
-    value: Float!
-}
-type MassDensityMeasure {
-    value: Float!
-}
-type MassFlowRateMeasure {
-    value: Float!
-}
-type MassMeasure {
-    value: Float!
-}
-type MassPerLengthMeasure {
-    value: Float!
-}
-type ModulusOfElasticityMeasure {
-    value: Float!
-}
-type ModulusOfLinearSubgradeReactionMeasure {
-    value: Float!
-}
-type ModulusOfRotationalSubgradeReactionMeasure {
-    value: Float!
-}
-type ModulusOfSubgradeReactionMeasure {
-    value: Float!
-}
-type MoistureDiffusivityMeasure {
-    value: Float!
-}
-type MolecularWeightMeasure {
-    value: Float!
-}
-type MomentOfInertiaMeasure {
-    value: Float!
-}
-type MonetaryMeasure {
-    value: Float!
-}
-type MonthInYearNumber {
-    value: Int!
-}
-type NonNegativeLengthMeasure {
-    value: IfcLengthMeasure!
-}
-type NormalisedRatioMeasure {
-    value: IfcRatioMeasure!
-}
-type NumericMeasure {
-    value: Float!
-}
-type PHMeasure {
-    value: Float!
-}
-type ParameterValue {
-    value: Float!
-}
-type PlanarForceMeasure {
-    value: Float!
-}
-type PlaneAngleMeasure {
-    value: Float!
-}
-type PositiveInteger {
-    value: IfcInteger!
-}
-type PositiveLengthMeasure {
-    value: IfcLengthMeasure!
-}
-type PositivePlaneAngleMeasure {
-    value: IfcPlaneAngleMeasure!
-}
-type PositiveRatioMeasure {
-    value: IfcRatioMeasure!
-}
-type PowerMeasure {
-    value: Float!
-}
-type PresentableText {
-    value: String!
-}
-type PressureMeasure {
-    value: Float!
-}
-type PropertySetDefinitionSet {
-    value: IfcPropertySetDefinition!
-}
-type RadioActivityMeasure {
-    value: Float!
-}
-type RatioMeasure {
-    value: Float!
-}
-type Real {
-    value: Float!
-}
-type RotationalFrequencyMeasure {
-    value: Float!
-}
-type RotationalMassMeasure {
-    value: Float!
-}
-type RotationalStiffnessMeasure {
-    value: Float!
-}
-type SectionModulusMeasure {
-    value: Float!
-}
-type SectionalAreaIntegralMeasure {
-    value: Float!
-}
-type ShearModulusMeasure {
-    value: Float!
-}
-type SolidAngleMeasure {
-    value: Float!
-}
-type SoundPowerLevelMeasure {
-    value: Float!
-}
-type SoundPowerMeasure {
-    value: Float!
-}
-type SoundPressureLevelMeasure {
-    value: Float!
-}
-type SoundPressureMeasure {
-    value: Float!
-}
-type SpecificHeatCapacityMeasure {
-    value: Float!
-}
-type SpecularExponent {
-    value: Float!
-}
-type SpecularRoughness {
-    value: Float!
-}
-type TemperatureGradientMeasure {
-    value: Float!
-}
-type TemperatureRateOfChangeMeasure {
-    value: Float!
-}
-type Text {
-    value: String!
-}
-type TextAlignment {
-    value: String!
-}
-type TextDecoration {
-    value: String!
-}
-type TextFontName {
-    value: String!
-}
-type TextTransformation {
-    value: String!
-}
-type ThermalAdmittanceMeasure {
-    value: Float!
-}
-type ThermalConductivityMeasure {
-    value: Float!
-}
-type ThermalExpansionCoefficientMeasure {
-    value: Float!
-}
-type ThermalResistanceMeasure {
-    value: Float!
-}
-type ThermalTransmittanceMeasure {
-    value: Float!
-}
-type ThermodynamicTemperatureMeasure {
-    value: Float!
-}
-type Time {
-    value: String!
-}
-type TimeMeasure {
-    value: Float!
-}
-type TimeStamp {
-    value: Int!
-}
-type TorqueMeasure {
-    value: Float!
-}
-type URIReference {
-    value: String!
-}
-type VaporPermeabilityMeasure {
-    value: Float!
-}
-type VolumeMeasure {
-    value: Float!
-}
-type VolumetricFlowRateMeasure {
-    value: Float!
-}
-type WarpingConstantMeasure {
-    value: Float!
-}
-type WarpingMomentMeasure {
-    value: Float!
-}
 enum ActionRequestType {
 	EMAIL
 	FAX
