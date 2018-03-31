@@ -28,8 +28,8 @@ proto: default
 ts: default
 	dotnet run -p ./src/IFC-gen.csproj -e $(SCHEMA) -l ts -o ./lang/typescript/src -s
 
-graphQL: default
-	dotnet run -p ./src/IFC-gen.csproj -e $(SCHEMA) -l gql -o ./lang/graphQL
+graphql: default
+	dotnet run -p ./src/IFC-gen.csproj -e $(SCHEMA) -l gql -o ./lang/graphql
 
 debug_parser: generate_debug
 	dotnet build ./src/IFC-gen.csproj

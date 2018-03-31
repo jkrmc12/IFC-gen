@@ -7,7 +7,7 @@ namespace IFC4.Generators
 {
     public class GraphQLGenerator : ILanguageGenerator
     {
-        public string FileExtension => "g.gql";
+        public string FileExtension => "graphql";
 
         private Dictionary<string,SelectType> selectData = new Dictionary<string, SelectType>();
         public Dictionary<string,SelectType> SelectData 
