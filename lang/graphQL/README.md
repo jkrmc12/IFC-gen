@@ -8,6 +8,7 @@ This graphQL schema maps IFC to graphQL with the following conditions:
 - Optional attributes are implemented as nullable.
 - Derived types are not implemented.
 - Where rules are not implemented. Validations are to be implemented on the server.
+- Inverse attributes are not defined on types.
 
 To Do:
 - Remove suffix "Enum" from all enum types. This is currently not possible due to name clashes.

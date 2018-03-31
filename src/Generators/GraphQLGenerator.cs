@@ -65,7 +65,7 @@ namespace IFC4.Generators
         public string EntityString(Entity data)
         {
             var sb = new StringBuilder();
-            var attribs = data.ParentsAndSelf().SelectMany(x=>x.Attributes).Where(a=>!a.IsDerived); // && !a.IsInverse);
+            var attribs = data.ParentsAndSelf().SelectMany(x=>x.Attributes).Where(a=>!a.IsDerived && !a.IsInverse);
             foreach(var a in attribs)
             {
                 sb.AppendLine($"\t{a.Name}: {a.Type}{(a.IsOptional?"!":string.Empty)}");
