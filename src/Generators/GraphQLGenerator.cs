@@ -73,9 +73,9 @@ namespace IFC4.Generators
             
             var subs = data.Subs.Count() > 0 ? $" implements {CleanName(data.Subs[0].Name)}":string.Empty;
             return $@"
-{(data.IsAbstract?"interface":"type")} {CleanName(data.Name)}{subs}{{
+{(data.IsAbstract?"interface":"type")} {CleanName(data.Name)}{(data.IsAbstract?string.Empty:subs)}{{
 {sb.ToString().TrimEnd( '\r', '\n' )}
-}}";
+}}{"\n"}";
         }
 
         public string EnumTypeString(EnumType data)
@@ -89,7 +89,7 @@ namespace IFC4.Generators
             var result = $@"
 enum {CleanName(data.Name)} {{
 {sb.ToString().TrimEnd( '\r', '\n' )}
-}}";
+}}{"\n"}";
             return result;
         }
 
@@ -135,14 +135,14 @@ enum {CleanName(data.Name)} {{
             var count = data.Values.Count();
             for(var i=0; i<count; i++)
             {
-                sb.Append(data.Values.ElementAt(i));
+                sb.Append(CleanName(data.Values.ElementAt(i)));
                 if(i != count-1)
                 {
-                    sb.Append("|");
+                    sb.Append(" | ");
                 }
             }
 
-            return $"union {data.Name} {sb.ToString()}";
+            return $"union {CleanName(data.Name)} = {sb.ToString()}\n";
         }
 
         public string SimpleTypeString(WrapperType data)

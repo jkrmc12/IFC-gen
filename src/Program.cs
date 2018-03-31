@@ -104,7 +104,7 @@ namespace IFC.Generate
             else
             {
                 var sb = new StringBuilder();
-                foreach (var kvp in listener.TypeData.Where(kvp=>kvp.Value.GetType() != typeof(SelectType)))
+                foreach (var kvp in listener.TypeData) //.Where(kvp=>kvp.Value.GetType() != typeof(SelectType)))
                 {
                     var td = kvp.Value;
                     sb.Append(td.ToString());
