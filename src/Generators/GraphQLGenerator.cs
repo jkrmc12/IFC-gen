@@ -24,7 +24,7 @@ namespace IFC4.Generators
         public static string CleanName(string value)
         {
             var result = value;
-            if(result.StartsWith("Ifc"))
+            if(result.StartsWith("Ifc") && result != "IfcBoolean")
             {
                 result = result.Substring(3);
             }
@@ -66,16 +66,33 @@ namespace IFC4.Generators
         {
             var sb = new StringBuilder();
             var attribs = data.ParentsAndSelf().SelectMany(x=>x.Attributes).Where(a=>!a.IsDerived && !a.IsInverse);
-            foreach(var a in attribs)
+            if(attribs.Count() == 0)
             {
-                sb.AppendLine($"\t{a.Name}: {a.Type}{(a.IsOptional?"!":string.Empty)}");
+                sb.AppendLine("# empty interface");
+                sb.AppendLine("\t_: Boolean");
             }
-            
+            else
+            {
+                foreach(var a in attribs)
+                {
+                    sb.AppendLine($"\t{a.Name}: {a.Type}{(a.IsOptional?"!":string.Empty)}");
+                }
+            }
+
             var subs = data.Subs.Count() > 0 ? $" implements {CleanName(data.Subs[0].Name)}":string.Empty;
-            return $@"
-{(data.IsAbstract?"interface":"type")} {CleanName(data.Name)}{(data.IsAbstract?string.Empty:subs)}{{
+            return $@"{DocumentationLink(data.Name)}
+#{subs}
+type {CleanName(data.Name)}{{
 {sb.ToString().TrimEnd( '\r', '\n' )}
 }}{"\n"}";
+/*{(data.IsAbstract?"interface":"type")} {CleanName(data.Name)}{(data.IsAbstract?string.Empty:subs)}{{
+{sb.ToString().TrimEnd( '\r', '\n' )}
+}}{"\n"}"; */
+        }
+
+        private string DocumentationLink(string name)
+        {
+            return $"\"[Documentation...](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/link/{name.ToLower()}.htm)\"";
         }
 
         public string EnumTypeString(EnumType data)
@@ -86,7 +103,7 @@ namespace IFC4.Generators
                 sb.AppendLine($"\t{v.ToUpper()}");
             }
 
-            var result = $@"
+            var result = $@"{DocumentationLink(data.Name)}
 enum {CleanName(data.Name)} {{
 {sb.ToString().TrimEnd( '\r', '\n' )}
 }}{"\n"}";
@@ -100,7 +117,7 @@ enum {CleanName(data.Name)} {{
             var type = string.Empty;
             if (context.binaryType() != null)
             {
-                type = "byte[]";
+                type = "String";
             }
             else if (context.booleanType() != null)
             {
@@ -112,7 +129,7 @@ enum {CleanName(data.Name)} {{
             }
             else if (context.logicalType() != null)
             {
-                type = "Boolean";
+                type = "Boolean!";
             }
             else if (context.numberType() != null)
             {
@@ -132,22 +149,46 @@ enum {CleanName(data.Name)} {{
         public string SelectTypeString(SelectType data)
         {
             var sb = new StringBuilder();
-            var count = data.Values.Count();
+            ExpandSelect(data, sb);
+            return $@"{DocumentationLink(data.Name)}
+union {CleanName(data.Name)} = {sb.ToString()}{"\n"}";
+        }
+
+        private void ExpandSelect(SelectType s, StringBuilder sb)
+        {
+            var count = s.Values.Count();
             for(var i=0; i<count; i++)
             {
-                sb.Append(CleanName(data.Values.ElementAt(i)));
+                // expand select types so that selects
+                // don't contain selects
+                var v = s.Values.ElementAt(i);
+                if(selectData.ContainsKey(v))
+                {
+                    ExpandSelect(selectData[v], sb);
+                }
+                else 
+                {
+                    if(v == "IfcNullStyle")
+                    {
+                        continue;
+                    }
+                    sb.Append(CleanName(v));
+                }
                 if(i != count-1)
                 {
                     sb.Append(" | ");
                 }
             }
-
-            return $"union {CleanName(data.Name)} = {sb.ToString()}\n";
         }
 
         public string SimpleTypeString(WrapperType data)
         {
-            return $"scalar {CleanName(data.Name)}\n";
+            //return $"scalar {CleanName(data.Name)}\n";
+            return $@"
+{DocumentationLink(data.Name)}
+type {CleanName(data.Name)}{{
+    value: {CleanName(data.WrappedType)}
+}}";
         }
     }
 }
