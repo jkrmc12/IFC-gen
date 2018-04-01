@@ -10,7 +10,7 @@ This graphQL schema maps IFC to graphQL with the following conditions:
 - Inverse attributes are not defined on types.
 - Select types are expanded. Selects are represented as unions in GraphQL. GraphQL does not allow unions in unions.
 - `IfcNullStyle` is not included in `PresentationStyleSelect`, as it is an `enum`, which is not allowed in a GraphQL union.
-- Empty interfaces contain one field like `_: Boolean`, in order to pass schema parsing.
+- Empty types contain one field like `_: Boolean`, in order to pass schema parsing.
 
 To Do:
 - Implement abstract types as interfaces. This is currently not supported because select types specify concrete types and abstract base types indiscriminantly. GraphQL does not support the use of interfaces in unions.
