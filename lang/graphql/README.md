@@ -3,7 +3,6 @@ A graphQL schema for Building Information Modeling, based on IFC.
 
 This graphQL schema maps IFC to graphQL with the following conditions:
 - The preface, "Ifc", is removed from all type names, except for "IfcBoolean" where the prefix remains to avoid a type name clash with GraphQL's Boolean type.
-- All simple types are represented as `scalar` types.
 - Abstract types are implmented as interfaces.
 - Optional attributes are implemented as nullable.
 - Derived types are not implemented.
@@ -16,3 +15,4 @@ This graphQL schema maps IFC to graphQL with the following conditions:
 To Do:
 - Remove suffix "Enum" from all enum types. This is currently not possible due to name clashes.
 - Remove empty interfaces. Interfaces like `Representationitem` are only used to create type hierarchies.
+- Represent simple types as `scalar`. This is currently not supported in environments like AWS App Sync.
