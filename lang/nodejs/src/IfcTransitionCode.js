@@ -1,0 +1,8 @@
+
+//http://www.buildingsmart-tech.org/ifc/IFC4/final/html/link/ifctransitioncode.htm
+module.exports = {
+  DISCONTINUOUS: 'DISCONTINUOUS',
+CONTINUOUS: 'CONTINUOUS',
+CONTSAMEGRADIENT: 'CONTSAMEGRADIENT',
+CONTSAMEGRADIENTSAMECURVATURE: 'CONTSAMEGRADIENTSAMECURVATURE'
+}

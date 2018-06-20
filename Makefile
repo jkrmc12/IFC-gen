@@ -31,6 +31,12 @@ ts: default
 graphql: default
 	dotnet run -p ./src/IFC-gen.csproj -e $(SCHEMA) -l gql -o ./lang/graphql
 
+nodejs: default
+	dotnet run -p ./src/IFC-gen.csproj -e $(SCHEMA) -l nodejs -o ./lang/nodejs/src -s
+
+nodejs-test: nodejs
+	cd ./lang/nodejs && npm run test
+
 debug_parser: generate_debug
 	dotnet build ./src/IFC-gen.csproj
 	dotnet $(DEBUG_OUT)/IFC-gen.dll -e ./debug.exp -l csharp -o ./lang/csharp/src/IFC -p

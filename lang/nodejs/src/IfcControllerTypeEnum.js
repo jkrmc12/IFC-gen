@@ -1,0 +1,11 @@
+
+//http://www.buildingsmart-tech.org/ifc/IFC4/final/html/link/ifccontrollertypeenum.htm
+module.exports = {
+  FLOATING: 'FLOATING',
+PROGRAMMABLE: 'PROGRAMMABLE',
+PROPORTIONAL: 'PROPORTIONAL',
+MULTIPOSITION: 'MULTIPOSITION',
+TWOPOSITION: 'TWOPOSITION',
+USERDEFINED: 'USERDEFINED',
+NOTDEFINED: 'NOTDEFINED'
+}

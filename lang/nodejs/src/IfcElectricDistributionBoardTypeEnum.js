@@ -1,0 +1,10 @@
+
+//http://www.buildingsmart-tech.org/ifc/IFC4/final/html/link/ifcelectricdistributionboardtypeenum.htm
+module.exports = {
+  CONSUMERUNIT: 'CONSUMERUNIT',
+DISTRIBUTIONBOARD: 'DISTRIBUTIONBOARD',
+MOTORCONTROLCENTRE: 'MOTORCONTROLCENTRE',
+SWITCHBOARD: 'SWITCHBOARD',
+USERDEFINED: 'USERDEFINED',
+NOTDEFINED: 'NOTDEFINED'
+}

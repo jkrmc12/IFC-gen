@@ -40,11 +40,14 @@ namespace IFC.Generate
                 generators.Add(new Tuple<ILanguageGenerator, IFunctionsGenerator>(new ProtobufGenerator(), null));
             } else if (language == "ts")
             {
-                generators.Add(new Tuple<ILanguageGenerator, IFunctionsGenerator>(new TypescriptGenerator(), 
+                generators.Add(new Tuple<ILanguageGenerator, IFunctionsGenerator>(new TypescriptGenerator(),
                     new TypescriptFunctionsGenerator()));
             } else if (language == "gql")
             {
                 generators.Add(new Tuple<ILanguageGenerator, IFunctionsGenerator>(new GraphQLGenerator(), null));
+            }
+            else if (language == "nodejs") {
+                generators.Add(new Tuple<ILanguageGenerator, IFunctionsGenerator>(new NodeGenerator(), new NodeFunctionsGenerator()));
             }
 
             using (FileStream fs = new FileStream(expressPath, FileMode.Open))
@@ -112,7 +115,7 @@ namespace IFC.Generate
                 }
                 File.WriteAllText(Path.Combine(outDir, $"Ifc.{generator.FileExtension}"), sb.ToString());
             }
-            
+
 
             generator.GenerateManifest(outDir, names);
 
