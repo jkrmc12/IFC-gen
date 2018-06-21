@@ -1,6 +1,5 @@
 
 const BaseIfc = require('./BaseIfc')
-const Number = require('./Number')
 
 /**
  * http://www.buildingsmart-tech.org/ifc/IFC4/final/html/link/ifcdimensionalexponents.htm

@@ -2,8 +2,7 @@
 const IfcSurface = require('./IfcSurface')
 const IfcPcurve = require('./IfcPcurve')
 const IfcDirection = require('./IfcDirection')
-const Number = require('./Number')
-const Boolean = require('./Boolean')
+const Item = require('./Item')
 const IfcArcIndex = require('./IfcArcIndex')
 const IfcLineIndex = require('./IfcLineIndex')
 const IfcParameterValue = require('./IfcParameterValue')
@@ -30,6 +29,7 @@ const IfcDerivedUnitElement = require('./IfcDerivedUnitElement')
 const IfcSIUnitName = require('./IfcSIUnitName')
 const IfcCompositeCurveOnSurface = require('./IfcCompositeCurveOnSurface')
 const IfcSurfaceCurve = require('./IfcSurfaceCurve')
+const T = require('./T')
 const IfcEdgeLoop = require('./IfcEdgeLoop')
 const IfcLengthMeasure = require('./IfcLengthMeasure')
 const IfcMaterialLayerSet = require('./IfcMaterialLayerSet')
@@ -234,5 +234,5 @@ module.exports = {
 
     IfcVectorSum: function(arg1,arg2) {
         throw new Error('This function is not yet implemented.')
-    }
+    },
 }

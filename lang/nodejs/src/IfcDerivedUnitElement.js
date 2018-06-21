@@ -1,7 +1,6 @@
 
 const BaseIfc = require('./BaseIfc')
 const IfcNamedUnit = require('./IfcNamedUnit')
-const Number = require('./Number')
 
 /**
  * http://www.buildingsmart-tech.org/ifc/IFC4/final/html/link/ifcderivedunitelement.htm

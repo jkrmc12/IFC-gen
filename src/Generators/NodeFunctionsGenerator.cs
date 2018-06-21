@@ -61,7 +61,7 @@ module.exports = {{
                 result.AddRange(fd.Parameters.SelectMany(p=>ExpandPossibleTypes(p.type)));
             }
 
-            var existingTypes = new List<string>{"boolean","number","string","boolean","Uint8Array","T","Item"};
+            var existingTypes = new List<string>{"Boolean","Number","String","Buffer"};
             var types = result.Distinct().Where(t=>!existingTypes.Contains(t));
             types = types.Select(t=>t == "IfcSiUnitName"?"IfcSIUnitName":t);
 

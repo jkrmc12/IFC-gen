@@ -121,7 +121,7 @@ namespace IFC4.Generators
         {
             if (data.IsCollectionType)
             {
-                return $"[]";
+                return $"[] // {data.WrappedType}";
             }
             return data.WrappedType;
         }
@@ -391,7 +391,7 @@ module.exports = class {data.Name} extends {super} {{
             //result.AddRange(this.Supers.Select(s=>s.Name)); // attributes for all sub-types
             result.AddRange(entity.Subs.Select(s=>s.Name)); // attributes for all super types
 
-            var badTypes = new List<string>{"boolean","number","string","boolean","Uint8Array"};
+            var badTypes = new List<string>{"Boolean","Number","String","Buffer"};
             var types = result.Distinct().Where(t=>!badTypes.Contains(t) && t!=entity.Name);
 
             return types;

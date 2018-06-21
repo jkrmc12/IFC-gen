@@ -7,7 +7,6 @@ const IfcText = require('./IfcText')
 const IfcElement = require('./IfcElement')
 const IfcConnectionGeometry = require('./IfcConnectionGeometry')
 const IfcIdentifier = require('./IfcIdentifier')
-const Boolean = require('./Boolean')
 const IfcRelConnects = require('./IfcRelConnects')
 
 /**
